@@ -1,0 +1,210 @@
+09,39,15,Send,UserID:0,bAssID=181,
+09,39,24,Reply,UserId=0,bAssID=1,    ///用户同意		 
+09,39,49,Send,UserID:0,bAssID=181,
+09,39,49,Send,UserID:1,bAssID=181,
+09,39,53,Reply,UserId=1,bAssID=1,    ///用户同意		 
+09,42,47,Send,UserID:0,bAssID=181,
+09,42,47,Send,UserID:1,bAssID=181,
+09,42,47,Send,UserID:2,bAssID=181,
+09,42,48,Reply,UserId=2,bAssID=1,    ///用户同意		 
+09,42,49,Send,UserID:0,bAssID=120,	//升级游戏开始	   
+09,42,49,Send,UserID:1,bAssID=120,	//升级游戏开始	   
+09,42,49,Send,UserID:2,bAssID=120,	//升级游戏开始	   
+09,42,49,Send,UserID:0,bAssID=121,	//确定至筛子点数	  
+09,42,49,Send,UserID:1,bAssID=121,	//确定至筛子点数	  
+09,42,49,Send,UserID:2,bAssID=121,	//确定至筛子点数	  
+09,42,52,Send,UserID:0,bAssID=122,	//发牌消息			 
+09,42,52,Send,UserID:1,bAssID=122,	//发牌消息			 
+09,42,52,Send,UserID:2,bAssID=122,	//发牌消息			 
+09,42,53,Send,UserID:0,bAssID=123,	//通知开始出牌	   
+09,42,53,Send,UserID:1,bAssID=123,	//通知开始出牌	   
+09,42,53,Send,UserID:2,bAssID=123,	//通知开始出牌	   
+09,42,57,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+09,42,57,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,42,57,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,42,57,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,42,58,Send,UserID:0,bAssID=127,	//抓牌			   
+09,42,58,Send,UserID:1,bAssID=127,	//抓牌			   
+09,42,58,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,01,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+09,43,01,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,01,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,01,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,01,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+09,43,03,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+09,43,03,Send,UserID:0,bAssID=129,	//动作结果消息	   
+09,43,03,Send,UserID:1,bAssID=129,	//动作结果消息	   
+09,43,03,Send,UserID:2,bAssID=129,	//动作结果消息	   
+09,43,03,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+09,43,03,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+09,43,03,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+09,43,05,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+09,43,05,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,05,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,05,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,05,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,05,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,05,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,10,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+09,43,10,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,10,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,10,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,10,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,10,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,10,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,14,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+09,43,14,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,14,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,14,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,14,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+09,43,16,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+09,43,16,Send,UserID:0,bAssID=129,	//动作结果消息	   
+09,43,16,Send,UserID:1,bAssID=129,	//动作结果消息	   
+09,43,16,Send,UserID:2,bAssID=129,	//动作结果消息	   
+09,43,16,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+09,43,16,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+09,43,16,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+09,43,16,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+09,43,17,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+09,43,17,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+09,43,17,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+09,43,17,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+09,43,18,Reply,UserId=2,bAssID=167,	//选择刻子请求//选择刻子回复			   
+09,43,18,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,18,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,18,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,18,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,18,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,18,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,18,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,18,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,18,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,26,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+09,43,26,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,26,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,26,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,27,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,27,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,27,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,29,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+09,43,29,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,29,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,29,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,30,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,30,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,30,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,31,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,31,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,31,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,31,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,31,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,31,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,40,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+09,43,40,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,40,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,40,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,40,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,40,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,40,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,43,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+09,43,43,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,43,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,43,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,44,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,44,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,44,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,45,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,45,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,45,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,45,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,45,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,45,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,45,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+09,43,50,Send,UserID:0,bAssID=70,//托管				   
+09,43,50,Send,UserID:1,bAssID=70,//托管				   
+09,43,50,Send,UserID:2,bAssID=70,//托管				   
+09,43,50,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+09,43,50,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+09,43,50,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+09,43,50,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+09,43,51,Reply,UserId=1,bAssID=167,	//选择刻子请求//选择刻子回复			   
+09,43,51,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,51,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,51,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+09,43,51,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,51,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,51,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,52,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,52,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,52,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,53,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,53,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,53,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,53,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,53,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,53,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,54,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,54,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,54,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,54,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,54,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,54,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,55,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,55,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,55,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,55,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,55,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,55,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,56,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,56,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,56,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,56,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,56,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,56,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,57,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,57,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,57,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,57,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,57,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,57,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,58,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,58,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,58,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,58,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,58,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,58,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,59,Reply,UserId=1,bAssID=70,//托管				   
+09,43,59,Send,UserID:0,bAssID=70,//托管				   
+09,43,59,Send,UserID:1,bAssID=70,//托管				   
+09,43,59,Send,UserID:2,bAssID=70,//托管				   
+09,43,59,Send,UserID:0,bAssID=70,//托管				   
+09,43,59,Send,UserID:1,bAssID=70,//托管				   
+09,43,59,Send,UserID:2,bAssID=70,//托管				   
+09,43,59,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,43,59,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,43,59,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,43,59,Send,UserID:0,bAssID=127,	//抓牌			   
+09,43,59,Send,UserID:1,bAssID=127,	//抓牌			   
+09,43,59,Send,UserID:2,bAssID=127,	//抓牌			   
+09,43,59,Reply,UserId=1,bAssID=70,//托管				   
+09,43,59,Send,UserID:0,bAssID=70,//托管				   
+09,43,59,Send,UserID:1,bAssID=70,//托管				   
+09,43,59,Send,UserID:2,bAssID=70,//托管				   
+09,44,00,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+09,44,00,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+09,44,00,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+09,44,00,Send,UserID:0,bAssID=127,	//抓牌			   
+09,44,00,Send,UserID:1,bAssID=127,	//抓牌			   
+09,44,00,Send,UserID:2,bAssID=127,	//抓牌			   
+09,44,00,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+09,44,01,Send,UserID:0,bAssID=131,	//胡牌结果消息	   
+09,44,01,Send,UserID:1,bAssID=131,	//胡牌结果消息	   
+09,44,01,Send,UserID:2,bAssID=131,	//胡牌结果消息	   
+09,44,02,CountFen,HuPai:14,MaiMa:0
+09,44,02,Send,UserID:0,bAssID=132,	//游戏正常结束	   
+09,44,02,CountFen,UserId=0,iFanShu:0,i64HuPoint:-8,i64Point:-8,i64Money:-8,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+09,44,02,Send,UserID:1,bAssID=132,	//游戏正常结束	   
+09,44,02,CountFen,UserId=1,iFanShu:16,i64HuPoint:16,i64Point:16,i64Money:16,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+09,44,02,Send,UserID:2,bAssID=132,	//游戏正常结束	   
+09,44,02,CountFen,UserId=2,iFanShu:0,i64HuPoint:-8,i64Point:-8,i64Money:-8,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+09,44,08,Reply,UserId=2,bAssID=1,    ///用户同意		 

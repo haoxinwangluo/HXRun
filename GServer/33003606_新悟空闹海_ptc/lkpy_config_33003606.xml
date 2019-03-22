@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 游戏的帧数是固定FPS:30,那么下面的所设置的值大部分是以1帧为标准，比如鱼的速度是5,那么1秒内会移动5*30 -->
+<!-- 如果没做特殊说明 所有的速度 距离 半径这类的值都应当以1366为标准来设置 比如子弹的速度是10 那么在800*600的分辨率下就是 10 * 800 / 1366 -->
+<Config>
+	<!-- 库存(不能超过10个):stockScore库存分数,大于些值执行相应概率,从最大的开始判断,小于0将打不中鱼 -->
+	<Stock>
+		<key stockScore="0" increaseProbability="0" />
+		<key stockScore="1000000" increaseProbability="0.2" />
+        <key stockScore="2000000" increaseProbability="0.5" />
+        <key stockScore="4000000" increaseProbability="1" />
+        <key stockScore="6000000" increaseProbability="2" />
+        <key stockScore="8000000" increaseProbability="3" />
+		<key stockScore="10000000" increaseProbability="4" />
+		<key stockScore="12000000" increaseProbability="5" />
+        <key stockScore="20000000" increaseProbability="6" />
+	</Stock>
+
+	<!-- 金币和渔币的兑换(金币:渔币) exchangeCount:每次兑换数量 -->
+	<ScoreExchange exchangeRatio="1:1" exchangeCount="20000" />
+
+	<!-- 超端单次增加的库存量 -->
+	<CellScore score="1000000" />
+	<!-- 炮的倍数 -->
+	<Cannon cannonMultiple="1,1000" />
+	<!-- VIP炮的倍数 -->
+	<VipCannon cannonMultiple="100,9900" />
+  <!-- 炸弹(KingBomb-鱼王被打死是需要的库存,SuperBomb-全屏炸弹需要的库存) 当库存小于此值炸弹被击中的几率为0 -->
+  <Bomb KingBomb="20000000" SuperBomb="40000000" />
+
+	<!-- kind: 对应 CMD_Fish.h文件的FishKind的枚举值 不能更改 name:只作为描述 speed:鱼的速度 multiple:鱼的倍数 BoundingBox:鱼的边框 hitRadius:击中半径 captureProbability:捕获概率(0-1)  -->
+	<!-- 特殊鱼 鱼王和超级炸弹是圆的 用BoundingBox的第1个参数作为直径 -->
+	<!-- 19(水藻)的multiple是随机倍数的2个参数表示最小和最大 -->
+	<Fish kind="0" name="蜗牛鱼" speed="6" multiple="2" BoundingBox="60,20" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="1" name="绿草鱼" speed="6" multiple="3" BoundingBox="60,25" hitRadius="10" captureProbability="0.8"/>
+	<Fish kind="2" name="大眼鱼" speed="5" multiple="4" BoundingBox="80,32" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="3" name="小鳊鱼" speed="5" multiple="5" BoundingBox="70,43" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="4" name="花斑鱼" speed="4" multiple="6" BoundingBox="80,54" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="5" name="河豚" speed="3" multiple="7" BoundingBox="90,70" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="6" name="蓝鱼" speed="2" multiple="8" BoundingBox="90,40" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="7" name="红灯笼鱼" speed="1" multiple="9" BoundingBox="120,55" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="8" name="蓝灯笼鱼" speed="6" multiple="10" BoundingBox="150,47" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="9" name="花瓣鱼" speed="5" multiple="12" BoundingBox="110,112" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="10" name="海龟" speed="4" multiple="15" BoundingBox="145,80" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="11" name="蝴蝶鱼" speed="3" multiple="18" BoundingBox="120,150" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="12" name="孔雀鱼" speed="2" multiple="20" BoundingBox="180,70" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="13" name="绿剑鱼" speed="1" multiple="25" BoundingBox="255,88" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="14" name="蓝蝠鱼" speed="4" multiple="30" BoundingBox="250,80" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="15" name="银鲨鱼" speed="3" multiple="35" BoundingBox="180,150" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="16" name="金鲨鱼" speed="2" multiple="40" BoundingBox="250,90" hitRadius="10" captureProbability="0.8" />	
+	<Fish kind="17" name="美人鱼" speed="1" multiple="70" BoundingBox="350,70" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="18" name="定海神针" speed="1" multiple="120" BoundingBox="450,150" hitRadius="10" captureProbability="0.8" />	
+	
+	<Fish kind="19" name="双头鲸" speed="3" multiple="160" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />
+	<Fish kind="20" name="金龙" speed="4" multiple="240" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="21" name="孙悟空" speed="4" multiple="300" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />	
+	
+	<Fish kind="22" name="全屏炸弹" speed="4" multiple="1" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="23" name="带盘鱼王" speed="4" multiple="1" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />
+	
+	<Fish kind="24" name="红色鱼王" speed="4" multiple="1" BoundingBox="170,180" hitRadius="10" captureProbability="0.8" />
+
+		<!-- kind:对应BulletKind name:描述 speed:子弹速度 netRadius:渔网的半径 -->
+	<Bullet kind="0" name="1炮筒" speed="25" netRadius="70" />
+	<Bullet kind="1" name="2炮筒" speed="25" netRadius="100" />
+	<Bullet kind="2" name="3炮筒" speed="25" netRadius="90" />
+	<Bullet kind="3" name="4炮筒" speed="25" netRadius="70" />
+	<Bullet kind="4" name="1炮筒能量炮" speed="25" netRadius="80" />
+	<Bullet kind="5" name="2炮筒能量炮" speed="25" netRadius="90" />
+	<Bullet kind="6" name="3炮筒能量炮" speed="25" netRadius="60" />
+	<Bullet kind="7" name="4炮筒能量炮" speed="25" netRadius="70" />
+	
+  <!-- SuperMan:超端玩家 UserID:玩家userID CellScore:单位分数-->
+	<SuperMan UserID="14315"/>
+	<SuperMan UserID="14316"/>
+	<SuperMan UserID="14317"/>
+	<SuperMan UserID="14318" />
+	<SuperMan UserID="14319"/>
+       
+	
+	<!-- BuildFish:各种鱼生成间歇时间 BuildTime 单位秒(填0或小于0为默认值)-->
+	<!-- 鱼依次为0：小鱼(0-7)出现时长、1：中等鱼(8~13)出现时长、2：大鱼(14~17)、-->
+	<!-- 3：定海神针、4：双头鲸，金龙、5：孙悟空、6：全屏炸弹-->
+	<!-- 7: 带盘鱼王 ,8:渔阵-->
+	<BuildFish BuildID="0" BuildTime="2" />
+	<!-- 5-->
+	<BuildFish BuildID="1" BuildTime="8" />
+	<!-- 33-->
+	<BuildFish BuildID="2" BuildTime="10" />
+	<!-- 33-->
+	<BuildFish BuildID="3" BuildTime="35" />
+	<!-- 33-->
+	<BuildFish BuildID="4" BuildTime="40" />
+	<!-- 58-->
+	<BuildFish BuildID="5" BuildTime="50" />
+	<!-- 68-->
+	<BuildFish BuildID="6" BuildTime="60" />
+	<!-- 77-->
+	<BuildFish BuildID="7" BuildTime="130" />
+	<!-- 77-->
+	<BuildFish BuildID="8" BuildTime="100" />
+	<!-- 108-->
+	<BuildFish BuildID="9" BuildTime="300" />
+
+
+ 
+	
+</Config>

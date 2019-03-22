@@ -1,0 +1,805 @@
+ 2018-06-06 11:12:37 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0 state: 0
+ 2018-06-06 11:12:39 CServerGameDesk::HandleNotifyMessage 107: deskNO: 0,UserID :10019 agree
+ 2018-06-06 11:12:54 CServerGameDesk::UserSitDesk 311: DeskNo: 3 UserID: 10093 sit 
+ 2018-06-06 11:12:55 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3 state: 0
+ 2018-06-06 11:12:56 CServerGameDesk::HandleNotifyMessage 107: deskNO: 3,UserID :10093 agree
+ 2018-06-06 11:13:10 CServerGameDesk::UserSitDesk 311: DeskNo: 1 UserID: 10018 sit 
+ 2018-06-06 11:13:11 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1 state: 0
+ 2018-06-06 11:13:25 CServerGameDesk::HandleNotifyMessage 107: deskNO: 1,UserID :10018 agree
+ 2018-06-06 11:13:26 CServerGameDesk::UserSitDesk 311: DeskNo: 2 UserID: 10015 sit 
+ 2018-06-06 11:13:26 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 state: 0
+ 2018-06-06 11:13:27 CServerGameDesk::HandleNotifyMessage 107: deskNO: 2,UserID :10015 agree
+ 2018-06-06 11:13:27 CServerGameDesk::GameBegin 181: ---------------GameBegin (1/2)---------------
+ 2018-06-06 11:13:27 ExtensionListenerController::Remove 27: Listen Remove 0
+ 2018-06-06 11:13:27 Listener::OnRemove 27: 
+ 2018-06-06 11:13:27 ExtensionListenerController::Remove 27: Listen Remove 1
+ 2018-06-06 11:13:27 ExtensionListenerController::Remove 27: Listen Remove 2
+ 2018-06-06 11:13:27 ExtensionListenerController::Add 17: Listen Add 3
+ 2018-06-06 11:13:27 Listener::OnAdd 20: 
+ 2018-06-06 11:13:27 ExtensionListenerController::Add 17: Listen Add 10
+ 2018-06-06 11:13:27 Listener::OnAdd 20: 
+ 2018-06-06 11:13:27 ExtensionListenerController::OnListenEnd 99: Listen End 3
+ 2018-06-06 11:13:27 ExtensionListenerController::Remove 27: Listen Remove 3
+ 2018-06-06 11:13:27 Listener::OnRemove 27: 
+ 2018-06-06 11:13:27 ExtensionListenerController::Add 17: Listen Add 4
+ 2018-06-06 11:13:27 Listener::OnAdd 20: 
+ 2018-06-06 11:13:27 CServerGameDesk::SetGameStation 168: GameStation  20
+ 2018-06-06 11:13:27 SendCardPlayerListener::sendCard 126: card 0:34,8,18,4f,11,27,23,24,29,21,1,13,27,7,36,3a,6,12,39,d,3c,21,29,8,3b,37,5,
+ 2018-06-06 11:13:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 201 size: 113
+ 2018-06-06 11:13:27 SendCardPlayerListener::sendCard 126: card 1:3b,9,24,d,11,4,16,25,31,35,2,2d,14,38,2c,4,1d,33,22,4e,38,1b,3d,37,17,2a,17,
+ 2018-06-06 11:13:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 201 size: 113
+ 2018-06-06 11:13:27 SendCardPlayerListener::sendCard 126: card 2:1d,22,1c,16,26,28,c,b,19,9,23,4e,36,1c,13,c,25,14,33,3d,4f,2c,18,5,32,26,3c,
+ 2018-06-06 11:13:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 201 size: 113
+ 2018-06-06 11:13:27 SendCardPlayerListener::sendCard 126: card 3:32,15,a,3,2b,1a,a,28,15,31,b,1b,39,19,34,12,2,35,3,3a,1a,1,2d,6,7,2a,2b,
+ 2018-06-06 11:13:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 201 size: 113
+ 2018-06-06 11:13:27 ExtensionListenerController::OnListenEnd 99: Listen End 4
+ 2018-06-06 11:13:27 ExtensionListenerController::Remove 27: Listen Remove 4
+ 2018-06-06 11:13:27 Listener::OnRemove 27: 
+ 2018-06-06 11:13:27 ExtensionListenerController::Add 17: Listen Add 5
+ 2018-06-06 11:13:27 Listener::OnAdd 20: 
+ 2018-06-06 11:13:27 CServerGameDesk::SetGameStation 168: GameStation  21
+ 2018-06-06 11:13:27 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-06-06 11:13:27 CallListener::notiCall 142: notify user 10015call
+ 2018-06-06 11:13:30 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10015)  MsgID(100)  size(41)
+ 2018-06-06 11:13:30 CallListener::recvCall 119: recv user 10015 call 0
+ 2018-06-06 11:13:30 DataManage::setChallenger 603: 玩家 10015,2叫牌
+ 2018-06-06 11:13:30 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:214 size:1
+ 2018-06-06 11:13:30 ExtensionListenerController::OnListenEnd 99: Listen End 5
+ 2018-06-06 11:13:30 ExtensionListenerController::Remove 27: Listen Remove 5
+ 2018-06-06 11:13:30 Listener::OnRemove 27: 
+ 2018-06-06 11:13:30 ExtensionListenerController::Add 17: Listen Add 7
+ 2018-06-06 11:13:30 Listener::OnAdd 20: 
+ 2018-06-06 11:13:30 CServerGameDesk::SetGameStation 168: GameStation  24
+ 2018-06-06 11:13:30 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:202 size:1
+ 2018-06-06 11:13:34 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10015)  MsgID(100)  size(41)
+ 2018-06-06 11:13:34 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:206 size:2
+ 2018-06-06 11:13:34 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 2
+ 2018-06-06 11:13:34 PlayCardListener::AutoPlayCard 506: 玩家 2  自动出牌 头游出牌 1
+ 2018-06-06 11:13:34 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 32,(1)
+ 2018-06-06 11:13:34 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,1c,16,26,28,c,b,19,9,23,4e,36,1c,13,c,25,14,33,3d,4f,2c,18,5,32,26,3c,(27)
+ 2018-06-06 11:13:34 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 32,[1]
+ 2018-06-06 11:13:34 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:34 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:34 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:34 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:34 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:34 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:35 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10018)  MsgID(100)  size(41)
+ 2018-06-06 11:13:35 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:206 size:2
+ 2018-06-06 11:13:35 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:35 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:13:35 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 33,(1)
+ 2018-06-06 11:13:35 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,24,d,11,4,16,25,31,35,2,2d,14,38,2c,4,1d,33,22,4e,38,1b,3d,37,17,2a,17,(27)
+ 2018-06-06 11:13:35 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 33,[1]
+ 2018-06-06 11:13:35 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:35 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:35 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:35 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:35 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:35 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10019)  MsgID(100)  size(41)
+ 2018-06-06 11:13:36 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:206 size:2
+ 2018-06-06 11:13:36 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:36 PlayCardListener::AutoPlayCard 522: 玩家 0  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:13:36 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 3a,(1)
+ 2018-06-06 11:13:36 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 34,8,18,4f,11,27,23,24,29,21,1,13,27,7,36,3a,6,12,39,d,3c,21,29,8,3b,37,5,(27)
+ 2018-06-06 11:13:36 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 3a,[1]
+ 2018-06-06 11:13:36 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:36 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:36 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:36 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:36 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:36 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10093)  MsgID(100)  size(41)
+ 2018-06-06 11:13:37 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:206 size:2
+ 2018-06-06 11:13:37 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:13:37 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:37 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:13:37 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:37 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:37 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:38 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:13:38 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:13:38 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 b,(1)
+ 2018-06-06 11:13:38 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,1c,16,26,28,c,b,19,9,23,4e,36,1c,13,c,25,14,33,3d,4f,2c,18,5,26,3c,(26)
+ 2018-06-06 11:13:38 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard b,[1]
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:38 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:38 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:38 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:38 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:13:38 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 2c,(1)
+ 2018-06-06 11:13:38 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,24,d,11,4,16,25,31,35,2,2d,14,38,2c,4,1d,22,4e,38,1b,3d,37,17,2a,17,(26)
+ 2018-06-06 11:13:38 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 2c,[1]
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:38 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:38 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:38 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:39 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:39 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:39 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:13:39 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:39 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:39 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:39 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:13:39 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:39 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:13:39 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:39 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:39 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:40 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:13:40 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:13:40 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 4e,(1)
+ 2018-06-06 11:13:40 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,1c,16,26,28,c,19,9,23,4e,36,1c,13,c,25,14,33,3d,4f,2c,18,5,26,3c,(25)
+ 2018-06-06 11:13:40 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 4e,[1]
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:40 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:40 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:40 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:40 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 4
+ 2018-06-06 11:13:40 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 24,4,14,4,(4)
+ 2018-06-06 11:13:40 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,24,d,11,4,16,25,31,35,2,2d,14,38,4,1d,22,4e,38,1b,3d,37,17,2a,17,(25)
+ 2018-06-06 11:13:40 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 24,4,14,4,[4]
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:40 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:40 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:40 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:41 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:41 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:41 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:13:41 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:41 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:41 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:41 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:13:41 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:41 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:13:41 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:41 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:41 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:42 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:13:42 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 4
+ 2018-06-06 11:13:42 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 16,26,36,26,(4)
+ 2018-06-06 11:13:42 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,1c,16,26,28,c,19,9,23,36,1c,13,c,25,14,33,3d,4f,2c,18,5,26,3c,(24)
+ 2018-06-06 11:13:42 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 16,26,36,26,[4]
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:42 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:42 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:42 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:42 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 5
+ 2018-06-06 11:13:42 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 d,2d,1d,3d,4e,(5)
+ 2018-06-06 11:13:42 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,d,11,16,25,31,35,2,2d,38,1d,22,4e,38,1b,3d,37,17,2a,17,(21)
+ 2018-06-06 11:13:42 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard d,2d,1d,3d,4e,[5]
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:42 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:42 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:43 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:43 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:43 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:13:43 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:43 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:43 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:43 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:13:43 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:43 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:13:43 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:43 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:43 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:44 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:13:44 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 6
+ 2018-06-06 11:13:44 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 1c,c,1c,c,2c,3c,(6)
+ 2018-06-06 11:13:44 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,1c,28,c,19,9,23,1c,13,c,25,14,33,3d,4f,2c,18,5,3c,(20)
+ 2018-06-06 11:13:44 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 1c,c,1c,c,2c,3c,[6]
+ 2018-06-06 11:13:44 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:44 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:44 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:44 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:44 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:44 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:44 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:44 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:13:44 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-06-06 11:13:44 PlayCardListener::recvPass 271: 1不要，通知下家 0 出牌
+ 2018-06-06 11:13:44 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:44 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:45 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 0
+ 2018-06-06 11:13:45 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:45 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 2 ,next 3,nextActive 3
+ 2018-06-06 11:13:45 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:45 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:45 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:45 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 3
+ 2018-06-06 11:13:45 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:45 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 2 ,next 2,nextActive 2
+ 2018-06-06 11:13:45 PlayCardListener::recvPass 259: 2没人要，出牌
+ 2018-06-06 11:13:45 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:45 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:45 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:46 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 2
+ 2018-06-06 11:13:46 PlayCardListener::AutoPlayCard 506: 玩家 2  自动出牌 头游出牌 5
+ 2018-06-06 11:13:46 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 23,13,33,22,14,(5)
+ 2018-06-06 11:13:46 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,22,28,19,9,23,13,25,14,33,3d,4f,18,5,(14)
+ 2018-06-06 11:13:46 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 23,13,33,22,14,[5]
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:46 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:46 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:46 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:46 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 5
+ 2018-06-06 11:13:46 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 37,17,17,2,22,(5)
+ 2018-06-06 11:13:46 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,11,16,25,31,35,2,38,22,38,1b,37,17,2a,17,(16)
+ 2018-06-06 11:13:46 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 37,17,17,2,22,[5]
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:46 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:46 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:46 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:47 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:47 PlayCardListener::AutoPlayCard 522: 玩家 0  自动出牌 跟牌 出牌 5
+ 2018-06-06 11:13:47 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 8,18,8,13,6,(5)
+ 2018-06-06 11:13:47 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 34,8,18,4f,11,27,23,24,29,21,1,13,27,7,36,6,12,39,d,3c,21,29,8,3b,37,5,(26)
+ 2018-06-06 11:13:47 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 8,18,8,13,6,[5]
+ 2018-06-06 11:13:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:47 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:47 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:47 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:13:47 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:47 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:13:47 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:47 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:47 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:48 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:13:48 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:13:48 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:13:48 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:13:48 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:48 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:48 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:13:48 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:13:48 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:13:48 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:13:48 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:48 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:48 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:49 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:13:49 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 5
+ 2018-06-06 11:13:49 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 12,23,24,5,36,(5)
+ 2018-06-06 11:13:49 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 34,4f,11,27,23,24,29,21,1,27,7,36,12,39,d,3c,21,29,3b,37,5,(21)
+ 2018-06-06 11:13:49 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 12,23,24,5,36,[5]
+ 2018-06-06 11:13:49 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:49 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:49 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:49 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:49 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:49 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:49 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:13:49 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:49 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:13:49 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:49 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:49 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:50 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:13:50 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:13:50 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:13:50 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:13:50 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:50 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:50 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:13:50 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:13:50 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:13:50 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:13:50 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:50 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:50 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:51 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:13:51 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 2
+ 2018-06-06 11:13:51 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 29,29,(2)
+ 2018-06-06 11:13:51 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 34,4f,11,27,29,21,1,27,7,39,d,3c,21,29,3b,37,(16)
+ 2018-06-06 11:13:51 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 29,29,[2]
+ 2018-06-06 11:13:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:51 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:51 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:51 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:13:51 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:51 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:13:51 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:51 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:51 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:52 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:13:52 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:13:52 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 1d,3d,(2)
+ 2018-06-06 11:13:52 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 1d,28,19,9,25,3d,4f,18,5,(9)
+ 2018-06-06 11:13:52 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 1d,3d,[2]
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:52 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:52 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:52 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:13:52 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:13:52 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 11,31,(2)
+ 2018-06-06 11:13:52 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,11,16,25,31,35,38,38,1b,2a,(11)
+ 2018-06-06 11:13:52 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 11,31,[2]
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:52 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:52 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:52 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:53 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:53 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:53 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:13:53 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:53 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:53 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:53 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:13:53 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:13:53 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:13:53 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:13:53 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:53 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:54 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:13:54 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:13:54 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 1 ,next 1,nextActive 1
+ 2018-06-06 11:13:54 PlayCardListener::recvPass 259: 1没人要，出牌
+ 2018-06-06 11:13:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:54 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:54 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 1
+ 2018-06-06 11:13:54 PlayCardListener::AutoPlayCard 506: 玩家 1  自动出牌 头游出牌 2
+ 2018-06-06 11:13:54 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 25,35,(2)
+ 2018-06-06 11:13:54 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,16,25,35,38,38,1b,2a,(9)
+ 2018-06-06 11:13:54 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 25,35,[2]
+ 2018-06-06 11:13:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:54 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:55 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:13:55 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:55 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:13:55 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:13:55 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:55 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:55 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:13:55 PlayCardListener::AutoPlayCard 522: 玩家 3  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:13:55 PlayCardListener::recvPlayerCard 165: 玩家 10093 出牌 39,19,(2)
+ 2018-06-06 11:13:55 PlayCardListener::recvPlayerCard 170: 玩家 10093 手牌 32,15,a,3,2b,1a,a,28,15,31,b,1b,39,19,34,12,2,35,3,3a,1a,1,2d,6,7,2a,2b,(27)
+ 2018-06-06 11:13:55 DataManage::checkPlayCard 494: user [10093-3] checkPlayCard 39,19,[2]
+ 2018-06-06 11:13:55 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:55 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:55 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:55 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:55 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:55 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:56 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 2
+ 2018-06-06 11:13:56 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:13:56 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 3 ,next 1,nextActive 1
+ 2018-06-06 11:13:56 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:13:56 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:56 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:56 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 1
+ 2018-06-06 11:13:56 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:13:56 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 3 ,next 0,nextActive 0
+ 2018-06-06 11:13:56 PlayCardListener::recvPass 271: 1不要，通知下家 0 出牌
+ 2018-06-06 11:13:56 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:56 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:57 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 0
+ 2018-06-06 11:13:57 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:57 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 3 ,next 3,nextActive 3
+ 2018-06-06 11:13:57 PlayCardListener::recvPass 259: 3没人要，出牌
+ 2018-06-06 11:13:57 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:57 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:57 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:58 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 3
+ 2018-06-06 11:13:58 PlayCardListener::AutoPlayCard 506: 玩家 3  自动出牌 头游出牌 5
+ 2018-06-06 11:13:58 PlayCardListener::recvPlayerCard 165: 玩家 10093 出牌 32,3,34,15,6,(5)
+ 2018-06-06 11:13:58 PlayCardListener::recvPlayerCard 170: 玩家 10093 手牌 32,15,a,3,2b,1a,a,28,15,31,b,1b,34,12,2,35,3,3a,1a,1,2d,6,7,2a,2b,(25)
+ 2018-06-06 11:13:58 DataManage::checkPlayCard 494: user [10093-3] checkPlayCard 32,3,34,15,6,[5]
+ 2018-06-06 11:13:58 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:13:58 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:13:58 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:13:58 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:13:58 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:13:58 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:58 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 2
+ 2018-06-06 11:13:58 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:13:58 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 3 ,next 1,nextActive 1
+ 2018-06-06 11:13:58 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:13:58 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:13:58 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:59 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 1
+ 2018-06-06 11:13:59 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:13:59 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 3 ,next 0,nextActive 0
+ 2018-06-06 11:13:59 PlayCardListener::recvPass 271: 1不要，通知下家 0 出牌
+ 2018-06-06 11:13:59 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:13:59 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:13:59 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 0
+ 2018-06-06 11:13:59 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:13:59 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 3 ,next 3,nextActive 3
+ 2018-06-06 11:13:59 PlayCardListener::recvPass 259: 3没人要，出牌
+ 2018-06-06 11:13:59 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:13:59 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:13:59 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:00 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 3
+ 2018-06-06 11:14:00 PlayCardListener::AutoPlayCard 506: 玩家 3  自动出牌 头游出牌 2
+ 2018-06-06 11:14:00 PlayCardListener::recvPlayerCard 165: 玩家 10093 出牌 12,2,(2)
+ 2018-06-06 11:14:00 PlayCardListener::recvPlayerCard 170: 玩家 10093 手牌 a,2b,1a,a,28,15,31,b,1b,12,2,35,3,3a,1a,1,2d,7,2a,2b,(20)
+ 2018-06-06 11:14:00 DataManage::checkPlayCard 494: user [10093-3] checkPlayCard 12,2,[2]
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:00 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:00 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:00 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 2
+ 2018-06-06 11:14:00 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:14:00 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 25,5,(2)
+ 2018-06-06 11:14:00 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 28,19,9,25,4f,18,5,(7)
+ 2018-06-06 11:14:00 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 25,5,[2]
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:00 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:00 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:01 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:14:01 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:14:01 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 38,38,(2)
+ 2018-06-06 11:14:01 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,16,38,38,1b,2a,(7)
+ 2018-06-06 11:14:01 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 38,38,[2]
+ 2018-06-06 11:14:01 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:01 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:01 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:01 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:01 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:01 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:01 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:14:01 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:14:01 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:14:01 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:14:01 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:01 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:02 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:14:02 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:02 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:14:02 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:02 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:02 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:02 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:14:02 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:14:02 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 19,9,(2)
+ 2018-06-06 11:14:02 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 28,19,9,4f,18,(5)
+ 2018-06-06 11:14:02 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 19,9,[2]
+ 2018-06-06 11:14:02 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:02 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:02 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:02 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:02 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:02 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:03 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:14:03 PlayCardListener::AutoPlayCard 522: 玩家 1  自动出牌 跟牌 出牌 2
+ 2018-06-06 11:14:03 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 3b,1b,(2)
+ 2018-06-06 11:14:03 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 3b,9,16,1b,2a,(5)
+ 2018-06-06 11:14:03 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 3b,1b,[2]
+ 2018-06-06 11:14:03 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:03 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:03 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:03 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:03 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:03 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:03 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:14:03 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:14:03 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:14:03 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:14:03 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:03 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:04 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:14:04 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:04 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 1 ,next 2,nextActive 2
+ 2018-06-06 11:14:04 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:04 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:04 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:04 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 2
+ 2018-06-06 11:14:04 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:04 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 1 ,next 1,nextActive 1
+ 2018-06-06 11:14:04 PlayCardListener::recvPass 259: 1没人要，出牌
+ 2018-06-06 11:14:04 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:04 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:04 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:05 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 1
+ 2018-06-06 11:14:05 PlayCardListener::AutoPlayCard 506: 玩家 1  自动出牌 头游出牌 1
+ 2018-06-06 11:14:05 PlayCardListener::recvPlayerCard 165: 玩家 10018 出牌 16,(1)
+ 2018-06-06 11:14:05 PlayCardListener::recvPlayerCard 170: 玩家 10018 手牌 9,16,2a,(3)
+ 2018-06-06 11:14:05 DataManage::checkPlayCard 494: user [10018-1] checkPlayCard 16,[1]
+ 2018-06-06 11:14:05 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:05 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:05 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:05 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:05 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:05 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:05 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 0
+ 2018-06-06 11:14:05 PlayCardListener::AutoPlayCard 515: 玩家 0  自动出牌 跟牌 不要
+ 2018-06-06 11:14:05 PlayCardListener::recvPass 233: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-06-06 11:14:05 PlayCardListener::recvPass 271: 0不要，通知下家 3 出牌
+ 2018-06-06 11:14:05 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:05 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:06 PlayCardListener::AutoPlayCard 494: 自动出牌 last 1  cur 3
+ 2018-06-06 11:14:06 PlayCardListener::AutoPlayCard 522: 玩家 3  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:14:06 PlayCardListener::recvPlayerCard 165: 玩家 10093 出牌 7,(1)
+ 2018-06-06 11:14:06 PlayCardListener::recvPlayerCard 170: 玩家 10093 手牌 a,2b,1a,a,28,15,31,b,1b,35,3,3a,1a,1,2d,7,2a,2b,(18)
+ 2018-06-06 11:14:06 DataManage::checkPlayCard 494: user [10093-3] checkPlayCard 7,[1]
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:06 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:06 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:06 PlayCardListener::AutoPlayCard 494: 自动出牌 last 3  cur 2
+ 2018-06-06 11:14:06 PlayCardListener::AutoPlayCard 522: 玩家 2  自动出牌 跟牌 出牌 1
+ 2018-06-06 11:14:06 PlayCardListener::recvPlayerCard 165: 玩家 10015 出牌 4f,(1)
+ 2018-06-06 11:14:06 PlayCardListener::recvPlayerCard 170: 玩家 10015 手牌 28,4f,18,(3)
+ 2018-06-06 11:14:06 DataManage::checkPlayCard 494: user [10015-2] checkPlayCard 4f,[1]
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:06 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:06 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:07 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 1
+ 2018-06-06 11:14:07 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:07 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-06-06 11:14:07 PlayCardListener::recvPass 271: 1不要，通知下家 0 出牌
+ 2018-06-06 11:14:07 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:07 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:07 PlayCardListener::AutoPlayCard 494: 自动出牌 last 2  cur 0
+ 2018-06-06 11:14:07 PlayCardListener::AutoPlayCard 522: 玩家 0  自动出牌 跟牌 出牌 3
+ 2018-06-06 11:14:07 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 34,39,3c,(3)
+ 2018-06-06 11:14:07 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 34,4f,11,27,21,1,27,7,39,d,3c,21,3b,37,(14)
+ 2018-06-06 11:14:07 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 34,39,3c,[3]
+ 2018-06-06 11:14:07 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:07 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:07 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:07 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:07 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:07 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:08 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:14:08 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:08 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:14:08 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:08 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:08 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:08 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:14:08 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:08 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:14:08 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:14:08 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:08 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:09 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:14:09 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:09 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:14:09 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:14:09 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:09 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:09 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:09 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:14:09 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 1
+ 2018-06-06 11:14:09 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 3b,(1)
+ 2018-06-06 11:14:09 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 4f,11,27,21,1,27,7,d,21,3b,37,(11)
+ 2018-06-06 11:14:09 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 3b,[1]
+ 2018-06-06 11:14:09 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:09 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:09 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:09 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:09 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:09 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:10 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:14:10 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:10 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:14:10 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:10 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:10 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:10 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:14:10 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:10 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:14:10 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:14:10 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:10 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:11 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:14:11 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:11 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:14:11 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:14:11 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:11 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:11 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:11 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:14:11 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 1
+ 2018-06-06 11:14:11 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 d,(1)
+ 2018-06-06 11:14:11 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 4f,11,27,21,1,27,7,d,21,37,(10)
+ 2018-06-06 11:14:11 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard d,[1]
+ 2018-06-06 11:14:11 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:11 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:11 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:11 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:11 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:11 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:12 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:14:12 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:12 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:14:12 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:12 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:12 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:12 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:14:12 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:12 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:14:12 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:14:12 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:12 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:13 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:14:13 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:13 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:14:13 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:14:13 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:13 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:13 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:13 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:14:13 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 1
+ 2018-06-06 11:14:13 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 4f,(1)
+ 2018-06-06 11:14:13 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 4f,11,27,21,1,27,7,21,37,(9)
+ 2018-06-06 11:14:13 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 4f,[1]
+ 2018-06-06 11:14:13 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:13 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:13 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:13 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:13 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:13 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:14 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:14:14 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:14 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:14:14 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:14 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:14 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:14 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:14:14 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:14 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:14:14 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:14:14 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:14 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:15 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:14:15 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:15 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:14:15 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:14:15 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:15 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:15 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:15 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:14:15 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 4
+ 2018-06-06 11:14:15 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 27,27,7,37,(4)
+ 2018-06-06 11:14:15 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 11,27,21,1,27,7,21,37,(8)
+ 2018-06-06 11:14:15 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 27,27,7,37,[4]
+ 2018-06-06 11:14:15 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:15 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:15 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:15 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:15 PlayCardListener::notiNext 328: noti 3 next play
+ 2018-06-06 11:14:15 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:16 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 3
+ 2018-06-06 11:14:16 PlayCardListener::AutoPlayCard 515: 玩家 3  自动出牌 跟牌 不要
+ 2018-06-06 11:14:16 PlayCardListener::recvPass 233: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-06-06 11:14:16 PlayCardListener::recvPass 271: 3不要，通知下家 2 出牌
+ 2018-06-06 11:14:16 PlayCardListener::notiNext 328: noti 2 next play
+ 2018-06-06 11:14:16 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:16 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 2
+ 2018-06-06 11:14:16 PlayCardListener::AutoPlayCard 515: 玩家 2  自动出牌 跟牌 不要
+ 2018-06-06 11:14:16 PlayCardListener::recvPass 233: recv  pass Cur 2 player 2 ,lastout 0 ,next 1,nextActive 1
+ 2018-06-06 11:14:16 PlayCardListener::recvPass 271: 2不要，通知下家 1 出牌
+ 2018-06-06 11:14:16 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-06 11:14:16 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:17 PlayCardListener::AutoPlayCard 494: 自动出牌 last 0  cur 1
+ 2018-06-06 11:14:17 PlayCardListener::AutoPlayCard 515: 玩家 1  自动出牌 跟牌 不要
+ 2018-06-06 11:14:17 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 0 ,next 0,nextActive 0
+ 2018-06-06 11:14:17 PlayCardListener::recvPass 259: 0没人要，出牌
+ 2018-06-06 11:14:17 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-06-06 11:14:17 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-06 11:14:17 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-06 11:14:17 PlayCardListener::AutoPlayCard 494: 自动出牌 last 255  cur 0
+ 2018-06-06 11:14:17 PlayCardListener::AutoPlayCard 506: 玩家 0  自动出牌 头游出牌 4
+ 2018-06-06 11:14:17 PlayCardListener::recvPlayerCard 165: 玩家 10019 出牌 11,21,1,21,(4)
+ 2018-06-06 11:14:17 PlayCardListener::recvPlayerCard 170: 玩家 10019 手牌 11,21,1,21,(4)
+ 2018-06-06 11:14:17 DataManage::checkPlayCard 494: user [10019-0] checkPlayCard 11,21,1,21,[4]
+ 2018-06-06 11:14:17 DataManage::_playCard 570: user [10019-0] 出完牌
+ 2018-06-06 11:14:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-06 11:14:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-06 11:14:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-06 11:14:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-06 11:14:17 PlayCardListener::checkPlayCardFinish 458: 玩家 10019出完牌, 叫牌者 10015
+ 2018-06-06 11:14:17 PlayCardListener::recvPlayerCard 194: 检测到游戏结束
+ 2018-06-06 11:14:18 ExtensionListenerController::OnListenEnd 99: Listen End 7
+ 2018-06-06 11:14:18 ExtensionListenerController::Remove 27: Listen Remove 7
+ 2018-06-06 11:14:18 Listener::OnRemove 27: 
+ 2018-06-06 11:14:18 ExtensionListenerController::Add 17: Listen Add 8
+ 2018-06-06 11:14:18 Listener::OnAdd 20: 
+ 2018-06-06 11:14:18 GameFinishListener::countScore 73: 玩家 0 ID 10019 排名 0  team 0
+ 2018-06-06 11:14:18 GameFinishListener::countScore 142: 玩家 0,ID10019 顺序分分数 300，奖分 -300，罚分 0，输赢 0, 累计 0
+ 2018-06-06 11:14:18 GameFinishListener::countScore 142: 玩家 1,ID10018 顺序分分数 300，奖分 100，罚分 0，输赢 400, 累计 400
+ 2018-06-06 11:14:18 GameFinishListener::countScore 142: 玩家 2,ID10015 顺序分分数 -900，奖分 500，罚分 0，输赢 -400, 累计 -400
+ 2018-06-06 11:14:18 GameFinishListener::countScore 142: 玩家 3,ID10093 顺序分分数 300，奖分 -300，罚分 0，输赢 0, 累计 0
+ 2018-06-06 11:14:18 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:205 size:104
+ 2018-06-06 11:14:18 ExtensionListenerController::Remove 27: Listen Remove 10
+ 2018-06-06 11:14:18 Listener::OnRemove 27: 
+ 2018-06-06 11:14:19 GameFinishListener::update 27: 玩家0,10019结算0, 分数0 总分数0
+ 2018-06-06 11:14:19 GameFinishListener::update 27: 玩家1,10018结算400, 分数400 总分数400
+ 2018-06-06 11:14:19 GameFinishListener::update 27: 玩家2,10015结算-400, 分数-400 总分数-400
+ 2018-06-06 11:14:19 GameFinishListener::update 27: 玩家3,10093结算0, 分数0 总分数0
+ 2018-06-06 11:14:19 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10018)  MsgID(100)  size(41)
+ 2018-06-06 11:14:19 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10093)  MsgID(100)  size(41)
+ 2018-06-06 11:14:19 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10015)  MsgID(100)  size(41)
+ 2018-06-06 11:14:19 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10019)  MsgID(100)  size(41)
+ 2018-06-06 11:14:19 ExtensionListenerController::OnListenEnd 99: Listen End 8
+ 2018-06-06 11:14:19 ExtensionListenerController::Remove 27: Listen Remove 8
+ 2018-06-06 11:14:19 Listener::OnRemove 27: 
+ 2018-06-06 11:14:19 ExtensionListenerController::Add 17: Listen Add 9
+ 2018-06-06 11:14:19 Listener::OnAdd 20: 
+ 2018-06-06 11:14:19 DismissRoomListener::NotiTotalResult 57: *************************大结算***********************
+ 2018-06-06 11:14:19 DismissRoomListener::NotiTotalResult 63: [Phone10019,10019]  输赢金币 0,大赢家 0
+ 2018-06-06 11:14:19 DismissRoomListener::NotiTotalResult 63: [333333,10018]  输赢金币 400,大赢家 1
+ 2018-06-06 11:14:19 DismissRoomListener::NotiTotalResult 63: [222222,10015]  输赢金币 -400,大赢家 0
+ 2018-06-06 11:14:19 DismissRoomListener::NotiTotalResult 63: [444444,10093]  输赢金币 0,大赢家 0
+ 2018-06-06 11:14:19 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:216 size:36
+ 2018-06-06 11:14:19 ExtensionListenerController::OnListenEnd 99: Listen End 9
+ 2018-06-06 11:14:19 ExtensionListenerController::Remove 27: Listen Remove 9
+ 2018-06-06 11:14:19 Listener::OnRemove 27: 
+ 2018-06-06 11:14:19 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-06-06 11:14:19 ExtensionListenerController::Add 17: Listen Add 0
+ 2018-06-06 11:14:19 Listener::OnAdd 20: 
+ 2018-06-06 11:14:19 CServerGameDesk::SetGameStation 168: GameStation  0
+ 2018-06-06 11:14:19 CServerGameDesk::GameReset 542: reset game
+ 2018-06-06 11:14:19 CServerGameDesk::GameFinish 212: GameFinish 13
+ 2018-06-06 11:14:19 ExtensionListenerController::Add 17: Listen Add 9
+ 2018-06-06 11:14:19 Listener::OnAdd 20: 
+ 2018-06-06 11:14:19 ExtensionListenerController::OnListenEnd 99: Listen End 9
+ 2018-06-06 11:14:19 ExtensionListenerController::Remove 27: Listen Remove 9
+ 2018-06-06 11:14:19 Listener::OnRemove 27: 
+ 2018-06-06 11:14:19 Listener::OnRemove 27: 
+ 2018-06-06 11:14:19 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-06-06 11:14:19 ExtensionListenerController::Add 17: Listen Add 0
+ 2018-06-06 11:14:19 Listener::OnAdd 20: 
+ 2018-06-06 11:14:19 CServerGameDesk::SetGameStation 168: GameStation  0
+ 2018-06-06 11:14:19 CServerGameDesk::GameReset 542: reset game
+ 2018-06-06 11:14:51 CServerGameDesk::UserSitDesk 311: DeskNo: 0 UserID: 10019 sit 

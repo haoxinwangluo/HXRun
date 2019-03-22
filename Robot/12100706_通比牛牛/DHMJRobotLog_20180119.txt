@@ -1,0 +1,1382 @@
+2018-01-19 11:39:26-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:39:26-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:39:31-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:39:32-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:39:32-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:39:32-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:35-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表1个
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:39:36-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1010 坐下成功 0:0
+2018-01-19 11:39:36-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:37-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表2个
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 0-1
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:39:38-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1011 坐下成功 0:1
+2018-01-19 11:39:38-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:38-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:39-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 1-0
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:39:40-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1012 坐下成功 1:0
+2018-01-19 11:39:40-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:40-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:41-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1013 建立GameRoomEx
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1013 登陆GServer
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1013 登陆GServer成功
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表3个
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表1个
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1013 收到断线用户列表0个
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1013 登陆GServer完成
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1013 请求坐下 1-1
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1013 未处理消息 106:1
+2018-01-19 11:39:42-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1013 坐下成功 1:1
+2018-01-19 11:39:42-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:42-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:43-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表2个
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 2-0
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:39:44-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1014 坐下成功 2:0
+2018-01-19 11:39:44-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:44-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:45-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 2-1
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:39:46-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1015 坐下成功 2:1
+2018-01-19 11:39:46-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:46-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:47-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1016 建立GameRoomEx
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1016 登陆GServer
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1016 登陆GServer成功
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表1个
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1016 收到断线用户列表0个
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1016 登陆GServer完成
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1016 请求坐下 3-0
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1016 未处理消息 106:1
+2018-01-19 11:39:48-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1016 坐下成功 3:0
+2018-01-19 11:39:48-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:48-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:49-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1017 建立GameRoomEx
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1017 登陆GServer
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1017 登陆GServer成功
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表2个
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1017 收到断线用户列表0个
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1017 登陆GServer完成
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1017 请求坐下 3-1
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1017 未处理消息 106:1
+2018-01-19 11:39:50-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1017 坐下成功 3:1
+2018-01-19 11:39:50-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:50-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:51-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1018 建立GameRoomEx
+2018-01-19 11:39:51-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1010 站起
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1018 登陆GServer
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1018 登陆GServer成功
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表2个
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1018 收到断线用户列表0个
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1018 登陆GServer完成
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1018 请求坐下 0-0
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1018 未处理消息 106:1
+2018-01-19 11:39:52-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1018 坐下成功 0:0
+2018-01-19 11:39:52-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:52-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:53-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1019 建立GameRoomEx
+2018-01-19 11:39:53-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1011 站起
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1019 登陆GServer
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1019 登陆GServer成功
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表2个
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1019 收到断线用户列表0个
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1019 登陆GServer完成
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1019 请求坐下 0-1
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1019 未处理消息 106:1
+2018-01-19 11:39:54-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1019 坐下成功 0:1
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:39:55-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1012 站起
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:55-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表3个
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表3个
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表2个
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 1-0
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:39:56-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1010 坐下成功 1:0
+2018-01-19 11:39:56-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:39:57-[18468]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1013 站起
+2018-01-19 11:39:57-[18468]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:39:57-[18468]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit
+2018-01-19 11:40:46-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:40:46-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:40:50-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:40:51-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:40:51-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:40:51-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:40:53-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表1个
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:40:55-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:40:55-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:40:56-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表2个
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 0-0
+2018-01-19 11:40:57-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:40:57-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:40:58-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 0-0
+2018-01-19 11:40:59-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:40:59-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1013 建立GameRoomEx
+2018-01-19 11:41:00-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1013 登陆GServer
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1013 登陆GServer成功
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表3个
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表1个
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1013 收到断线用户列表0个
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1013 登陆GServer完成
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1013 请求坐下 0-0
+2018-01-19 11:41:01-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1013 未处理消息 106:1
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:01-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:41:02-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:41:02-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:41:02-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:41:02-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表2个
+2018-01-19 11:41:02-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:41:03-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:41:03-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 0-0
+2018-01-19 11:41:03-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:41:03-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:03-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:04-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 0-0
+2018-01-19 11:41:05-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:05-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1016 建立GameRoomEx
+2018-01-19 11:41:06-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1016 登陆GServer
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1016 登陆GServer成功
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表1个
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1016 收到断线用户列表0个
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1016 登陆GServer完成
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1016 请求坐下 0-0
+2018-01-19 11:41:07-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1016 未处理消息 106:1
+2018-01-19 11:41:07-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:07-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:08-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1017 建立GameRoomEx
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1017 登陆GServer
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1017 登陆GServer成功
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表2个
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1017 收到断线用户列表0个
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1017 登陆GServer完成
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1017 请求坐下 0-0
+2018-01-19 11:41:09-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1017 未处理消息 106:1
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:09-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1018 建立GameRoomEx
+2018-01-19 11:41:10-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1018 登陆GServer
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1018 登陆GServer成功
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1018 收到断线用户列表0个
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1018 登陆GServer完成
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1018 请求坐下 0-0
+2018-01-19 11:41:11-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1018 未处理消息 106:1
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:11-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1019 建立GameRoomEx
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1019 登陆GServer
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1019 登陆GServer成功
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表1个
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1019 收到断线用户列表0个
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1019 登陆GServer完成
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1019 请求坐下 0-0
+2018-01-19 11:41:13-[6700]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1019 未处理消息 106:1
+2018-01-19 11:41:28-[6700]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:41:28-[6700]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit
+2018-01-19 11:41:35-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:41:35-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:41:37-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:41:38-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:41:38-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:41:38-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:40-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表1个
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:41:41-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:42-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表2个
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 0-0
+2018-01-19 11:41:43-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:44-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 0-0
+2018-01-19 11:41:45-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:46-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1013 建立GameRoomEx
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1013 登陆GServer
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1013 登陆GServer成功
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表3个
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表1个
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1013 收到断线用户列表0个
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1013 登陆GServer完成
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1013 请求坐下 0-0
+2018-01-19 11:41:47-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1013 未处理消息 106:1
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:48-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表2个
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 0-0
+2018-01-19 11:41:49-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:50-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 0-0
+2018-01-19 11:41:51-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:52-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:41:53-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:41:53-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1016 建立GameRoomEx
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1016 登陆GServer
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1016 登陆GServer成功
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表1个
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1016 收到断线用户列表0个
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1016 登陆GServer完成
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1016 请求坐下 0-0
+2018-01-19 11:41:54-[7120]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1016 未处理消息 106:1
+2018-01-19 11:41:54-[7120]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:41:54-[7120]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit
+2018-01-19 11:45:25-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:45:25-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:45:28-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:45:29-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:45:29-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:45:29-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:45:31-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表1个
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:45:32-[3564]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:45:33-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表2个
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 0-0
+2018-01-19 11:45:34-[3564]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:45:35-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 0-0
+2018-01-19 11:45:36-[3564]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:45:37-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1013 建立GameRoomEx
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:45:39-[3564]GameRoomEx.cpp:CGameRoomEx::OnSocketConnectEvent:86:[EG] 连接GServer失败 112.74.18.143:6071 - 10061
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:45:39-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:45:41-[3564]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:45:41-[3564]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit
+2018-01-19 11:46:17-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:46:17-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:46:19-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:46:20-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:46:20-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:46:20-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:22-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1010 未获取到指定房间信息
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:24-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1011 未获取到指定房间信息
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:26-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1012 未获取到指定房间信息
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:28-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1013 未获取到指定房间信息
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:30-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1014 未获取到指定房间信息
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:32-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1015 未获取到指定房间信息
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:34-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1016 未获取到指定房间信息
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:36-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1017 未获取到指定房间信息
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:38-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1018 未获取到指定房间信息
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:46:40-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:790:[EM] hn1019 未获取到指定房间信息
+2018-01-19 11:46:41-[18544]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:46:41-[18544]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit
+2018-01-19 11:46:55-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::NextTask:1217:[IM] Start Task 0845
+2018-01-19 11:46:55-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnInitDialog:161:[IM] 启动机器人(V2.0)
+2018-01-19 11:46:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnStartRobot:263:[IM] StartRobot
+2018-01-19 11:46:58-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:445:[IM] 连接AServer事件112.74.18.143:13025-0
+2018-01-19 11:46:58-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnConnectMessage:515:[IM] 向AServer请求全局参数信息112.74.18.143:13025
+2018-01-19 11:46:58-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:389:[IM] 112.74.18.143:13025 AServer应答全局参数信息 MServer:dzb.hotniao.com-3015
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketReadEvent:428:[IM] hn1010 未处理消息 121:24
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:00-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表2个
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:47:01-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1010 坐下成功 0:0
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:02-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 0-1
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:47:03-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1011 坐下成功 0:1
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:04-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表1个
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 1-0
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:47:05-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1012 坐下成功 1:0
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1013 登陆Mserver
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1013 登陆成功
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1013 请求游戏列表
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1013 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1013 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1013 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:06-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1013 建立GameRoomEx
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1013 登陆GServer
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1013 登陆GServer成功
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表3个
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1013 收到在线用户列表2个
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1013 收到断线用户列表0个
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1013 登陆GServer完成
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1013 请求坐下 1-1
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1013 未处理消息 106:1
+2018-01-19 11:47:07-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1013 坐下成功 1:1
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:08-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 2-0
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:47:09-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1014 坐下成功 2:0
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:10-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表1个
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 2-1
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1015 坐下成功 2:1
+2018-01-19 11:47:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1011 站起
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:12-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1016 建立GameRoomEx
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1016 登陆GServer
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1016 登陆GServer成功
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表1个
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1016 收到断线用户列表0个
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1016 登陆GServer完成
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1016 请求坐下 0-1
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1016 未处理消息 106:1
+2018-01-19 11:47:13-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1016 坐下成功 0:1
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:14-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1017 建立GameRoomEx
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1017 登陆GServer
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1017 登陆GServer成功
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表2个
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1017 收到断线用户列表0个
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1017 登陆GServer完成
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1017 请求坐下 3-0
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1017 未处理消息 106:1
+2018-01-19 11:47:15-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1017 坐下成功 3:0
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:16-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1018 建立GameRoomEx
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1018 登陆GServer
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1018 登陆GServer成功
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1018 收到断线用户列表0个
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1018 登陆GServer完成
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1018 请求坐下 3-1
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1018 未处理消息 106:1
+2018-01-19 11:47:17-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1018 坐下成功 3:1
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:18-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1019 建立GameRoomEx
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1019 登陆GServer
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1019 登陆GServer成功
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表1个
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1019 收到断线用户列表0个
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1019 登陆GServer完成
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1019 请求坐下 4-0
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1019 未处理消息 106:1
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1019 坐下成功 4:0
+2018-01-19 11:47:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1012 站起
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:20-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表1个
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 1-0
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:47:21-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1011 坐下成功 1:0
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:22-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表2个
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 4-1
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:47:23-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1012 坐下成功 4:1
+2018-01-19 11:47:27-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1018 站起
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:29-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1018 建立GameRoomEx
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1018 登陆GServer
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1018 登陆GServer成功
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表2个
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1018 收到断线用户列表0个
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1018 登陆GServer完成
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1018 请求坐下 3-1
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1018 未处理消息 106:1
+2018-01-19 11:47:30-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1018 坐下成功 3:1
+2018-01-19 11:47:35-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1019 站起
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:37-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1019 建立GameRoomEx
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1019 登陆GServer
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1019 登陆GServer成功
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表2个
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1019 收到断线用户列表0个
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1019 登陆GServer完成
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1019 请求坐下 4-0
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1019 未处理消息 106:1
+2018-01-19 11:47:38-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1019 坐下成功 4:0
+2018-01-19 11:47:40-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1015 站起
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:42-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:47:42-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1017 站起
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表1个
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 2-1
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:47:43-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1015 坐下成功 2:1
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:44-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1017 建立GameRoomEx
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1017 登陆GServer
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1017 登陆GServer成功
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表2个
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1017 收到断线用户列表0个
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1017 登陆GServer完成
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1017 请求坐下 3-0
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1017 未处理消息 106:1
+2018-01-19 11:47:45-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1017 坐下成功 3:0
+2018-01-19 11:47:50-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1016 站起
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1016 登陆Mserver
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1016 登陆成功
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1016 请求游戏列表
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1016 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1016 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1016 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:52-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1016 建立GameRoomEx
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1016 登陆GServer
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1016 登陆GServer成功
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表3个
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1016 收到在线用户列表2个
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1016 收到断线用户列表0个
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1016 登陆GServer完成
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1016 请求坐下 0-1
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1016 未处理消息 106:1
+2018-01-19 11:47:53-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1016 坐下成功 0:1
+2018-01-19 11:47:55-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1014 站起
+2018-01-19 11:47:55-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1015 站起
+2018-01-19 11:47:56-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1018 站起
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1018 登陆Mserver
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1018 登陆成功
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1018 请求游戏列表
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1018 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1018 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1018 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:57-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1018 建立GameRoomEx
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1012 站起
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1018 登陆GServer
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1018 登陆GServer成功
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表3个
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1018 收到在线用户列表2个
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1018 收到断线用户列表0个
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1018 登陆GServer完成
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1018 请求坐下 3-1
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1018 未处理消息 106:1
+2018-01-19 11:47:58-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1018 坐下成功 3:1
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1012 登陆Mserver
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1012 登陆成功
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1012 请求游戏列表
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1012 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1012 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1012 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:47:59-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1012 建立GameRoomEx
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1012 登陆GServer
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1012 登陆GServer成功
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1012 收到在线用户列表3个
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1012 收到断线用户列表0个
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1012 登陆GServer完成
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1012 请求坐下 4-1
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1012 未处理消息 106:1
+2018-01-19 11:48:00-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1012 坐下成功 4:1
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:01-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表1个
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 2-0
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:48:02-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1014 坐下成功 2:0
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1015 登陆Mserver
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1015 登陆成功
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1015 请求游戏列表
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1015 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1015 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1015 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:03-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1015 建立GameRoomEx
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1015 登陆GServer
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1015 登陆GServer成功
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表3个
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1015 收到在线用户列表2个
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1015 收到断线用户列表0个
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1015 登陆GServer完成
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1015 请求坐下 2-1
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1015 未处理消息 106:1
+2018-01-19 11:48:04-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1015 坐下成功 2:1
+2018-01-19 11:48:08-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1010 站起
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1010 登陆Mserver
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1010 登陆成功
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1010 请求游戏列表
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1010 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1010 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1010 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:09-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1010 建立GameRoomEx
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1010 登陆GServer
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1010 登陆GServer成功
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表3个
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表3个
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表3个
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1010 收到在线用户列表2个
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1010 收到断线用户列表0个
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1010 登陆GServer完成
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1010 请求坐下 0-0
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1010 未处理消息 106:1
+2018-01-19 11:48:10-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1010 坐下成功 0:0
+2018-01-19 11:48:11-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1019 站起
+2018-01-19 11:48:12-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1014 站起
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1019 登陆Mserver
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1019 登陆成功
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1019 请求游戏列表
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1019 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1019 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1019 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:13-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1019 建立GameRoomEx
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1011 站起
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1019 登陆GServer
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1019 登陆GServer成功
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1019 收到在线用户列表3个
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1019 收到断线用户列表0个
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1019 登陆GServer完成
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1019 请求坐下 1-0
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1019 未处理消息 106:1
+2018-01-19 11:48:14-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1019 坐下成功 1:0
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1011 登陆Mserver
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1011 登陆成功
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1011 请求游戏列表
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1011 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1011 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1011 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:15-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1011 建立GameRoomEx
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1011 登陆GServer
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1011 登陆GServer成功
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表3个
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1011 收到在线用户列表1个
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1011 收到断线用户列表0个
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1011 登陆GServer完成
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1011 请求坐下 2-0
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1011 未处理消息 106:1
+2018-01-19 11:48:16-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1011 坐下成功 2:0
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1014 登陆Mserver
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1014 登陆成功
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1014 请求游戏列表
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1014 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1014 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1014 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:17-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1014 建立GameRoomEx
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1014 登陆GServer
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1014 登陆GServer成功
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表3个
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1014 收到在线用户列表1个
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1014 收到断线用户列表0个
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1014 登陆GServer完成
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1014 请求坐下 4-0
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1014 未处理消息 106:1
+2018-01-19 11:48:18-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1014 坐下成功 4:0
+2018-01-19 11:48:19-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1063:[IG] hn1017 站起
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnSocketConnectEvent:463:[IM] 连接MServer事件dzb.hotniao.com:3015-0
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::LoginMServer:1001:[IM] hn1017 登陆Mserver
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnLogonMessage:633:[IM] hn1017 登陆成功
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::GetGameRoomList:737:[IM] hn1017 请求游戏列表
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:749:[IM] hn1017 成功获取游戏类型ASS_GP_LIST_KIND
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:756:[IM] hn1017 成功获取游戏名字ASS_GP_LIST_NAME
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnListMessage:778:[IM] hn1017 成功获取房间信息ASS_GP_LIST_ROOM
+2018-01-19 11:48:21-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::EnterGameRoom:1049:[IM] hn1017 建立GameRoomEx
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::LoginGServer:562:[IG] hn1017 登陆GServer
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:298:[IG] hn1017 登陆GServer成功
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表3个
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:600:[IG] hn1017 收到在线用户列表1个
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserListMessage:604:[IG] hn1017 收到断线用户列表0个
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnLogonMessage:341:[IG] hn1017 登陆GServer完成
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::SitDesk:442:[IG] hn1017 请求坐下 3-0
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnSocketReadEvent:135:[IG] hn1017 未处理消息 106:1
+2018-01-19 11:48:22-[17756]GameRoomEx.cpp:CGameRoomEx::OnUserActionMessage:1112:[IG] hn1017 坐下成功 3:0
+2018-01-19 11:48:24-[17756]Auto_AIDlg.cpp:CAuto_AIDlg::OnCancel:241:[IM] 关闭机器人(V2.0)
+2018-01-19 11:48:24-[17756]PlatLog.cpp:CPlatLog::UnInit:45:[IM] log thread exit

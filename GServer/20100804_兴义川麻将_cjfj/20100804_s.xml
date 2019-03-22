@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Config>
+	<!-- 游戏行为定义 (id值为程序对应值Em_ActionRuleType不能随便更改) -->
+	<!-- enabled 是否有效 1启用,0为不启用 -->
+	<Action>
+		<type id = "0"  doc="胡"         enabled="1" /> 
+		<type id = "1"  doc="听"         enabled="0" /> <!-- 该项会开启 听牌功能 -->
+		<type id = "2"  doc="碰"         enabled="1" /> 
+		<type id = "3"  doc="杠"         enabled="1" /> 
+		<type id = "4"  doc="叫嘴"       enabled="1" /> 
+	</Action>
+	
+	<!-- 各个牌型番数的配置(id值为程序对应值Em_PaiType不能随便更改) -->
+	<!-- value - 此牌型的基础番(如果为0表示不计算此类型番数) ziMoAdd - 自摸此牌型额外加多少番(默认为0)  ziMoMultiple 自摸此牌型番数按几倍结算(默认为1) -->
+	<!-- 计算规则 (基础番 + 额外番)*倍数-->
+	<PaiFan>
+		<type id = "0"  doc="平  胡"             value="1"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 平胡可以自摸胡牌，或在有"豆"情况下允许点胡。-->
+		<type id = "1"  doc="大对子"             value="5"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 即对对胡，成牌时有4个三张相同的和1个对(碰碰胡)。-->
+		<type id = "2"  doc="小七对"             value="5"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 七对,成牌时由7个对子组成。-->
+		<type id = "3"  doc="龙七对"             value="10" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由5个对子和4个相同的牌组成。-->
+		<type id = "4"  doc="青大对"             value="15" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由4个三张相同的和1个对，且所有牌都由条、筒、万中的一种组成。(青一色+碰碰胡)。-->
+		<type id = "5"  doc="青龙对"             value="20" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由5个对子和4个相同的牌组成，且所有牌都由条、筒、万中的一种组成。(青一色+龙七对)。-->
+		<type id = "6"  doc="清七对"             value="15" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由7个对子组成，且所有牌都由条、筒、万中的一种组成。(清一色+小七对)。-->
+		<type id = "7"  doc="清一色"             value="10" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时所有牌都由条、筒、万中的一种组成。-->
+		<type id = "8"  doc="天  胡"             value="100"  ziMoAdd="0" ziMoMultiple="1"  enabled="1" /> <!-- 硬报(庄家天胡):庄家摸第一张牌就胡牌, 结算时每家多收取额外番数 -->
+		<type id = "9"  doc="天  听"             value="10"  ziMoAdd="0" ziMoMultiple="1"   enabled="0" /> <!-- 软报(庄):发完牌，就听牌。此玩家可以选择报听，报听后牌被冻结，不能再换手中的牌了。听牌者可以胡报听者的牌，报听者胡牌为胡牌类型加10倍底分 -->
+		<type id = "10" doc="地  胡"             value="20"  ziMoAdd="0" ziMoMultiple="1"   enabled="1" /> <!-- 硬报(闲家地胡)：闲家摸第一张牌就胡牌, 结算时每家多收取额外番数 -->
+		<type id = "11" doc="地  听"             value="10"  ziMoAdd="0" ziMoMultiple="1"   enabled="0" /> <!-- 软报(闲):闲家摸第一张后听牌。此时玩家可以选择报听，报听后牌被冻结，不能再换手中的牌了。听牌者可以胡报听者点炮的牌，报听者胡牌点炮都是胡牌类型加10倍底分。-->
+		<type id = "12" doc="天  杀"             value="0"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杀  报(胡牌基础上+此番数)天听或者地听的人放炮，需要在胡牌手中牌型的基础上加X倍底分-->
+		<type id = "13" doc="地  杀"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上胡(胡牌基础上+此番数)-->
+		<type id = "14" doc="杠上胡"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上胡(胡牌基础上+此番数)-->
+		<type id = "15" doc="杠上炮"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上炮(胡牌基础上+此番数)-->
+		<type id = "16" doc="抢杠胡"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 抢杠胡(胡牌基础上+此番数)-->
+		
+	</PaiFan>
+
+	<!-- 鸡牌番数的配置(id值为程序对应值Em_JiType不能随便更改) -->
+	<JiType>
+		<type id="0"   doc="翻牌鸡"                 value="2" enabled="1" /> <!-- 玩家手中每有1张鸡牌(非幺鸡)获得的番数 -->
+		<type id="1"   doc="幺鸡手牌"               value="2" enabled="1" /> <!-- 玩家手上每有一个幺鸡的番数 -->
+		<type id="2"   doc="幺鸡出牌"               value="1" enabled="1" /> <!-- 除了冲峰鸡每有一个打出来的幺鸡番数 -->
+		<type id="3"   doc="幺鸡拦牌(碰)"           value="1" enabled="1" /> <!-- 玩家碰中每有一个幺鸡番数 -->
+		<type id="4"   doc="金鸡手牌"               value="4" enabled="1" /> <!-- 玩家手上每有一个金鸡的番数 -->
+		<type id="5"   doc="金鸡拦牌(碰)"           value="2" enabled="1" /> <!-- 玩家碰中每有一个金鸡的番数 -->
+		<type id="6"   doc="金鸡出牌"               value="4" enabled="1" /> <!-- 玩家出牌数据中每有一个金鸡的番数 -->
+		<type id="7"   doc="冲锋鸡"                 value="2" enabled="1" /> <!-- 冲锋鸡 -->
+		<type id="8"   doc="责任鸡"                 value="0" enabled="1" /> <!-- 责任鸡 -->
+		<type id="9"  doc="幺鸡拦牌(杠)"            value="2" enabled="1" /> <!-- 玩家杠中每有一个幺鸡番数 -->
+		<type id="10"  doc="金鸡拦牌(杠)"           value="4" enabled="1" /> <!-- 玩家杠中每有一个金鸡番数 -->
+		<type id="11"  doc="幺鸡出牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家打出去每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="12"  doc="幺鸡碰牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家碰牌中每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="13"  doc="幺鸡杠牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家杠牌中每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="14"  doc="金鸡出牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家打出去每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="15"  doc="金鸡碰牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家碰牌中每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="16"  doc="金鸡杠牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家杠牌中每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="17"  doc="冲锋鸡(赔付)"           value="0" enabled="1" /> <!-- 未叫嘴玩家打出冲锋鸡 赔付给叫嘴玩家的番数(如果变责任鸡了 不赔付) -->
+		<type id="18"  doc="责任鸡(赔付)"           value="0" enabled="1" /> <!-- 未叫嘴玩家有责任鸡 赔付给叫嘴玩家的番数 -->
+	</JiType>
+	
+	<!-- 杠/豆的番数(id值为程序对应值Em_DouType不能随便更改) -->
+	<DouType>
+		<type id="0"   doc="明  豆"          value="1" enabled="1" /> 
+		<type id="1"   doc="暗  豆"          value="2" enabled="1" /> 
+		<type id="2"   doc="转弯豆"          value="3" enabled="1" /> 
+		<type id="3"   doc="幺鸡明豆"        value="4" enabled="1" /> 
+		<type id="4"   doc="幺鸡暗豆"        value="10" enabled="1" /> 
+		<type id="5"   doc="幺鸡弯豆"        value="7" enabled="1" />
+		<type id="6"   doc="金鸡明豆"        value="4" enabled="1" /> 
+		<type id="7"   doc="金鸡暗豆"        value="8" enabled="1" /> 
+		<type id="8"   doc="金鸡弯豆"        value="4" enabled="1" /> 
+		<type id="9"  doc="抢转弯豆"        value="10" enabled="1" /> 
+		<type id="10"  doc="抢幺鸡转弯豆"    value="22" enabled="1" /> 
+		<type id="11"  doc="杠炮明豆"        value="2" enabled="1" /> 
+		<type id="12"  doc="杠炮暗豆"        value="7" enabled="1" /> 
+		<type id="13"  doc="杠炮转弯豆"      value="10" enabled="1" /> 
+		<type id="14"  doc="杠炮幺鸡明豆"    value="13" enabled="1" /> 
+		<type id="15"  doc="杠炮幺鸡暗豆"    value="31" enabled="1" /> 
+		<type id="16"  doc="杠炮幺鸡转弯豆"  value="22" enabled="1" /> 
+		<type id="17"  doc="翻鸡明豆"        value="1" enabled="1" /> 
+		<type id="18"  doc="翻鸡暗豆"        value="2" enabled="1" /> 
+		<type id="19"  doc="翻鸡转弯豆"      value="3" enabled="1" /> 
+	</DouType>
+	
+	<!-- 其他配置(id值为程序对应值Em_OtherType不能随便更改) -->
+	<Other>
+		<type id="0"   doc="幺鸡自摸"          value="0" enabled="1" /> 
+		<type id="1"   doc="幺鸡点炮"          value="0" enabled="1" /> 
+		<type id="2"   doc="金鸡自摸"          value="0" enabled="1" /> 
+		<type id="3"   doc="金鸡点炮"          value="0" enabled="1" /> 
+	</Other>
+	
+	<!-- 常规配置 -->
+	<Rule>
+		<type id="0"   doc="是否开启托管"              enabled="1"  value="0" /> 
+		<type id="1"   doc="是否开启特殊胡牌动画"      enabled="1" value="15" /> <!-- 开启后会延迟抓鸡 value延迟时间单位秒 -->
+	</Rule>
+	
+	<!-- 配牌 -->
+	<!-- 条：11-19  同：21-29  万：1-9 -->
+	<CfgCard>
+		<type enabled="1" /> <!--是否启用 0为不启用-->
+		<type userID="1125"   doc="玩家ID"   enabledItm="1" hand="1;1;1;1;2;2;2;2;3;3;3;4;4" draw="14" /> 
+		<type userID="1126"   doc="玩家ID"   enabledItm="1" hand="11;11;11;14;12;12;12;12;13;13;13;14;14" draw="24;11" /> 
+		<type userID="1127"   doc="玩家ID"   enabledItm="1" hand="21;21;21;21;22;22;22;22;23;23;23;24;24" draw="18" /> 
+		<type userID="1123"   doc="玩家ID"   enabledItm="0" hand="6;6;6;6;7;7;7;8;8;8;9;9;5" draw="2" /> 
+		<type userID="1124"   doc="玩家ID"   enabledItm="1" hand="15;15;15;15;16;16;16;16;17;17;17;17;18" draw="23" /> 
+	</CfgCard>
+</Config><?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Config>
+	<!-- 游戏行为定义 (id值为程序对应值Em_ActionRuleType不能随便更改) -->
+	<!-- enabled 是否有效 1启用,0为不启用 -->
+	<Action>
+		<type id = "0"  doc="胡"         enabled="1" /> 
+		<type id = "1"  doc="听"         enabled="0" /> <!-- 该项会开启 听牌功能 -->
+		<type id = "2"  doc="碰"         enabled="1" /> 
+		<type id = "3"  doc="杠"         enabled="1" /> 
+		<type id = "4"  doc="叫嘴"       enabled="1" /> 
+	</Action>
+	
+	<!-- 各个牌型番数的配置(id值为程序对应值Em_PaiType不能随便更改) -->
+	<!-- value - 此牌型的基础番(如果为0表示不计算此类型番数) ziMoAdd - 自摸此牌型额外加多少番(默认为0)  ziMoMultiple 自摸此牌型番数按几倍结算(默认为1) -->
+	<!-- 计算规则 (基础番 + 额外番)*倍数-->
+	<PaiFan>
+		<type id = "0"  doc="平  胡"             value="1"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 平胡可以自摸胡牌，或在有"豆"情况下允许点胡。-->
+		<type id = "1"  doc="大对子"             value="5"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 即对对胡，成牌时有4个三张相同的和1个对(碰碰胡)。-->
+		<type id = "2"  doc="小七对"             value="5"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 七对,成牌时由7个对子组成。-->
+		<type id = "3"  doc="龙七对"             value="10" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由5个对子和4个相同的牌组成。-->
+		<type id = "4"  doc="青大对"             value="15" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由4个三张相同的和1个对，且所有牌都由条、筒、万中的一种组成。(青一色+碰碰胡)。-->
+		<type id = "5"  doc="青龙对"             value="20" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由5个对子和4个相同的牌组成，且所有牌都由条、筒、万中的一种组成。(青一色+龙七对)。-->
+		<type id = "6"  doc="清七对"             value="15" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时由7个对子组成，且所有牌都由条、筒、万中的一种组成。(清一色+小七对)。-->
+		<type id = "7"  doc="清一色"             value="10" ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 成牌时所有牌都由条、筒、万中的一种组成。-->
+		<type id = "8"  doc="天  胡"             value="100"  ziMoAdd="0" ziMoMultiple="1"  enabled="1" /> <!-- 硬报(庄家天胡):庄家摸第一张牌就胡牌, 结算时每家多收取额外番数 -->
+		<type id = "9"  doc="天  听"             value="10"  ziMoAdd="0" ziMoMultiple="1"   enabled="0" /> <!-- 软报(庄):发完牌，就听牌。此玩家可以选择报听，报听后牌被冻结，不能再换手中的牌了。听牌者可以胡报听者的牌，报听者胡牌为胡牌类型加10倍底分 -->
+		<type id = "10" doc="地  胡"             value="20"  ziMoAdd="0" ziMoMultiple="1"   enabled="1" /> <!-- 硬报(闲家地胡)：闲家摸第一张牌就胡牌, 结算时每家多收取额外番数 -->
+		<type id = "11" doc="地  听"             value="10"  ziMoAdd="0" ziMoMultiple="1"   enabled="0" /> <!-- 软报(闲):闲家摸第一张后听牌。此时玩家可以选择报听，报听后牌被冻结，不能再换手中的牌了。听牌者可以胡报听者点炮的牌，报听者胡牌点炮都是胡牌类型加10倍底分。-->
+		<type id = "12" doc="天  杀"             value="0"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杀  报(胡牌基础上+此番数)天听或者地听的人放炮，需要在胡牌手中牌型的基础上加X倍底分-->
+		<type id = "13" doc="地  杀"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上胡(胡牌基础上+此番数)-->
+		<type id = "14" doc="杠上胡"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上胡(胡牌基础上+此番数)-->
+		<type id = "15" doc="杠上炮"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 杠上炮(胡牌基础上+此番数)-->
+		<type id = "16" doc="抢杠胡"             value="3"  ziMoAdd="0" ziMoMultiple="1"    enabled="1" /> <!-- 抢杠胡(胡牌基础上+此番数)-->
+		
+	</PaiFan>
+
+	<!-- 鸡牌番数的配置(id值为程序对应值Em_JiType不能随便更改) -->
+	<JiType>
+		<type id="0"   doc="翻牌鸡"                 value="2" enabled="1" /> <!-- 玩家手中每有1张鸡牌(非幺鸡)获得的番数 -->
+		<type id="1"   doc="幺鸡手牌"               value="2" enabled="1" /> <!-- 玩家手上每有一个幺鸡的番数 -->
+		<type id="2"   doc="幺鸡出牌"               value="1" enabled="1" /> <!-- 除了冲峰鸡每有一个打出来的幺鸡番数 -->
+		<type id="3"   doc="幺鸡拦牌(碰)"           value="1" enabled="1" /> <!-- 玩家碰中每有一个幺鸡番数 -->
+		<type id="4"   doc="金鸡手牌"               value="4" enabled="1" /> <!-- 玩家手上每有一个金鸡的番数 -->
+		<type id="5"   doc="金鸡拦牌(碰)"           value="2" enabled="1" /> <!-- 玩家碰中每有一个金鸡的番数 -->
+		<type id="6"   doc="金鸡出牌"               value="4" enabled="1" /> <!-- 玩家出牌数据中每有一个金鸡的番数 -->
+		<type id="7"   doc="冲锋鸡"                 value="2" enabled="1" /> <!-- 冲锋鸡 -->
+		<type id="8"   doc="责任鸡"                 value="0" enabled="1" /> <!-- 责任鸡 -->
+		<type id="9"  doc="幺鸡拦牌(杠)"            value="2" enabled="1" /> <!-- 玩家杠中每有一个幺鸡番数 -->
+		<type id="10"  doc="金鸡拦牌(杠)"           value="4" enabled="1" /> <!-- 玩家杠中每有一个金鸡番数 -->
+		<type id="11"  doc="幺鸡出牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家打出去每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="12"  doc="幺鸡碰牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家碰牌中每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="13"  doc="幺鸡杠牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家杠牌中每有一个幺鸡 赔付给叫嘴玩家的番数 -->
+		<type id="14"  doc="金鸡出牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家打出去每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="15"  doc="金鸡碰牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家碰牌中每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="16"  doc="金鸡杠牌(赔付)"         value="0" enabled="1" /> <!-- 未叫嘴玩家杠牌中每有一个金鸡 赔付给叫嘴玩家的番数 -->
+		<type id="17"  doc="冲锋鸡(赔付)"           value="0" enabled="1" /> <!-- 未叫嘴玩家打出冲锋鸡 赔付给叫嘴玩家的番数(如果变责任鸡了 不赔付) -->
+		<type id="18"  doc="责任鸡(赔付)"           value="0" enabled="1" /> <!-- 未叫嘴玩家有责任鸡 赔付给叫嘴玩家的番数 -->
+	</JiType>
+	
+	<!-- 杠/豆的番数(id值为程序对应值Em_DouType不能随便更改) -->
+	<DouType>
+		<type id="0"   doc="明  豆"          value="1" enabled="1" /> 
+		<type id="1"   doc="暗  豆"          value="2" enabled="1" /> 
+		<type id="2"   doc="转弯豆"          value="3" enabled="1" /> 
+		<type id="3"   doc="幺鸡明豆"        value="4" enabled="1" /> 
+		<type id="4"   doc="幺鸡暗豆"        value="10" enabled="1" /> 
+		<type id="5"   doc="幺鸡弯豆"        value="7" enabled="1" />
+		<type id="6"   doc="金鸡明豆"        value="4" enabled="1" /> 
+		<type id="7"   doc="金鸡暗豆"        value="8" enabled="1" /> 
+		<type id="8"   doc="金鸡弯豆"        value="4" enabled="1" /> 
+		<type id="9"  doc="抢转弯豆"        value="10" enabled="1" /> 
+		<type id="10"  doc="抢幺鸡转弯豆"    value="22" enabled="1" /> 
+		<type id="11"  doc="杠炮明豆"        value="2" enabled="1" /> 
+		<type id="12"  doc="杠炮暗豆"        value="7" enabled="1" /> 
+		<type id="13"  doc="杠炮转弯豆"      value="10" enabled="1" /> 
+		<type id="14"  doc="杠炮幺鸡明豆"    value="13" enabled="1" /> 
+		<type id="15"  doc="杠炮幺鸡暗豆"    value="31" enabled="1" /> 
+		<type id="16"  doc="杠炮幺鸡转弯豆"  value="22" enabled="1" /> 
+		<type id="17"  doc="翻鸡明豆"        value="1" enabled="1" /> 
+		<type id="18"  doc="翻鸡暗豆"        value="2" enabled="1" /> 
+		<type id="19"  doc="翻鸡转弯豆"      value="3" enabled="1" /> 
+	</DouType>
+	
+	<!-- 其他配置(id值为程序对应值Em_OtherType不能随便更改) -->
+	<Other>
+		<type id="0"   doc="幺鸡自摸"          value="0" enabled="1" /> 
+		<type id="1"   doc="幺鸡点炮"          value="0" enabled="1" /> 
+		<type id="2"   doc="金鸡自摸"          value="0" enabled="1" /> 
+		<type id="3"   doc="金鸡点炮"          value="0" enabled="1" /> 
+	</Other>
+	
+	<!-- 常规配置 -->
+	<Rule>
+		<type id="0"   doc="是否开启托管"              enabled="1"  value="0" /> 
+		<type id="1"   doc="是否开启特殊胡牌动画"      enabled="0" value="15" /> <!-- 开启后会延迟抓鸡 value延迟时间单位秒 -->
+	</Rule>
+	
+	<!-- 配牌 -->
+	<!-- 条：11-19  同：21-29  万：1-9 -->
+	<CfgCard>
+		<type enabled="1" /> <!--是否启用 0为不启用-->
+		<type userID="1125"   doc="玩家ID"   enabledItm="1" hand="1;1;1;1;2;2;2;2;3;3;3;4;4" draw="14" /> 
+		<type userID="1126"   doc="玩家ID"   enabledItm="1" hand="11;11;11;14;12;12;12;12;13;13;13;14;14" draw="24;11" /> 
+		<type userID="1127"   doc="玩家ID"   enabledItm="1" hand="21;21;21;21;22;22;22;22;23;23;23;24;24" draw="18" /> 
+		<type userID="1123"   doc="玩家ID"   enabledItm="0" hand="6;6;6;6;7;7;7;8;8;8;9;9;5" draw="2" /> 
+		<type userID="1124"   doc="玩家ID"   enabledItm="1" hand="15;15;15;15;16;16;16;16;17;17;17;17;18" draw="23" /> 
+	</CfgCard>
+</Config>

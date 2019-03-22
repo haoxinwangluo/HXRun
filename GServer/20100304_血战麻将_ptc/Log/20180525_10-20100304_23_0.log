@@ -1,0 +1,1005 @@
+ 2018-05-25 10:04:05 CServerGameDesk::GameBegin 427: Game Start (0/0)
+ 2018-05-25 10:04:05 CServerGameDesk::GameBegin 433: Player Phone20720(Phone20720) at position 0/0
+ 2018-05-25 10:04:05 CServerGameDesk::GameBegin 433: Player Phone20721(Phone20721) at position 1/1
+ 2018-05-25 10:04:05 CServerGameDesk::GameBegin 433: Player Phone20405(Phone20405) at position 2/2
+ 2018-05-25 10:04:05 CServerGameDesk::GameBegin 433: Player Phone21317(Phone21317) at position 3/3
+ 2018-05-25 10:04:05 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 0 to 1
+ 2018-05-25 10:04:05 CServerGameDesk::OnProcedureChanged 202: procedure change from 0 to 1
+ 2018-05-25 10:04:05 MsgDelegateGameBegin::SendGameBegin 54: game begin
+ 2018-05-25 10:04:06 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 1 to 2
+ 2018-05-25 10:04:06 CServerGameDesk::OnProcedureChanged 202: procedure change from 1 to 2
+ 2018-05-25 10:04:06 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2018-05-25 10:04:06 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 2 to 101
+ 2018-05-25 10:04:06 MsgDelegateHuanZhang::SendQuestionToPlayer 150: question huan zhang
+ 2018-05-25 10:04:06 MsgDelegateHuanZhang::SendQuestionToPlayer 150: question huan zhang
+ 2018-05-25 10:04:06 MsgDelegateHuanZhang::SendQuestionToPlayer 150: question huan zhang
+ 2018-05-25 10:04:06 MsgDelegateHuanZhang::SendQuestionToPlayer 150: question huan zhang
+ 2018-05-25 10:04:06 CServerGameDesk::OnProcedureChanged 202: procedure change from 2 to 101
+ 2018-05-25 10:04:36 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 101 to 100
+ 2018-05-25 10:04:36 MsgDelegateDingQue::OnSend 109: question ding que
+ 2018-05-25 10:04:36 MsgDelegateDingQue::OnSend 109: question ding que
+ 2018-05-25 10:04:36 MsgDelegateDingQue::OnSend 109: question ding que
+ 2018-05-25 10:04:36 MsgDelegateDingQue::OnSend 109: question ding que
+ 2018-05-25 10:04:36 CServerGameDesk::OnProcedureChanged 202: procedure change from 101 to 100
+ 2018-05-25 10:04:46 MsgDelegateFirstRound::SendFirstRound 42: first run
+ 2018-05-25 10:04:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 100 to 4
+ 2018-05-25 10:04:46 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,13,14,15,18,24,26,26,26 and interceptionList  latest draw card 11
+ 2018-05-25 10:04:46 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:04:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 100 to 4
+ 2018-05-25 10:04:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:04:46 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :24,26,26,26 !
+ 2018-05-25 10:04:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:04:52 MsgDelegateWaitDiscard::OnResponse 206: player 1 tried to discard(valid:1, expected player:1)
+ 2018-05-25 10:04:52 MsgDelegateWaitDiscard::OnResponse 218: the card is 24
+ 2018-05-25 10:04:52 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 24(idx 10)
+ 2018-05-25 10:04:52 MsgDelegateDiscardResult::OnSend 49: player 1 discard 24 0
+ 2018-05-25 10:04:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:04:52 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 24 from Player 1
+ 2018-05-25 10:04:52 ProcedureInterceptCardImpl::OnStart 349: Player 0 have actions type:2 from:1 card:24 cards:24,24,24
+ with hand 5,7,9,17,21,21,23,24,24,25,28,28,29 interceptions  card 24
+ 2018-05-25 10:04:52 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:04:52 MsgDelegateInterception::OnSend 109: intercepted card : 24
+ 2018-05-25 10:04:52 MsgDelegateInterception::OnSend 110: player 0 have actions type:2 from:1 card:24 cards:24,24,24
+
+ 2018-05-25 10:04:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:05:08 MsgDelegateInterception::Ignore 281: player 0 ignore 
+ 2018-05-25 10:05:08 MsgDelegateInterceptionResult::OnSend 28: player 0 do with type 0
+ 2018-05-25 10:05:08 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:05:08 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:05:08 MsgDelegateDrawCard::OnSend 61: 0 draw card 24
+ 2018-05-25 10:05:08 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:05:08 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:05:08 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,17,21,21,23,24,24,25,28,28,29,24 and interceptionList  latest draw card 24
+ 2018-05-25 10:05:08 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:05:08 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:05:08 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:05:08 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :17 !
+ 2018-05-25 10:05:08 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:05:09 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 17(idx 3)
+ 2018-05-25 10:05:09 MsgDelegateDiscardResult::OnSend 49: player 0 discard 17 0
+ 2018-05-25 10:05:09 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:05:09 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 17 from Player 0
+ 2018-05-25 10:05:09 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:05:09 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:05:09 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:05:09 MsgDelegateDrawCard::OnSend 61: 3 draw card 6
+ 2018-05-25 10:05:09 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:05:09 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:05:09 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,7,8,8,8,9,17,22,22,26,28,6 and interceptionList  latest draw card 6
+ 2018-05-25 10:05:09 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:05:09 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:05:09 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:05:09 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :17 !
+ 2018-05-25 10:05:09 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:05:29 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 17(idx 8)
+ 2018-05-25 10:05:29 MsgDelegateDiscardResult::OnSend 49: player 3 discard 17 0
+ 2018-05-25 10:05:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:05:29 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 17 from Player 3
+ 2018-05-25 10:05:29 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:05:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:05:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:05:29 MsgDelegateDrawCard::OnSend 61: 2 draw card 27
+ 2018-05-25 10:05:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:05:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:05:29 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,6,9,11,12,16,17,18,25,27,29,27 and interceptionList  latest draw card 27
+ 2018-05-25 10:05:29 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:05:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:05:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:05:30 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :25,27,29,27 !
+ 2018-05-25 10:05:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:05:49 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 27(idx 11)
+ 2018-05-25 10:05:50 MsgDelegateDiscardResult::OnSend 49: player 2 discard 27 0
+ 2018-05-25 10:05:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:05:50 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 27 from Player 2
+ 2018-05-25 10:05:50 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:05:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:05:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:05:50 MsgDelegateDrawCard::OnSend 61: 1 draw card 23
+ 2018-05-25 10:05:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:05:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:05:50 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,13,14,15,18,26,26,26,23 and interceptionList  latest draw card 23
+ 2018-05-25 10:05:50 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:05:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:05:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:05:50 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :26,26,26,23 !
+ 2018-05-25 10:05:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:06:10 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 23(idx 13)
+ 2018-05-25 10:06:10 MsgDelegateDiscardResult::OnSend 49: player 1 discard 23 0
+ 2018-05-25 10:06:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:06:10 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 23 from Player 1
+ 2018-05-25 10:06:10 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:06:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:06:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:06:10 MsgDelegateDrawCard::OnSend 61: 0 draw card 18
+ 2018-05-25 10:06:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:06:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:06:10 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,18 and interceptionList  latest draw card 18
+ 2018-05-25 10:06:10 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:06:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:06:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:06:10 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :18 !
+ 2018-05-25 10:06:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:06:30 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 18(idx 13)
+ 2018-05-25 10:06:30 MsgDelegateDiscardResult::OnSend 49: player 0 discard 18 0
+ 2018-05-25 10:06:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:06:30 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 18 from Player 0
+ 2018-05-25 10:06:30 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:06:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:06:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:06:30 MsgDelegateDrawCard::OnSend 61: 3 draw card 3
+ 2018-05-25 10:06:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:06:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:06:30 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,3 and interceptionList  latest draw card 3
+ 2018-05-25 10:06:30 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:06:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:06:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:06:30 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,3 !
+ 2018-05-25 10:06:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:06:50 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 3(idx 2)
+ 2018-05-25 10:06:50 MsgDelegateDiscardResult::OnSend 49: player 3 discard 3 0
+ 2018-05-25 10:06:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:06:50 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 3 from Player 3
+ 2018-05-25 10:06:50 ProcedureInterceptCardImpl::OnStart 349: Player 2 have actions type:2 from:3 card:3 cards:3,3,3
+ with hand 3,3,4,6,9,11,12,16,17,18,25,27,29 interceptions  card 3
+ 2018-05-25 10:06:50 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:06:50 MsgDelegateInterception::OnSend 109: intercepted card : 3
+ 2018-05-25 10:06:50 MsgDelegateInterception::OnSend 110: player 2 have actions type:2 from:3 card:3 cards:3,3,3
+
+ 2018-05-25 10:06:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:07:10 MsgDelegateInterception::Ignore 281: player 2 ignore 
+ 2018-05-25 10:07:10 MsgDelegateInterceptionResult::OnSend 28: player 2 do with type 0
+ 2018-05-25 10:07:10 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:07:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:07:10 MsgDelegateDrawCard::OnSend 61: 2 draw card 15
+ 2018-05-25 10:07:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:07:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:07:10 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,6,9,11,12,16,17,18,25,27,29,15 and interceptionList  latest draw card 15
+ 2018-05-25 10:07:10 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:07:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:07:10 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:07:10 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :25,27,29 !
+ 2018-05-25 10:07:10 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:07:30 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 29(idx 12)
+ 2018-05-25 10:07:30 MsgDelegateDiscardResult::OnSend 49: player 2 discard 29 0
+ 2018-05-25 10:07:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:07:30 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 29 from Player 2
+ 2018-05-25 10:07:30 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:07:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:07:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:07:31 MsgDelegateDrawCard::OnSend 61: 1 draw card 29
+ 2018-05-25 10:07:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:07:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:07:31 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,13,14,15,18,26,26,26,29 and interceptionList  latest draw card 29
+ 2018-05-25 10:07:31 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:07:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:07:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:07:31 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :26,26,26,29 !
+ 2018-05-25 10:07:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:07:51 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 29(idx 13)
+ 2018-05-25 10:07:51 MsgDelegateDiscardResult::OnSend 49: player 1 discard 29 0
+ 2018-05-25 10:07:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:07:51 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 29 from Player 1
+ 2018-05-25 10:07:51 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:07:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:07:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:07:51 MsgDelegateDrawCard::OnSend 61: 0 draw card 2
+ 2018-05-25 10:07:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:07:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:07:51 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,2 and interceptionList  latest draw card 2
+ 2018-05-25 10:07:51 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:07:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:07:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:07:51 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,2 !
+ 2018-05-25 10:07:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:08:11 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 2(idx 13)
+ 2018-05-25 10:08:11 MsgDelegateDiscardResult::OnSend 49: player 0 discard 2 0
+ 2018-05-25 10:08:11 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:08:11 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 2 from Player 0
+ 2018-05-25 10:08:11 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:08:11 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:08:11 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:08:11 MsgDelegateDrawCard::OnSend 61: 3 draw card 18
+ 2018-05-25 10:08:11 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:08:11 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:08:11 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,18 and interceptionList  latest draw card 18
+ 2018-05-25 10:08:11 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:08:11 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:08:11 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:08:11 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :18 !
+ 2018-05-25 10:08:11 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:08:31 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 18(idx 13)
+ 2018-05-25 10:08:31 MsgDelegateDiscardResult::OnSend 49: player 3 discard 18 0
+ 2018-05-25 10:08:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:08:31 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 18 from Player 3
+ 2018-05-25 10:08:31 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:08:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:08:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:08:31 MsgDelegateDrawCard::OnSend 61: 2 draw card 27
+ 2018-05-25 10:08:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:08:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:08:31 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,6,9,11,12,15,16,17,18,25,27,27 and interceptionList  latest draw card 27
+ 2018-05-25 10:08:31 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:08:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:08:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:08:31 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :25,27,27 !
+ 2018-05-25 10:08:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:08:51 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 27(idx 12)
+ 2018-05-25 10:08:51 MsgDelegateDiscardResult::OnSend 49: player 2 discard 27 0
+ 2018-05-25 10:08:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:08:51 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 27 from Player 2
+ 2018-05-25 10:08:51 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:08:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:08:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:08:51 MsgDelegateDrawCard::OnSend 61: 1 draw card 12
+ 2018-05-25 10:08:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:08:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:08:51 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,13,14,15,18,26,26,26,12 and interceptionList  latest draw card 12
+ 2018-05-25 10:08:51 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:08:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:08:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:08:52 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :26,26,26 !
+ 2018-05-25 10:08:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:09:11 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 26(idx 10)
+ 2018-05-25 10:09:11 MsgDelegateDiscardResult::OnSend 49: player 1 discard 26 0
+ 2018-05-25 10:09:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:09:12 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 26 from Player 1
+ 2018-05-25 10:09:12 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:09:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:09:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:09:12 MsgDelegateDrawCard::OnSend 61: 0 draw card 19
+ 2018-05-25 10:09:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:09:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:09:12 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,19 and interceptionList  latest draw card 19
+ 2018-05-25 10:09:12 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:09:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:09:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:09:12 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :19 !
+ 2018-05-25 10:09:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:09:32 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 19(idx 13)
+ 2018-05-25 10:09:32 MsgDelegateDiscardResult::OnSend 49: player 0 discard 19 0
+ 2018-05-25 10:09:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:09:32 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 19 from Player 0
+ 2018-05-25 10:09:32 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:09:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:09:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:09:32 MsgDelegateDrawCard::OnSend 61: 3 draw card 22
+ 2018-05-25 10:09:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:09:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:09:32 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,22 and interceptionList  latest draw card 22
+ 2018-05-25 10:09:32 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:09:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:09:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:09:32 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,22 !
+ 2018-05-25 10:09:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:09:52 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 22(idx 9)
+ 2018-05-25 10:09:52 MsgDelegateDiscardResult::OnSend 49: player 3 discard 22 0
+ 2018-05-25 10:09:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:09:52 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 22 from Player 3
+ 2018-05-25 10:09:52 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:09:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:09:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:09:52 MsgDelegateDrawCard::OnSend 61: 2 draw card 8
+ 2018-05-25 10:09:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:09:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:09:52 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,6,9,11,12,15,16,17,18,25,27,8 and interceptionList  latest draw card 8
+ 2018-05-25 10:09:52 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:09:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:09:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:09:52 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :25,27 !
+ 2018-05-25 10:09:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:10:12 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 27(idx 12)
+ 2018-05-25 10:10:12 MsgDelegateDiscardResult::OnSend 49: player 2 discard 27 0
+ 2018-05-25 10:10:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:10:12 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 27 from Player 2
+ 2018-05-25 10:10:12 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:10:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:10:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:10:12 MsgDelegateDrawCard::OnSend 61: 1 draw card 13
+ 2018-05-25 10:10:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:10:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:10:12 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,14,15,18,26,26,13 and interceptionList  latest draw card 13
+ 2018-05-25 10:10:12 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:10:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:10:12 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:10:12 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :26,26 !
+ 2018-05-25 10:10:12 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:10:32 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 26(idx 11)
+ 2018-05-25 10:10:32 MsgDelegateDiscardResult::OnSend 49: player 1 discard 26 0
+ 2018-05-25 10:10:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:10:32 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 26 from Player 1
+ 2018-05-25 10:10:32 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:10:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:10:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:10:33 MsgDelegateDrawCard::OnSend 61: 0 draw card 19
+ 2018-05-25 10:10:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:10:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:10:33 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,19 and interceptionList  latest draw card 19
+ 2018-05-25 10:10:33 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:10:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:10:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:10:33 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :19 !
+ 2018-05-25 10:10:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:10:53 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 19(idx 13)
+ 2018-05-25 10:10:53 MsgDelegateDiscardResult::OnSend 49: player 0 discard 19 0
+ 2018-05-25 10:10:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:10:53 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 19 from Player 0
+ 2018-05-25 10:10:53 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:10:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:10:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:10:53 MsgDelegateDrawCard::OnSend 61: 3 draw card 14
+ 2018-05-25 10:10:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:10:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:10:53 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,14 and interceptionList  latest draw card 14
+ 2018-05-25 10:10:53 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:10:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:10:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:10:53 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :14 !
+ 2018-05-25 10:10:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:11:13 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 14(idx 13)
+ 2018-05-25 10:11:13 MsgDelegateDiscardResult::OnSend 49: player 3 discard 14 0
+ 2018-05-25 10:11:13 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:11:13 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 14 from Player 3
+ 2018-05-25 10:11:13 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:11:13 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:11:13 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:11:13 MsgDelegateDrawCard::OnSend 61: 2 draw card 5
+ 2018-05-25 10:11:13 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:11:13 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:11:13 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,6,8,9,11,12,15,16,17,18,25,5 and interceptionList  latest draw card 5
+ 2018-05-25 10:11:13 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:11:13 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:11:13 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:11:13 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :25 !
+ 2018-05-25 10:11:13 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:11:33 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 25(idx 12)
+ 2018-05-25 10:11:33 MsgDelegateDiscardResult::OnSend 49: player 2 discard 25 0
+ 2018-05-25 10:11:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:11:33 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 25 from Player 2
+ 2018-05-25 10:11:33 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:11:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:11:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:11:33 MsgDelegateDrawCard::OnSend 61: 1 draw card 14
+ 2018-05-25 10:11:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:11:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:11:33 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,15,18,26,14 and interceptionList  latest draw card 14
+ 2018-05-25 10:11:33 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:11:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:11:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:11:33 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :26 !
+ 2018-05-25 10:11:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:11:53 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 26(idx 12)
+ 2018-05-25 10:11:53 MsgDelegateDiscardResult::OnSend 49: player 1 discard 26 0
+ 2018-05-25 10:11:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:11:53 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 26 from Player 1
+ 2018-05-25 10:11:53 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:11:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:11:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:11:53 MsgDelegateDrawCard::OnSend 61: 0 draw card 19
+ 2018-05-25 10:11:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:11:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:11:54 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,19 and interceptionList  latest draw card 19
+ 2018-05-25 10:11:54 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:11:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:11:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:11:54 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :19 !
+ 2018-05-25 10:11:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:14 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 19(idx 13)
+ 2018-05-25 10:12:14 MsgDelegateDiscardResult::OnSend 49: player 0 discard 19 0
+ 2018-05-25 10:12:15 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:15 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 19 from Player 0
+ 2018-05-25 10:12:15 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:15 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:15 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:15 MsgDelegateDrawCard::OnSend 61: 3 draw card 25
+ 2018-05-25 10:12:15 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:15 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:15 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,25 and interceptionList  latest draw card 25
+ 2018-05-25 10:12:15 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:15 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:15 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:15 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,25 !
+ 2018-05-25 10:12:15 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:18 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 25(idx 13)
+ 2018-05-25 10:12:18 MsgDelegateDiscardResult::OnSend 49: player 3 discard 25 0
+ 2018-05-25 10:12:18 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:18 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 25 from Player 3
+ 2018-05-25 10:12:18 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:18 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:18 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:18 MsgDelegateDrawCard::OnSend 61: 2 draw card 21
+ 2018-05-25 10:12:18 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:18 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:18 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,21 and interceptionList  latest draw card 21
+ 2018-05-25 10:12:18 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:18 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:18 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:18 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :21 !
+ 2018-05-25 10:12:18 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:20 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 21(idx 13)
+ 2018-05-25 10:12:20 MsgDelegateDiscardResult::OnSend 49: player 2 discard 21 0
+ 2018-05-25 10:12:20 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:20 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 21 from Player 2
+ 2018-05-25 10:12:20 ProcedureInterceptCardImpl::OnStart 349: Player 0 have actions type:2 from:2 card:21 cards:21,21,21
+ with hand 5,7,9,21,21,23,24,24,24,25,28,28,29 interceptions  card 21
+ 2018-05-25 10:12:20 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:12:20 MsgDelegateInterception::OnSend 109: intercepted card : 21
+ 2018-05-25 10:12:20 MsgDelegateInterception::OnSend 110: player 0 have actions type:2 from:2 card:21 cards:21,21,21
+
+ 2018-05-25 10:12:20 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:21 MsgDelegateInterception::Ignore 281: player 0 ignore 
+ 2018-05-25 10:12:21 MsgDelegateInterceptionResult::OnSend 28: player 0 do with type 0
+ 2018-05-25 10:12:21 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:21 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:21 MsgDelegateDrawCard::OnSend 61: 1 draw card 23
+ 2018-05-25 10:12:21 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:21 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:21 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,23 and interceptionList  latest draw card 23
+ 2018-05-25 10:12:21 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:21 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:21 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:21 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :23 !
+ 2018-05-25 10:12:21 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:22 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 23(idx 13)
+ 2018-05-25 10:12:22 MsgDelegateDiscardResult::OnSend 49: player 1 discard 23 0
+ 2018-05-25 10:12:22 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:22 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 23 from Player 1
+ 2018-05-25 10:12:22 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:22 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:22 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:22 MsgDelegateDrawCard::OnSend 61: 0 draw card 11
+ 2018-05-25 10:12:22 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:22 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:22 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,11 and interceptionList  latest draw card 11
+ 2018-05-25 10:12:22 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:22 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:22 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:22 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :11 !
+ 2018-05-25 10:12:22 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:23 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 11(idx 13)
+ 2018-05-25 10:12:23 MsgDelegateDiscardResult::OnSend 49: player 0 discard 11 0
+ 2018-05-25 10:12:23 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:23 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 11 from Player 0
+ 2018-05-25 10:12:23 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:23 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:23 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:23 MsgDelegateDrawCard::OnSend 61: 3 draw card 22
+ 2018-05-25 10:12:23 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:23 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:23 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,22 and interceptionList  latest draw card 22
+ 2018-05-25 10:12:23 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:23 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:23 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:23 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,22 !
+ 2018-05-25 10:12:23 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:24 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 22(idx 9)
+ 2018-05-25 10:12:24 MsgDelegateDiscardResult::OnSend 49: player 3 discard 22 0
+ 2018-05-25 10:12:24 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:24 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 22 from Player 3
+ 2018-05-25 10:12:24 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:24 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:25 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:25 MsgDelegateDrawCard::OnSend 61: 2 draw card 4
+ 2018-05-25 10:12:25 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:25 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:25 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,4 and interceptionList  latest draw card 4
+ 2018-05-25 10:12:25 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:25 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:25 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:25 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,4 !
+ 2018-05-25 10:12:25 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:26 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 4(idx 2)
+ 2018-05-25 10:12:26 MsgDelegateDiscardResult::OnSend 49: player 2 discard 4 0
+ 2018-05-25 10:12:26 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:26 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 4 from Player 2
+ 2018-05-25 10:12:26 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:26 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:26 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:26 MsgDelegateDrawCard::OnSend 61: 1 draw card 16
+ 2018-05-25 10:12:26 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:26 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:26 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,16 and interceptionList  latest draw card 16
+ 2018-05-25 10:12:26 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:26 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:26 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:26 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,16 !
+ 2018-05-25 10:12:26 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:27 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 16(idx 13)
+ 2018-05-25 10:12:27 MsgDelegateDiscardResult::OnSend 49: player 1 discard 16 0
+ 2018-05-25 10:12:27 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:27 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 16 from Player 1
+ 2018-05-25 10:12:27 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:27 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:27 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:27 MsgDelegateDrawCard::OnSend 61: 0 draw card 16
+ 2018-05-25 10:12:27 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:27 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:27 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,16 and interceptionList  latest draw card 16
+ 2018-05-25 10:12:27 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:27 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:27 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:27 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :16 !
+ 2018-05-25 10:12:27 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:28 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 16(idx 13)
+ 2018-05-25 10:12:28 MsgDelegateDiscardResult::OnSend 49: player 0 discard 16 0
+ 2018-05-25 10:12:28 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:28 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 16 from Player 0
+ 2018-05-25 10:12:28 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:28 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:28 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:28 MsgDelegateDrawCard::OnSend 61: 3 draw card 1
+ 2018-05-25 10:12:28 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:28 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:28 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,1 and interceptionList  latest draw card 1
+ 2018-05-25 10:12:28 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:28 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:28 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:28 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,1 !
+ 2018-05-25 10:12:28 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:29 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 1(idx 0)
+ 2018-05-25 10:12:29 MsgDelegateDiscardResult::OnSend 49: player 3 discard 1 0
+ 2018-05-25 10:12:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:29 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 1 from Player 3
+ 2018-05-25 10:12:29 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:29 MsgDelegateDrawCard::OnSend 61: 2 draw card 2
+ 2018-05-25 10:12:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:29 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:29 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,2 and interceptionList  latest draw card 2
+ 2018-05-25 10:12:29 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:29 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:30 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,2 !
+ 2018-05-25 10:12:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:31 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 2(idx 13)
+ 2018-05-25 10:12:31 MsgDelegateDiscardResult::OnSend 49: player 2 discard 2 0
+ 2018-05-25 10:12:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:31 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 2 from Player 2
+ 2018-05-25 10:12:31 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:31 MsgDelegateDrawCard::OnSend 61: 1 draw card 12
+ 2018-05-25 10:12:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:31 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,12 and interceptionList  latest draw card 12
+ 2018-05-25 10:12:31 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:31 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:31 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,12 !
+ 2018-05-25 10:12:31 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:32 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 12(idx 6)
+ 2018-05-25 10:12:32 MsgDelegateDiscardResult::OnSend 49: player 1 discard 12 0
+ 2018-05-25 10:12:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:32 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 12 from Player 1
+ 2018-05-25 10:12:32 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:32 MsgDelegateDrawCard::OnSend 61: 0 draw card 25
+ 2018-05-25 10:12:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:32 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,25 and interceptionList  latest draw card 25
+ 2018-05-25 10:12:32 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:32 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:32 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,25 !
+ 2018-05-25 10:12:32 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:33 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 25(idx 9)
+ 2018-05-25 10:12:33 MsgDelegateDiscardResult::OnSend 49: player 0 discard 25 0
+ 2018-05-25 10:12:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:33 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 25 from Player 0
+ 2018-05-25 10:12:33 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:33 MsgDelegateDrawCard::OnSend 61: 3 draw card 14
+ 2018-05-25 10:12:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:33 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,14 and interceptionList  latest draw card 14
+ 2018-05-25 10:12:33 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:33 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:33 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :14 !
+ 2018-05-25 10:12:33 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:34 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 14(idx 13)
+ 2018-05-25 10:12:34 MsgDelegateDiscardResult::OnSend 49: player 3 discard 14 0
+ 2018-05-25 10:12:34 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:34 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 14 from Player 3
+ 2018-05-25 10:12:34 ProcedureInterceptCardImpl::OnStart 349: Player 1 have actions type:2 from:3 card:14 cards:14,14,14
+ with hand 4,5,6,7,9,11,12,13,13,14,14,15,18 interceptions  card 14
+ 2018-05-25 10:12:34 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:12:34 MsgDelegateInterception::OnSend 109: intercepted card : 14
+ 2018-05-25 10:12:34 MsgDelegateInterception::OnSend 110: player 1 have actions type:2 from:3 card:14 cards:14,14,14
+
+ 2018-05-25 10:12:34 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:35 MsgDelegateInterception::Ignore 281: player 1 ignore 
+ 2018-05-25 10:12:35 MsgDelegateInterceptionResult::OnSend 28: player 1 do with type 0
+ 2018-05-25 10:12:35 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:35 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:35 MsgDelegateDrawCard::OnSend 61: 2 draw card 21
+ 2018-05-25 10:12:35 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:35 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:35 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,21 and interceptionList  latest draw card 21
+ 2018-05-25 10:12:35 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:35 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:35 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:35 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :21 !
+ 2018-05-25 10:12:35 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:36 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 21(idx 13)
+ 2018-05-25 10:12:36 MsgDelegateDiscardResult::OnSend 49: player 2 discard 21 0
+ 2018-05-25 10:12:37 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:37 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 21 from Player 2
+ 2018-05-25 10:12:37 ProcedureInterceptCardImpl::OnStart 349: Player 0 have actions type:2 from:2 card:21 cards:21,21,21
+ with hand 5,7,9,21,21,23,24,24,24,25,28,28,29 interceptions  card 21
+ 2018-05-25 10:12:37 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:12:37 MsgDelegateInterception::OnSend 109: intercepted card : 21
+ 2018-05-25 10:12:37 MsgDelegateInterception::OnSend 110: player 0 have actions type:2 from:2 card:21 cards:21,21,21
+
+ 2018-05-25 10:12:37 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:38 MsgDelegateInterception::Ignore 281: player 0 ignore 
+ 2018-05-25 10:12:38 MsgDelegateInterceptionResult::OnSend 28: player 0 do with type 0
+ 2018-05-25 10:12:38 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:38 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:38 MsgDelegateDrawCard::OnSend 61: 1 draw card 28
+ 2018-05-25 10:12:38 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:38 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:38 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,28 and interceptionList  latest draw card 28
+ 2018-05-25 10:12:38 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:38 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:38 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:38 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :28 !
+ 2018-05-25 10:12:38 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:39 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 28(idx 13)
+ 2018-05-25 10:12:39 MsgDelegateDiscardResult::OnSend 49: player 1 discard 28 0
+ 2018-05-25 10:12:39 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:39 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 28 from Player 1
+ 2018-05-25 10:12:39 ProcedureInterceptCardImpl::OnStart 349: Player 0 have actions type:2 from:1 card:28 cards:28,28,28
+ with hand 5,7,9,21,21,23,24,24,24,25,28,28,29 interceptions  card 28
+ 2018-05-25 10:12:39 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:12:39 MsgDelegateInterception::OnSend 109: intercepted card : 28
+ 2018-05-25 10:12:39 MsgDelegateInterception::OnSend 110: player 0 have actions type:2 from:1 card:28 cards:28,28,28
+
+ 2018-05-25 10:12:39 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:40 MsgDelegateInterception::Ignore 281: player 0 ignore 
+ 2018-05-25 10:12:40 MsgDelegateInterceptionResult::OnSend 28: player 0 do with type 0
+ 2018-05-25 10:12:40 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:40 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:40 MsgDelegateDrawCard::OnSend 61: 0 draw card 23
+ 2018-05-25 10:12:40 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:40 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:40 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,23 and interceptionList  latest draw card 23
+ 2018-05-25 10:12:40 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:40 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:40 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:40 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,23 !
+ 2018-05-25 10:12:40 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:41 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 23(idx 5)
+ 2018-05-25 10:12:41 MsgDelegateDiscardResult::OnSend 49: player 0 discard 23 0
+ 2018-05-25 10:12:41 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:41 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 23 from Player 0
+ 2018-05-25 10:12:41 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:41 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:41 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:41 MsgDelegateDrawCard::OnSend 61: 3 draw card 27
+ 2018-05-25 10:12:41 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:41 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:41 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,27 and interceptionList  latest draw card 27
+ 2018-05-25 10:12:41 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:41 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:41 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:41 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,27 !
+ 2018-05-25 10:12:41 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:42 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 27(idx 13)
+ 2018-05-25 10:12:42 MsgDelegateDiscardResult::OnSend 49: player 3 discard 27 0
+ 2018-05-25 10:12:42 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:42 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 27 from Player 3
+ 2018-05-25 10:12:42 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:42 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:42 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:42 MsgDelegateDrawCard::OnSend 61: 2 draw card 13
+ 2018-05-25 10:12:42 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:42 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:42 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,13 and interceptionList  latest draw card 13
+ 2018-05-25 10:12:42 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:42 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:42 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:42 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,13 !
+ 2018-05-25 10:12:42 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:43 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 13(idx 13)
+ 2018-05-25 10:12:43 MsgDelegateDiscardResult::OnSend 49: player 2 discard 13 0
+ 2018-05-25 10:12:43 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:43 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 13 from Player 2
+ 2018-05-25 10:12:43 ProcedureInterceptCardImpl::OnStart 349: Player 1 have actions type:2 from:2 card:13 cards:13,13,13
+ with hand 4,5,6,7,9,11,12,13,13,14,14,15,18 interceptions  card 13
+ 2018-05-25 10:12:43 ProcedureInterceptCardImpl::OnStart 355: question sent
+ 2018-05-25 10:12:43 MsgDelegateInterception::OnSend 109: intercepted card : 13
+ 2018-05-25 10:12:43 MsgDelegateInterception::OnSend 110: player 1 have actions type:2 from:2 card:13 cards:13,13,13
+
+ 2018-05-25 10:12:43 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:44 MsgDelegateInterception::Ignore 281: player 1 ignore 
+ 2018-05-25 10:12:44 MsgDelegateInterceptionResult::OnSend 28: player 1 do with type 0
+ 2018-05-25 10:12:44 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:44 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:44 MsgDelegateDrawCard::OnSend 61: 1 draw card 1
+ 2018-05-25 10:12:44 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:45 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:45 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,1 and interceptionList  latest draw card 1
+ 2018-05-25 10:12:45 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:45 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:45 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:45 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,1 !
+ 2018-05-25 10:12:45 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:46 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 1(idx 13)
+ 2018-05-25 10:12:46 MsgDelegateDiscardResult::OnSend 49: player 1 discard 1 0
+ 2018-05-25 10:12:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:46 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 1 from Player 1
+ 2018-05-25 10:12:46 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:46 MsgDelegateDrawCard::OnSend 61: 0 draw card 6
+ 2018-05-25 10:12:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:46 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,6 and interceptionList  latest draw card 6
+ 2018-05-25 10:12:46 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:46 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:46 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,6 !
+ 2018-05-25 10:12:46 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:47 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 6(idx 13)
+ 2018-05-25 10:12:47 MsgDelegateDiscardResult::OnSend 49: player 0 discard 6 0
+ 2018-05-25 10:12:47 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:47 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 6 from Player 0
+ 2018-05-25 10:12:47 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:47 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:47 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:47 MsgDelegateDrawCard::OnSend 61: 3 draw card 5
+ 2018-05-25 10:12:47 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:47 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:47 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,5 and interceptionList  latest draw card 5
+ 2018-05-25 10:12:47 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:47 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:47 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:47 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,5 !
+ 2018-05-25 10:12:47 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:48 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 5(idx 13)
+ 2018-05-25 10:12:48 MsgDelegateDiscardResult::OnSend 49: player 3 discard 5 0
+ 2018-05-25 10:12:48 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:48 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 5 from Player 3
+ 2018-05-25 10:12:48 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:48 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:48 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:48 MsgDelegateDrawCard::OnSend 61: 2 draw card 2
+ 2018-05-25 10:12:48 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:48 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:48 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,2 and interceptionList  latest draw card 2
+ 2018-05-25 10:12:48 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:48 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:48 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:48 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,2 !
+ 2018-05-25 10:12:48 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:49 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 2(idx 13)
+ 2018-05-25 10:12:49 MsgDelegateDiscardResult::OnSend 49: player 2 discard 2 0
+ 2018-05-25 10:12:49 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:49 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 2 from Player 2
+ 2018-05-25 10:12:49 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:49 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:49 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:49 MsgDelegateDrawCard::OnSend 61: 1 draw card 15
+ 2018-05-25 10:12:49 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:49 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:49 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,15 and interceptionList  latest draw card 15
+ 2018-05-25 10:12:49 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:49 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:50 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:50 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,15 !
+ 2018-05-25 10:12:50 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:50 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 15(idx 11)
+ 2018-05-25 10:12:50 MsgDelegateDiscardResult::OnSend 49: player 1 discard 15 0
+ 2018-05-25 10:12:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:51 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 15 from Player 1
+ 2018-05-25 10:12:51 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:51 MsgDelegateDrawCard::OnSend 61: 0 draw card 29
+ 2018-05-25 10:12:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:51 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,29 and interceptionList  latest draw card 29
+ 2018-05-25 10:12:51 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:51 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:51 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,29 !
+ 2018-05-25 10:12:51 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:52 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 29(idx 12)
+ 2018-05-25 10:12:52 MsgDelegateDiscardResult::OnSend 49: player 0 discard 29 0
+ 2018-05-25 10:12:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:52 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 29 from Player 0
+ 2018-05-25 10:12:52 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:52 MsgDelegateDrawCard::OnSend 61: 3 draw card 7
+ 2018-05-25 10:12:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:52 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,7 and interceptionList  latest draw card 7
+ 2018-05-25 10:12:52 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:52 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:52 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :1,2,3,6,7,8,8,8,9,22,22,26,28,7 !
+ 2018-05-25 10:12:52 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:53 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 7(idx 4)
+ 2018-05-25 10:12:53 MsgDelegateDiscardResult::OnSend 49: player 3 discard 7 0
+ 2018-05-25 10:12:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:53 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 7 from Player 3
+ 2018-05-25 10:12:53 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:53 MsgDelegateDrawCard::OnSend 61: 2 draw card 17
+ 2018-05-25 10:12:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:53 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,17 and interceptionList  latest draw card 17
+ 2018-05-25 10:12:53 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:53 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:53 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,17 !
+ 2018-05-25 10:12:53 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:54 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 17(idx 11)
+ 2018-05-25 10:12:54 MsgDelegateDiscardResult::OnSend 49: player 2 discard 17 0
+ 2018-05-25 10:12:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:54 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 17 from Player 2
+ 2018-05-25 10:12:54 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:54 MsgDelegateDrawCard::OnSend 61: 1 draw card 13
+ 2018-05-25 10:12:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:54 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,13 and interceptionList  latest draw card 13
+ 2018-05-25 10:12:54 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:54 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:54 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,13 !
+ 2018-05-25 10:12:54 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:55 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 13(idx 7)
+ 2018-05-25 10:12:55 MsgDelegateDiscardResult::OnSend 49: player 1 discard 13 0
+ 2018-05-25 10:12:55 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:55 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 13 from Player 1
+ 2018-05-25 10:12:55 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:12:55 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:55 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:55 MsgDelegateDrawCard::OnSend 61: 0 draw card 12
+ 2018-05-25 10:12:55 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:55 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:55 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,12 and interceptionList  latest draw card 12
+ 2018-05-25 10:12:55 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:55 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:56 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:56 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :12 !
+ 2018-05-25 10:12:56 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:56 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 12(idx 13)
+ 2018-05-25 10:12:56 MsgDelegateDiscardResult::OnSend 49: player 0 discard 12 0
+ 2018-05-25 10:12:57 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:57 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 12 from Player 0
+ 2018-05-25 10:12:57 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:12:57 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:57 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:57 MsgDelegateDrawCard::OnSend 61: 3 draw card 19
+ 2018-05-25 10:12:57 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:57 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:57 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,19 and interceptionList  latest draw card 19
+ 2018-05-25 10:12:57 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:57 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:57 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:57 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :19 !
+ 2018-05-25 10:12:57 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:58 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 19(idx 13)
+ 2018-05-25 10:12:58 MsgDelegateDiscardResult::OnSend 49: player 3 discard 19 0
+ 2018-05-25 10:12:58 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:58 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 19 from Player 3
+ 2018-05-25 10:12:58 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:12:58 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:58 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:58 MsgDelegateDrawCard::OnSend 61: 2 draw card 16
+ 2018-05-25 10:12:58 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:58 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:58 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,16 and interceptionList  latest draw card 16
+ 2018-05-25 10:12:58 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:58 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:58 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:58 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,16 !
+ 2018-05-25 10:12:58 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:12:59 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 16(idx 10)
+ 2018-05-25 10:12:59 MsgDelegateDiscardResult::OnSend 49: player 2 discard 16 0
+ 2018-05-25 10:12:59 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:12:59 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 16 from Player 2
+ 2018-05-25 10:12:59 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:12:59 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:12:59 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:12:59 MsgDelegateDrawCard::OnSend 61: 1 draw card 1
+ 2018-05-25 10:12:59 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:12:59 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:12:59 ProcedureAfterGetCardImpl::OnStart 132: Player 1 find action with hand 4,5,6,7,9,11,12,13,13,14,14,15,18,1 and interceptionList  latest draw card 1
+ 2018-05-25 10:12:59 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:12:59 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:12:59 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:12:59 MsgDelegateWaitDiscard::OnSend 134: waiting on player 1 to discard, with candidates :4,5,6,7,9,11,12,13,13,14,14,15,18,1 !
+ 2018-05-25 10:12:59 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:13:00 MsgDelegateWaitDiscard::OnDiscardCard 40: player 1 discard card 1(idx 13)
+ 2018-05-25 10:13:00 MsgDelegateDiscardResult::OnSend 49: player 1 discard 1 0
+ 2018-05-25 10:13:00 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:13:00 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 1 from Player 1
+ 2018-05-25 10:13:00 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 1 -> 0
+ 2018-05-25 10:13:00 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:13:00 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:13:00 MsgDelegateDrawCard::OnSend 61: 0 draw card 4
+ 2018-05-25 10:13:00 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:13:00 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:13:00 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 5,7,9,21,21,23,24,24,24,25,28,28,29,4 and interceptionList  latest draw card 4
+ 2018-05-25 10:13:00 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:13:00 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:13:00 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:13:00 MsgDelegateWaitDiscard::OnSend 134: waiting on player 0 to discard, with candidates :5,7,9,21,21,23,24,24,24,25,28,28,29,4 !
+ 2018-05-25 10:13:00 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:13:01 MsgDelegateWaitDiscard::OnDiscardCard 40: player 0 discard card 4(idx 13)
+ 2018-05-25 10:13:01 MsgDelegateDiscardResult::OnSend 49: player 0 discard 4 0
+ 2018-05-25 10:13:01 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:13:01 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 4 from Player 0
+ 2018-05-25 10:13:01 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 0 -> 3
+ 2018-05-25 10:13:01 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:13:01 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:13:01 MsgDelegateDrawCard::OnSend 61: 3 draw card 11
+ 2018-05-25 10:13:01 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:13:02 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:13:02 ProcedureAfterGetCardImpl::OnStart 132: Player 3 find action with hand 1,2,3,6,7,8,8,8,9,22,22,26,28,11 and interceptionList  latest draw card 11
+ 2018-05-25 10:13:02 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:13:02 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:13:02 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:13:02 MsgDelegateWaitDiscard::OnSend 134: waiting on player 3 to discard, with candidates :11 !
+ 2018-05-25 10:13:02 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:13:03 MsgDelegateWaitDiscard::OnDiscardCard 40: player 3 discard card 11(idx 13)
+ 2018-05-25 10:13:03 MsgDelegateDiscardResult::OnSend 49: player 3 discard 11 0
+ 2018-05-25 10:13:03 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:13:03 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 11 from Player 3
+ 2018-05-25 10:13:03 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 3 -> 2
+ 2018-05-25 10:13:03 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:13:03 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:13:03 MsgDelegateDrawCard::OnSend 61: 2 draw card 15
+ 2018-05-25 10:13:03 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:13:03 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 4
+ 2018-05-25 10:13:03 ProcedureAfterGetCardImpl::OnStart 132: Player 2 find action with hand 3,3,4,5,6,8,9,11,12,15,16,17,18,15 and interceptionList  latest draw card 15
+ 2018-05-25 10:13:03 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-05-25 10:13:03 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 4
+ 2018-05-25 10:13:03 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2018-05-25 10:13:03 MsgDelegateWaitDiscard::OnSend 134: waiting on player 2 to discard, with candidates :3,3,4,5,6,8,9,11,12,15,16,17,18,15 !
+ 2018-05-25 10:13:03 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2018-05-25 10:13:04 MsgDelegateWaitDiscard::OnDiscardCard 40: player 2 discard card 15(idx 9)
+ 2018-05-25 10:13:04 MsgDelegateDiscardResult::OnSend 49: player 2 discard 15 0
+ 2018-05-25 10:13:04 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 9 to 6
+ 2018-05-25 10:13:04 ProcedureInterceptCardImpl::OnStart 316: check interceptable card 15 from Player 2
+ 2018-05-25 10:13:04 ProcedureInterceptCardJumpDelegateImpl::JumpWhenNoAction 47:  active player changed 2 -> 1
+ 2018-05-25 10:13:04 CServerGameDesk::OnProcedureChanged 202: procedure change from 9 to 6
+ 2018-05-25 10:13:04 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 6 to 3
+ 2018-05-25 10:13:04 CServerGameDesk::OnProcedureChanged 202: procedure change from 6 to 3
+ 2018-05-25 10:13:04 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 3 to 11
+ 2018-05-25 10:13:04 CServerGameDesk::OnProcedureChanged 202: procedure change from 3 to 11
+ 2018-05-25 10:13:04 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 11 to 0
+ 2018-05-25 10:13:04 CServerGameDesk::OnProcedureChanged 202: procedure change from 11 to 0
+ 2018-05-25 10:13:04 MsgDelegateLiquidation::DelaySendMsg 108: Liquidation
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1022: Do Statistic
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1039: >> zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1097: << zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1039: >> zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1097: << zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1039: >> zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1097: << zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1039: >> zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::DoGameStatistic 1097: << zimo:0 jiepao:0 dianpao:0 totalScore0
+ 2018-05-25 10:13:04 CServerGameDesk::OnProcedureLiquidationFinish 909: all rounds finished , send total score board 
+ 2018-05-25 10:13:04 CServerGameDesk::GameClear 307: clean game
+
+
+
+
+
+ 2018-05-25 10:13:04 CServerGameDesk::GameClear 307: clean game
+
+
+
+
+
+ 2018-05-25 10:13:04 CServerGameDesk::GameReset 321: reset game

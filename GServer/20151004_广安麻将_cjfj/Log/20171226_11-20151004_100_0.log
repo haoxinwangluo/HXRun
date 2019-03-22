@@ -1,0 +1,277 @@
+ 2017-12-26 11:04:53:344 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:04:53:344 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 0/0
+ 2017-12-26 11:04:53:344 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-26 11:04:53:344 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 2/2
+ 2017-12-26 11:04:53:344 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 3/3
+ 2017-12-26 11:04:53:347 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:04:53:347 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:04:53:348 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:04:55:845 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:04:55:854 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:04:55:855 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:04:55:908 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:04:55:908 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:04:55:908 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:04:55:908 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:04:55:909 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:04:55:909 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:05:28:531 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 37
+ 2017-12-26 11:05:28:531 HuanZhangRspDelegate::OnSelect 82: player 2 change cards : 21,24,27
+ 2017-12-26 11:05:29:590 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-26 11:05:29:591 HuanZhangRspDelegate::OnSelect 82: player 1 change cards : 22,23,26
+ 2017-12-26 11:05:29:605 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-26 11:05:29:605 HuanZhangRspDelegate::OnSelect 82: player 0 change cards : 13,14,17
+ 2017-12-26 11:05:29:615 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 37
+ 2017-12-26 11:05:29:615 HuanZhangRspDelegate::OnSelect 82: player 3 change cards : 7,8,9
+ 2017-12-26 11:05:29:615 HuanZhangRspDelegate::OnSelect 115: swapPosition 0 -> 2, swapPosition 1 -> 0, swapPosition 2 -> 3, swapPosition 3  -> 1
+ 2017-12-26 11:05:29:615 MsgDelegateHuanZhangFinish::OnSend 41: player 0 get card  with 22,23,26
+ 2017-12-26 11:05:29:616 MsgDelegateHuanZhangFinish::OnSend 41: player 1 get card  with 7,8,9
+ 2017-12-26 11:05:29:616 MsgDelegateHuanZhangFinish::OnSend 41: player 2 get card  with 13,14,17
+ 2017-12-26 11:05:29:616 MsgDelegateHuanZhangFinish::OnSend 41: player 3 get card  with 21,24,27
+ 2017-12-26 11:05:35:969 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 101 to 100
+ 2017-12-26 11:05:35:969 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:05:35:970 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:05:35:970 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:05:35:970 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:05:35:970 CServerGameDesk::OnProcedureChanged 203: procedure change from 101 to 100
+ 2017-12-26 11:05:37:443 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 26
+ 2017-12-26 11:05:37:443 MsgDelegateDingQue::OnResponse 149: Player 2 select que men 2
+ 2017-12-26 11:05:39:868 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 26
+ 2017-12-26 11:05:39:868 MsgDelegateDingQue::OnResponse 149: Player 1 select que men 2
+ 2017-12-26 11:05:42:181 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 26
+ 2017-12-26 11:05:42:182 MsgDelegateDingQue::OnResponse 149: Player 3 select que men 0
+ 2017-12-26 11:05:48:085 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 26
+ 2017-12-26 11:05:48:085 MsgDelegateDingQue::OnResponse 149: Player 0 select que men 1
+ 2017-12-26 11:05:48:094 MsgDelegateFirstRound::SendFirstRound 42: first run
+ 2017-12-26 11:05:48:409 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 100 to 4
+ 2017-12-26 11:05:48:409 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 2,5,6,7,9,22,23,25,25,25,26,27,29,36 and interceptionList  latest draw card 5
+ 2017-12-26 11:05:48:409 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2017-12-26 11:05:48:409 CServerGameDesk::OnProcedureChanged 203: procedure change from 100 to 4
+ 2017-12-26 11:05:48:469 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 4 to 9
+ 2017-12-26 11:05:48:474 MsgDelegateWaitDiscard::OnSend 220: waiting on player 0 to discard, with candidates :2,5,6,7,9,22,23,25,25,25,26,27,29,36 !
+ 2017-12-26 11:05:48:499 CServerGameDesk::OnProcedureChanged 203: procedure change from 4 to 9
+ 2017-12-26 11:07:55:607 MsgDelegateWaitDiscard::OnSend 220: waiting on player 0 to discard, with candidates :2,5,6,7,9,22,23,25,25,25,26,27,29,36 !
+ 2017-12-26 11:08:16:673 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:08:16:673 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:08:16:674 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:08:16:674 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:08:16:674 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 11:08:16:674 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 11:08:16:679 CServerGameDesk::GameReset 317: reset game
+ 2017-12-26 11:09:24:891 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:09:24:891 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 0/0
+ 2017-12-26 11:09:24:891 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-26 11:09:24:891 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 2/2
+ 2017-12-26 11:09:24:891 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 3/3
+ 2017-12-26 11:09:24:906 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:09:24:906 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:09:24:907 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:09:27:470 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:09:27:478 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:09:27:479 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:09:27:531 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:09:27:531 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:09:27:531 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:09:27:531 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:09:27:532 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:09:27:532 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:09:30:067 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 37
+ 2017-12-26 11:09:30:067 HuanZhangRspDelegate::OnSelect 82: player 3 change cards : 11,14,16
+ 2017-12-26 11:09:35:228 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-26 11:09:35:228 HuanZhangRspDelegate::OnSelect 82: player 0 change cards : 11,15,18
+ 2017-12-26 11:09:36:219 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-26 11:09:36:219 HuanZhangRspDelegate::OnSelect 82: player 1 change cards : 26,27,28
+ 2017-12-26 11:10:01:095 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-26 11:10:01:170 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-26 11:31:47:123 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 26
+ 2017-12-26 11:31:49:404 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 37
+ 2017-12-26 11:31:49:404 HuanZhangRspDelegate::OnSelect 82: player 2 change cards : 12,17,19
+ 2017-12-26 11:31:49:404 HuanZhangRspDelegate::OnSelect 115: swapPosition 0 -> 3, swapPosition 1 -> 0, swapPosition 2 -> 1, swapPosition 3  -> 2
+ 2017-12-26 11:31:49:405 MsgDelegateHuanZhangFinish::OnSend 41: player 0 get card  with 26,27,28
+ 2017-12-26 11:31:49:405 MsgDelegateHuanZhangFinish::OnSend 41: player 1 get card  with 12,17,19
+ 2017-12-26 11:31:49:405 MsgDelegateHuanZhangFinish::OnSend 41: player 2 get card  with 11,14,16
+ 2017-12-26 11:31:49:406 MsgDelegateHuanZhangFinish::OnSend 41: player 3 get card  with 11,15,18
+ 2017-12-26 11:31:55:704 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 101 to 100
+ 2017-12-26 11:31:55:705 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:31:55:705 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:31:55:705 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:31:55:706 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:31:55:706 CServerGameDesk::OnProcedureChanged 203: procedure change from 101 to 100
+ 2017-12-26 11:32:33:564 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 26
+ 2017-12-26 11:32:33:564 MsgDelegateDingQue::OnResponse 149: Player 2 select que men 1
+ 2017-12-26 11:32:51:379 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 26
+ 2017-12-26 11:32:51:380 MsgDelegateDingQue::OnResponse 149: Player 3 select que men 1
+ 2017-12-26 11:32:55:684 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 26
+ 2017-12-26 11:32:55:684 MsgDelegateDingQue::OnResponse 149: Player 0 select que men 1
+ 2017-12-26 11:32:56:680 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 26
+ 2017-12-26 11:32:56:680 MsgDelegateDingQue::OnResponse 149: Player 1 select que men 1
+ 2017-12-26 11:32:56:719 MsgDelegateFirstRound::SendFirstRound 42: first run
+ 2017-12-26 11:32:57:031 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 100 to 4
+ 2017-12-26 11:32:57:031 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 3,8,23,25,26,26,27,27,27,28,28,29,37,19 and interceptionList  latest draw card 8
+ 2017-12-26 11:32:57:031 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2017-12-26 11:32:57:031 CServerGameDesk::OnProcedureChanged 203: procedure change from 100 to 4
+ 2017-12-26 11:32:57:094 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 4 to 9
+ 2017-12-26 11:32:57:094 MsgDelegateWaitDiscard::OnSend 220: waiting on player 0 to discard, with candidates :19 !
+ 2017-12-26 11:32:57:125 CServerGameDesk::OnProcedureChanged 203: procedure change from 4 to 9
+ 2017-12-26 11:37:11:633 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:37:11:634 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:37:11:634 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:37:11:634 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:37:11:635 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 11:37:11:635 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 11:37:11:639 CServerGameDesk::GameReset 317: reset game
+ 2017-12-26 11:39:07:562 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:39:07:562 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 0/0
+ 2017-12-26 11:39:07:563 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-26 11:39:07:563 CServerGameDesk::GameBegin 431: Player cc1111(cc1111) at position 2/2
+ 2017-12-26 11:39:07:563 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 3/3
+ 2017-12-26 11:39:07:609 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:39:07:609 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:39:07:610 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:39:10:110 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:39:10:119 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:39:10:120 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:39:10:172 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:39:10:172 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:39:10:173 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:39:10:173 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:39:10:173 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:39:10:173 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:39:20:527 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 37
+ 2017-12-26 11:39:20:527 HuanZhangRspDelegate::OnSelect 82: player 3 change cards : 2,9,9
+ 2017-12-26 11:39:40:331 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:39:40:332 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:39:40:332 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:39:40:332 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:39:40:332 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 11:39:40:333 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 11:39:40:337 CServerGameDesk::GameReset 317: reset game
+ 2017-12-26 11:43:54:617 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:43:54:617 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 0/0
+ 2017-12-26 11:43:54:617 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-26 11:43:54:617 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 2/2
+ 2017-12-26 11:43:54:617 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 3/3
+ 2017-12-26 11:43:54:620 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:43:54:620 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:43:54:621 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:43:57:110 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:43:57:119 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:43:57:120 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:43:57:173 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:43:57:173 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:43:57:173 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:43:57:174 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:43:57:174 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:43:57:174 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:44:30:818 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-26 11:44:30:818 HuanZhangRspDelegate::OnSelect 82: player 1 change cards : 4,5,7
+ 2017-12-26 11:44:30:861 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-26 11:44:30:861 HuanZhangRspDelegate::OnSelect 82: player 0 change cards : 3,7,8
+ 2017-12-26 11:44:42:110 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:44:42:110 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:44:42:110 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:44:42:111 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:44:42:111 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 11:44:42:111 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 11:44:42:116 CServerGameDesk::GameReset 317: reset game
+ 2017-12-26 11:51:55:664 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:51:55:664 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 0/0
+ 2017-12-26 11:51:55:664 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 1/1
+ 2017-12-26 11:51:55:664 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 2/2
+ 2017-12-26 11:51:55:664 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 3/3
+ 2017-12-26 11:51:55:703 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:51:55:703 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:51:55:705 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:51:58:266 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:51:58:275 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:51:58:276 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:51:58:328 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:51:58:328 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:51:58:328 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:51:58:329 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:51:58:329 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:51:58:329 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:52:22:981 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:52:22:981 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:52:22:982 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:52:22:982 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 11:52:22:982 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 11:52:22:982 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 11:52:22:987 CServerGameDesk::GameReset 317: reset game
+ 2017-12-26 11:56:18:241 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-26 11:56:18:241 CServerGameDesk::GameBegin 431: Player c11111(c11111) at position 0/0
+ 2017-12-26 11:56:18:241 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-26 11:56:18:241 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 2/2
+ 2017-12-26 11:56:18:241 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 3/3
+ 2017-12-26 11:56:18:282 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-26 11:56:18:282 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-26 11:56:18:284 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-26 11:56:20:782 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-26 11:56:20:791 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-26 11:56:20:791 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-26 11:56:20:843 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-26 11:56:20:843 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:56:20:843 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:56:20:844 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:56:20:844 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-26 11:56:20:844 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-26 11:56:33:158 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 37
+ 2017-12-26 11:56:33:158 HuanZhangRspDelegate::OnSelect 82: player 3 change cards : 11,15,16
+ 2017-12-26 11:56:48:640 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 37
+ 2017-12-26 11:56:48:640 HuanZhangRspDelegate::OnSelect 82: player 2 change cards : 5,9,9
+ 2017-12-26 11:56:54:431 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-26 11:56:54:431 HuanZhangRspDelegate::OnSelect 82: player 1 change cards : 14,19,19
+ 2017-12-26 11:56:54:503 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-26 11:56:54:503 HuanZhangRspDelegate::OnSelect 82: player 0 change cards : 14,17,18
+ 2017-12-26 11:56:54:503 HuanZhangRspDelegate::OnSelect 115: swapPosition 0 -> 3, swapPosition 1 -> 2, swapPosition 2 -> 1, swapPosition 3  -> 0
+ 2017-12-26 11:56:54:503 MsgDelegateHuanZhangFinish::OnSend 41: player 0 get card  with 11,15,16
+ 2017-12-26 11:56:54:504 MsgDelegateHuanZhangFinish::OnSend 41: player 1 get card  with 5,9,9
+ 2017-12-26 11:56:54:504 MsgDelegateHuanZhangFinish::OnSend 41: player 2 get card  with 14,19,19
+ 2017-12-26 11:56:54:504 MsgDelegateHuanZhangFinish::OnSend 41: player 3 get card  with 14,17,18
+ 2017-12-26 11:57:00:781 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 101 to 100
+ 2017-12-26 11:57:00:781 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:57:00:782 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:57:00:782 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:57:00:782 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-26 11:57:00:782 CServerGameDesk::OnProcedureChanged 203: procedure change from 101 to 100
+ 2017-12-26 11:57:02:597 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 26
+ 2017-12-26 11:57:02:597 MsgDelegateDingQue::OnResponse 149: Player 2 select que men 1
+ 2017-12-26 11:57:07:877 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 26
+ 2017-12-26 11:57:07:877 MsgDelegateDingQue::OnResponse 149: Player 3 select que men 0
+ 2017-12-26 12:01:28:189 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 12:01:28:190 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 12:01:28:190 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 12:01:28:190 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-26 12:01:28:190 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-26 12:01:28:191 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-26 12:01:28:196 CServerGameDesk::GameReset 317: reset game

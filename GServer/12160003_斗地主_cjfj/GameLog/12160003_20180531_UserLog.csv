@@ -1,0 +1,13 @@
+16,06,22,Send,All,Main=180,bAssistantID=51,//游戏开始	 
+16,06,22,Send,UserID:0,Main=180,bAssistantID=52,//发牌消息 
+16,06,22,SendPai,UersID:0,ShouPai:14 2 2 2 2 1 11 11 10 9 8 8 7 7 5 5 3 
+16,06,22,Send,UserID:1,Main=180,bAssistantID=52,//发牌消息 
+16,06,22,SendPai,UersID:1,ShouPai:13 13 13 12 12 12 11 11 10 9 9 8 7 6 5 4 3 
+16,06,22,Send,UserID:2,Main=180,bAssistantID=52,//发牌消息 
+16,06,22,SendPai,UersID:2,ShouPai:15 1 1 1 13 12 10 10 9 8 7 6 5 4 4 4 3 
+16,06,22,Send,UserID:0,Main=180,bAssistantID=60,//通知明牌			 
+16,06,22,Send,UserID:1,Main=180,bAssistantID=60,//通知明牌			 
+16,06,22,Send,UserID:2,Main=180,bAssistantID=60,//通知明牌			 
+16,06,27,TimeOut,TimerId:1,UersId:255
+16,06,27,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+16,06,27,Send,All,Main=180,bAssistantID=74,//大结算	 

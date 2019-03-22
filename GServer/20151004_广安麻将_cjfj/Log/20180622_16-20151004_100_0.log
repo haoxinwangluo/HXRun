@@ -1,0 +1,35 @@
+ 2018-06-22 16:39:57:262 CServerGameDesk::GameBegin 429: Game Start (0/1)
+ 2018-06-22 16:39:57:262 CServerGameDesk::GameBegin 435: Player Phone22566(Phone22566) at position 0/0
+ 2018-06-22 16:39:57:262 CServerGameDesk::GameBegin 435: Player Phone22569(Phone22569) at position 1/1
+ 2018-06-22 16:39:57:263 CServerGameDesk::GameBegin 435: Player Phone22568(Phone22568) at position 2/2
+ 2018-06-22 16:39:57:263 CServerGameDesk::GameBegin 435: Player Phone22567(Phone22567) at position 3/3
+ 2018-06-22 16:39:57:285 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2018-06-22 16:39:57:286 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2018-06-22 16:39:57:286 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2018-06-22 16:39:59:285 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2018-06-22 16:39:59:301 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2018-06-22 16:39:59:304 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2018-06-22 16:39:59:345 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2018-06-22 16:39:59:345 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2018-06-22 16:39:59:409 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 101 to 100
+ 2018-06-22 16:39:59:410 CServerGameDesk::OnProcedureChanged 203: procedure change from 101 to 100
+ 2018-06-22 16:39:59:410 MsgDelegateFirstRound::SendFirstRound 42: first run
+ 2018-06-22 16:39:59:724 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 100 to 4
+ 2018-06-22 16:39:59:724 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 2,4,4,5,6,11,15,15,17,18,23,24,26,36 and interceptionList  latest draw card 17
+ 2018-06-22 16:39:59:725 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2018-06-22 16:39:59:725 CServerGameDesk::OnProcedureChanged 203: procedure change from 100 to 4
+ 2018-06-22 16:39:59:785 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 4 to 9
+ 2018-06-22 16:39:59:785 MsgDelegateWaitDiscard::OnSend 220: waiting on player 0 to discard, with candidates :2,4,4,5,6,11,15,15,17,18,23,24,26,36 !
+ 2018-06-22 16:39:59:814 CServerGameDesk::OnProcedureChanged 203: procedure change from 4 to 9
+ 2018-06-22 16:40:44:489 CServerGameDesk::SendScoreBoard 885: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2018-06-22 16:40:44:490 CServerGameDesk::SendScoreBoard 885: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2018-06-22 16:40:44:490 CServerGameDesk::SendScoreBoard 885: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2018-06-22 16:40:44:490 CServerGameDesk::SendScoreBoard 885: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2018-06-22 16:40:44:490 CServerGameDesk::SendScoreBoard 890: Send Score Board
+ 2018-06-22 16:40:44:490 CServerGameDesk::GameClear 308: clean game
+
+
+
+
+
+ 2018-06-22 16:40:44:494 CServerGameDesk::GameReset 322: reset game

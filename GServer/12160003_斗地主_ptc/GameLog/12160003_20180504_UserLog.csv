@@ -1,0 +1,731 @@
+14,34,08,Send,All,Main=180,bAssistantID=51,//游戏开始	 
+14,34,08,Send,UserID:0,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,08,NotiLaiZi,UersID:0,LaiZi:3,ShouPai:3 15 2 2 1 13 12 11 11 10 10 9 8 7 6 6 5 
+14,34,08,Send,UserID:1,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,08,NotiLaiZi,UersID:1,LaiZi:3,ShouPai:3 2 2 11 11 10 10 9 9 8 8 7 5 5 4 4 4 
+14,34,08,Send,UserID:2,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,08,NotiLaiZi,UersID:2,LaiZi:3,ShouPai:3 3 14 1 1 1 13 13 12 12 12 9 8 7 7 6 5 
+14,34,08,Send,UserID:0,Main=180,bAssistantID=52,//发牌消息 
+14,34,08,SendPai,UersID:0,ShouPai:3 15 2 2 1 13 12 11 11 10 10 9 8 7 6 6 5 
+14,34,08,Send,UserID:1,Main=180,bAssistantID=52,//发牌消息 
+14,34,08,SendPai,UersID:1,ShouPai:3 2 2 11 11 10 10 9 9 8 8 7 5 5 4 4 4 
+14,34,08,Send,UserID:2,Main=180,bAssistantID=52,//发牌消息 
+14,34,08,SendPai,UersID:2,ShouPai:3 3 14 1 1 1 13 13 12 12 12 9 8 7 7 6 5 
+14,34,08,Send,UserID:0,Main=180,bAssistantID=60,//通知明牌			 
+14,34,08,Send,UserID:1,Main=180,bAssistantID=60,//通知明牌			 
+14,34,08,Send,UserID:2,Main=180,bAssistantID=60,//通知明牌			 
+14,34,13,TimeOut,TimerId:1,UersId:255
+14,34,13,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,15,Reply,UersID:2,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,15,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,15,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,20,Reply,UersID:1,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,20,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,20,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,24,Reply,UersID:0,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,24,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,24,Send,All,Main=180,bAssistantID=51,//游戏开始	 
+14,34,24,Send,UserID:0,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,24,NotiLaiZi,UersID:0,LaiZi:12,ShouPai:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 
+14,34,24,Send,UserID:1,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,24,NotiLaiZi,UersID:1,LaiZi:12,ShouPai:12 2 11 9 9 8 8 8 7 6 6 6 5 5 4 4 3 
+14,34,24,Send,UserID:2,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,24,NotiLaiZi,UersID:2,LaiZi:12,ShouPai:12 15 14 1 1 1 13 13 13 11 10 9 8 7 5 5 3 
+14,34,24,Send,UserID:0,Main=180,bAssistantID=52,//发牌消息 
+14,34,24,SendPai,UersID:0,ShouPai:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 
+14,34,24,Send,UserID:1,Main=180,bAssistantID=52,//发牌消息 
+14,34,24,SendPai,UersID:1,ShouPai:12 2 11 9 9 8 8 8 7 6 6 6 5 5 4 4 3 
+14,34,24,Send,UserID:2,Main=180,bAssistantID=52,//发牌消息 
+14,34,24,SendPai,UersID:2,ShouPai:12 15 14 1 1 1 13 13 13 11 10 9 8 7 5 5 3 
+14,34,24,Send,UserID:0,Main=180,bAssistantID=60,//通知明牌			 
+14,34,24,Send,UserID:1,Main=180,bAssistantID=60,//通知明牌			 
+14,34,24,Send,UserID:2,Main=180,bAssistantID=60,//通知明牌			 
+14,34,24,Reply,UersID:0,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,29,TimeOut,TimerId:1,UersId:255
+14,34,29,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,39,Reply,UersID:1,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,39,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,39,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,40,Reply,UersID:0,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,40,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,40,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,34,43,Reply,UersID:2,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,43,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,34,43,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,34,44,TimeOut,TimerId:13,UersId:2
+14,34,44,Send,UserID:0,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,44,NotiLaiZi,UersID:0,LaiZi:5,ShouPai:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 
+14,34,44,Send,UserID:1,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,44,NotiLaiZi,UersID:1,LaiZi:5,ShouPai:12 5 5 2 11 9 9 8 8 8 7 6 6 6 4 4 3 
+14,34,44,Send,UserID:2,Main=180,bAssistantID=63,//癞子牌通知		 
+14,34,44,NotiLaiZi,UersID:2,LaiZi:5,ShouPai:12 5 5 15 14 1 1 1 13 13 13 11 10 9 8 7 3 
+14,34,44,SetBanker,Banker:2,Score:1,BackCard:7 10 6 
+14,34,44,Send,UserID:0,Main=180,bAssistantID=57,//定庄消息 
+14,34,44,SetBanker,UersID:0,ShouPai:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 
+14,34,44,Send,UserID:1,Main=180,bAssistantID=57,//定庄消息 
+14,34,44,SetBanker,UersID:1,ShouPai:12 5 5 2 11 9 9 8 8 8 7 6 6 6 4 4 3 
+14,34,44,Send,UserID:2,Main=180,bAssistantID=57,//定庄消息 
+14,34,44,SetBanker,UersID:2,ShouPai:12 5 5 15 14 1 1 1 13 13 13 11 10 10 9 8 7 7 6 3 
+14,34,44,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,34,44,Send,UserID:0,Main=180,bAssistantID=58,//通知加倍  
+14,34,44,Send,UserID:1,Main=180,bAssistantID=58,//通知加倍  
+14,34,44,Send,UserID:2,Main=180,bAssistantID=58,//通知加倍  
+14,34,50,Reply,UersID:2,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,34,50,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,34,50,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,34,54,TimeOut,TimerId:11,UersId:2
+14,34,54,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,34,54,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,34,54,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,34,54,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,34,54,Send,All,Main=180,bAssistantID=60,//通知明牌			 
+14,35,04,TimeOut,TimerId:14,UersId:2
+14,35,04,Reply,UersID:2,Main=180,bAssistantID=61,//明牌请求		 
+14,35,04,Send,All,Main=180,bAssistantID=62,//明牌结果			 
+14,35,04,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,35,06,TimeOut,TimerId:15,UersId:2
+14,35,06,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,35,16,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,35,16,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,35,22,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,35,22,PlayCard,UserId:2,ShouPai:12 5 5 15 14 1 1 1 13 13 13 11 10 10 9 8 7 7 6 3 
+14,35,22,PlayCard,UserId:2,OutCard:11 10 9 8 7 6 _11 10 9 8 7 6 ,Type:0
+14,35,22,PlayCard,UserId:2,TypeList:6 7 8 9 10 11 _6 7 8 9 10 11 
+14,35,22,PlayCard,UserId:2,TypeList_M:6 7 8 9 10 11 _6 7 8 9 10 11 
+14,35,22,PlayCard_Error,ArrayType=0
+14,35,22,PlayCard,UserId:2,OutCard:6 7 8 9 10 11 _6 7 8 9 10 11 ,Type:9
+14,35,22,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,35,26,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,35,26,FollowCard_Start,UserId:1,SrcCard:12 5 5 2 11 9 9 8 8 8 7 6 6 6 4 4 3 ,Last:6 7 8 9 10 11 _6 7 8 9 10 11 
+14,35,26,MaxResult,UserId:1,Card:7 _7 
+14,35,26,MaxResult,UserId:1,Card:11 _11 
+14,35,26,MaxResult,UserId:1,Card:2 _2 
+14,35,26,MaxResult,UserId:1,Card:9 9 _9 9 
+14,35,26,MaxResult,UserId:1,Card:4 4 4 3 _4 4 5 3 
+14,35,26,MaxResult,UserId:1,Card:6 6 6 6 _6 6 5 6 
+14,35,26,MaxResult,UserId:1,Card:8 8 8 8 _8 8 12 8 
+14,35,26,FollowCard_2,UserId:1,Card:6 6 6 6 _6 6 5 6 
+14,35,26,FollowCard_2,UserId:1,Card:8 8 8 8 _8 8 5 8 
+14,35,26,FollowCard_2,UserId:1,Card:4 4 4 4 _4 4 5 5 
+14,35,26,FollowCard_2,UserId:1,Card:9 9 9 9 _9 5 5 9 
+14,35,26,FollowCard_2,UserId:1,Card:6 6 6 6 6 _6 6 5 5 6 
+14,35,26,FollowCard_2,UserId:1,Card:8 8 8 8 8 _8 8 5 5 8 
+14,35,26,FollowCard_2,UserId:1,Card:7 8 9 10 11 12 _7 8 9 5 11 12 
+14,35,26,FollowCard_2,UserId:1,Card:3 3 3 3 _3 5 5 12 
+14,35,26,FollowCard_2,UserId:1,Card:7 7 7 7 _7 5 5 12 
+14,35,26,FollowCard_2,UserId:1,Card:11 11 11 11 _11 5 5 12 
+14,35,26,FollowCard_2,UserId:1,Card:2 2 2 2 _2 5 5 12 
+14,35,26,FollowCard_2,UserId:1,Card:4 4 4 4 4 _4 4 5 5 12 
+14,35,26,FollowCard_2,UserId:1,Card:9 9 9 9 9 _9 5 5 12 9 
+14,35,26,FollowCard_2,UserId:1,Card:6 6 6 6 6 6 _6 6 5 5 12 6 
+14,35,26,FollowCard_2,UserId:1,Card:8 8 8 8 8 8 _8 8 5 5 12 8 
+14,35,26,FollowCard_2,UserId:1,Card:8 9 10 11 12 13 _8 9 5 11 12 5 
+14,35,26,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,35,28,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,35,28,PlayCard,UserId:1,ShouPai:12 5 5 2 11 9 9 8 8 8 7 6 6 6 4 4 3 
+14,35,28,PlayCard,UserId:1,OutCard:5 6 6 6 _5 6 6 6 ,Type:0
+14,35,28,PlayCard,UserId:1,TypeList:6 6 6 5 _6 6 6 5 
+14,35,28,PlayCard,UserId:1,TypeList:6 6 6 6 _6 6 5 6 
+14,35,28,PlayCard,UserId:1,TypeList_M:6 6 6 5 _6 6 6 5 
+14,35,28,PlayCard,UserId:1,TypeList_M:6 6 6 6 _6 6 5 6 
+14,35,28,PlayCard_Error,ArrayType=0
+14,35,28,PlayCard,UserId:1,OutCard:6 6 6 6 _6 6 5 6 ,Type:13
+14,35,28,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,35,28,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,35,32,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,35,32,FollowCard_Start,UserId:0,SrcCard:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 ,Last:6 6 6 6 _6 6 5 6 
+14,35,32,MaxResult,UserId:0,Card:9 _9 
+14,35,32,MaxResult,UserId:0,Card:13 _13 
+14,35,32,MaxResult,UserId:0,Card:1 _1 
+14,35,32,MaxResult,UserId:0,Card:4 4 _4 4 
+14,35,32,MaxResult,UserId:0,Card:10 10 _10 10 
+14,35,32,MaxResult,UserId:0,Card:11 11 _11 11 
+14,35,32,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,35,32,MaxResult,UserId:0,Card:2 2 2 2 _2 2 12 2 
+14,35,32,FollowCard_2,UserId:0,Card:2 2 2 2 _2 2 12 2 
+14,35,32,FollowCard_2,UserId:0,Card:10 10 10 10 _10 10 12 12 
+14,35,32,FollowCard_2,UserId:0,Card:11 11 11 11 _11 12 12 11 
+14,35,32,FollowCard_2,UserId:0,Card:2 2 2 2 2 _2 2 12 12 2 
+14,35,32,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,35,34,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,35,34,PlayCard,UserId:0,ShouPai:12 12 2 2 2 1 13 11 11 10 10 9 7 4 4 3 3 
+14,35,34,PlayCard,UserId:0,OutCard:12 2 2 2 _12 2 2 2 ,Type:0
+14,35,34,PlayCard,UserId:0,TypeList:2 2 2 12 _2 2 2 12 
+14,35,34,PlayCard,UserId:0,TypeList:2 2 2 2 _2 2 12 2 
+14,35,34,PlayCard,UserId:0,TypeList_M:2 2 2 12 _2 2 2 12 
+14,35,34,PlayCard,UserId:0,TypeList_M:2 2 2 2 _2 2 12 2 
+14,35,34,PlayCard_Error,ArrayType=0
+14,35,34,PlayCard,UserId:0,OutCard:2 2 2 2 _2 2 12 2 ,Type:13
+14,35,34,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,35,34,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,35,39,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,35,39,FollowCard_Start,UserId:2,SrcCard:12 5 5 15 14 1 1 1 13 13 13 10 7 3 ,Last:2 2 2 2 _2 2 12 2 
+14,35,39,MaxResult,UserId:2,Card:3 _3 
+14,35,39,MaxResult,UserId:2,Card:7 _7 
+14,35,39,MaxResult,UserId:2,Card:10 _10 
+14,35,39,MaxResult,UserId:2,Card:13 13 13 13 13 _13 13 5 5 13 
+14,35,39,MaxResult,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,35,39,MaxResult,UserId:2,Card:14 15 _14 15 
+14,35,39,FollowCard_2,UserId:2,Card:13 13 13 13 13 _13 13 5 5 13 
+14,35,39,FollowCard_2,UserId:2,Card:1 1 1 1 1 _1 1 1 5 5 
+14,35,39,FollowCard_2,UserId:2,Card:13 13 13 13 13 13 _13 13 5 5 12 13 
+14,35,39,FollowCard_2,UserId:2,Card:1 1 1 1 1 1 _1 1 1 5 5 12 
+14,35,39,FollowCard_2,UserId:2,Card:14 15 _14 15 
+14,35,39,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,35,43,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,35,43,PlayCard,UserId:2,ShouPai:12 5 5 15 14 1 1 1 13 13 13 10 7 3 
+14,35,43,PlayCard,UserId:2,OutCard:5 5 13 13 13 _5 5 13 13 13 ,Type:0
+14,35,43,PlayCard,UserId:2,TypeList:13 13 13 5 5 _13 13 13 5 5 
+14,35,43,PlayCard,UserId:2,TypeList:13 13 13 13 13 _13 13 5 5 13 
+14,35,43,PlayCard,UserId:2,TypeList_M:13 13 13 5 5 _13 13 13 5 5 
+14,35,43,PlayCard,UserId:2,TypeList_M:13 13 13 13 13 _13 13 5 5 13 
+14,35,43,PlayCard_Error,ArrayType=0
+14,35,43,PlayCard,UserId:2,OutCard:13 13 13 13 13 _13 13 5 5 13 ,Type:17
+14,35,43,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,35,43,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,35,51,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,35,51,FollowCard_Start,UserId:1,SrcCard:12 5 2 11 9 9 8 8 8 7 4 4 3 ,Last:13 13 13 13 13 _13 13 5 5 13 
+14,35,51,MaxResult,UserId:1,Card:7 _7 
+14,35,51,MaxResult,UserId:1,Card:11 _11 
+14,35,51,MaxResult,UserId:1,Card:2 _2 
+14,35,51,MaxResult,UserId:1,Card:9 9 _9 9 
+14,35,51,MaxResult,UserId:1,Card:4 4 4 3 _4 4 5 3 
+14,35,51,MaxResult,UserId:1,Card:8 8 8 8 _8 8 12 8 
+14,35,51,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,35,51,Reply,UersID:1,Main=180,bAssistantID=68,//过牌请求	   
+14,35,51,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,36,04,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,36,04,FollowCard_Start,UserId:0,SrcCard:12 1 13 11 11 10 10 9 7 4 4 3 3 ,Last:13 13 13 13 13 _13 13 5 5 13 
+14,36,04,MaxResult,UserId:0,Card:9 _9 
+14,36,04,MaxResult,UserId:0,Card:13 _13 
+14,36,04,MaxResult,UserId:0,Card:1 _1 
+14,36,04,MaxResult,UserId:0,Card:4 4 _4 4 
+14,36,04,MaxResult,UserId:0,Card:10 10 _10 10 
+14,36,04,MaxResult,UserId:0,Card:11 11 _11 11 
+14,36,04,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,36,04,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,36,04,Reply,UersID:0,Main=180,bAssistantID=68,//过牌请求	   
+14,36,04,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,36,04,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,36,09,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,36,09,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,36,10,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,36,10,PlayCard,UserId:2,ShouPai:12 15 14 1 1 1 10 7 3 
+14,36,10,PlayCard,UserId:2,OutCard:3 _3 ,Type:1
+14,36,10,PlayCard,UserId:2,TypeList:3 _3 
+14,36,10,PlayCard,UserId:2,TypeList_M:3 _3 
+14,36,10,PlayCard,UserId:2,OutCard:3 _3 ,Type:1
+14,36,10,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,12,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,36,12,FollowCard_Start,UserId:1,SrcCard:12 5 2 11 9 9 8 8 8 7 4 4 3 ,Last:3 _3 
+14,36,12,MaxResult,UserId:1,Card:7 _7 
+14,36,12,MaxResult,UserId:1,Card:11 _11 
+14,36,12,MaxResult,UserId:1,Card:2 _2 
+14,36,12,MaxResult,UserId:1,Card:9 9 _9 9 
+14,36,12,MaxResult,UserId:1,Card:4 4 4 3 _4 4 5 3 
+14,36,12,MaxResult,UserId:1,Card:8 8 8 8 _8 8 12 8 
+14,36,12,FollowCard_2,UserId:1,Card:7 _7 
+14,36,12,FollowCard_2,UserId:1,Card:11 _11 
+14,36,12,FollowCard_2,UserId:1,Card:2 _2 
+14,36,12,FollowCard_2,UserId:1,Card:4 _4 
+14,36,12,FollowCard_2,UserId:1,Card:8 _8 
+14,36,12,FollowCard_2,UserId:1,Card:9 _9 
+14,36,12,FollowCard_2,UserId:1,Card:5 _5 
+14,36,12,FollowCard_2,UserId:1,Card:12 _12 
+14,36,12,FollowCard_2,UserId:1,Card:8 8 8 8 _8 8 5 8 
+14,36,12,FollowCard_2,UserId:1,Card:4 4 4 4 _4 4 5 12 
+14,36,12,FollowCard_2,UserId:1,Card:9 9 9 9 _9 5 12 9 
+14,36,12,FollowCard_2,UserId:1,Card:8 8 8 8 8 _8 8 5 12 8 
+14,36,12,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,36,13,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,36,13,PlayCard,UserId:1,ShouPai:12 5 2 11 9 9 8 8 8 7 4 4 3 
+14,36,13,PlayCard,UserId:1,OutCard:7 _7 ,Type:1
+14,36,13,PlayCard,UserId:1,TypeList:7 _7 
+14,36,13,PlayCard,UserId:1,TypeList_M:7 _7 
+14,36,13,PlayCard,UserId:1,OutCard:7 _7 ,Type:1
+14,36,13,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,15,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,36,15,FollowCard_Start,UserId:0,SrcCard:12 1 13 11 11 10 10 9 7 4 4 3 3 ,Last:7 _7 
+14,36,15,MaxResult,UserId:0,Card:9 _9 
+14,36,15,MaxResult,UserId:0,Card:13 _13 
+14,36,15,MaxResult,UserId:0,Card:1 _1 
+14,36,15,MaxResult,UserId:0,Card:4 4 _4 4 
+14,36,15,MaxResult,UserId:0,Card:10 10 _10 10 
+14,36,15,MaxResult,UserId:0,Card:11 11 _11 11 
+14,36,15,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,36,15,FollowCard_2,UserId:0,Card:9 _9 
+14,36,15,FollowCard_2,UserId:0,Card:13 _13 
+14,36,15,FollowCard_2,UserId:0,Card:1 _1 
+14,36,15,FollowCard_2,UserId:0,Card:10 _10 
+14,36,15,FollowCard_2,UserId:0,Card:11 _11 
+14,36,15,FollowCard_2,UserId:0,Card:12 _12 
+14,36,15,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,36,16,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,36,16,PlayCard,UserId:0,ShouPai:12 1 13 11 11 10 10 9 7 4 4 3 3 
+14,36,16,PlayCard,UserId:0,OutCard:9 _9 ,Type:1
+14,36,16,PlayCard,UserId:0,TypeList:9 _9 
+14,36,16,PlayCard,UserId:0,TypeList_M:9 _9 
+14,36,16,PlayCard,UserId:0,OutCard:9 _9 ,Type:1
+14,36,16,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,21,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,36,21,FollowCard_Start,UserId:2,SrcCard:12 15 14 1 1 1 10 7 ,Last:9 _9 
+14,36,21,MaxResult,UserId:2,Card:7 _7 
+14,36,21,MaxResult,UserId:2,Card:10 _10 
+14,36,21,MaxResult,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,21,MaxResult,UserId:2,Card:14 15 _14 15 
+14,36,21,FollowCard_2,UserId:2,Card:10 _10 
+14,36,21,FollowCard_2,UserId:2,Card:14 _14 
+14,36,21,FollowCard_2,UserId:2,Card:15 _15 
+14,36,21,FollowCard_2,UserId:2,Card:14 15 _14 15 
+14,36,21,FollowCard_2,UserId:2,Card:1 _1 
+14,36,21,FollowCard_2,UserId:2,Card:12 _12 
+14,36,21,FollowCard_2,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,21,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,36,21,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,36,21,PlayCard,UserId:2,ShouPai:12 15 14 1 1 1 10 7 
+14,36,21,PlayCard,UserId:2,OutCard:10 _10 ,Type:1
+14,36,21,PlayCard,UserId:2,TypeList:10 _10 
+14,36,21,PlayCard,UserId:2,TypeList_M:10 _10 
+14,36,21,PlayCard,UserId:2,OutCard:10 _10 ,Type:1
+14,36,21,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,24,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,36,24,FollowCard_Start,UserId:1,SrcCard:12 5 2 11 9 9 8 8 8 4 4 3 ,Last:10 _10 
+14,36,24,MaxResult,UserId:1,Card:11 _11 
+14,36,24,MaxResult,UserId:1,Card:2 _2 
+14,36,24,MaxResult,UserId:1,Card:9 9 _9 9 
+14,36,24,MaxResult,UserId:1,Card:4 4 4 3 _4 4 5 3 
+14,36,24,MaxResult,UserId:1,Card:8 8 8 8 _8 8 12 8 
+14,36,24,FollowCard_2,UserId:1,Card:11 _11 
+14,36,24,FollowCard_2,UserId:1,Card:2 _2 
+14,36,24,FollowCard_2,UserId:1,Card:12 _12 
+14,36,24,FollowCard_2,UserId:1,Card:8 8 8 8 _8 8 5 8 
+14,36,24,FollowCard_2,UserId:1,Card:4 4 4 4 _4 4 5 12 
+14,36,24,FollowCard_2,UserId:1,Card:9 9 9 9 _9 5 12 9 
+14,36,24,FollowCard_2,UserId:1,Card:8 8 8 8 8 _8 8 5 12 8 
+14,36,24,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,36,25,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,36,25,PlayCard,UserId:1,ShouPai:12 5 2 11 9 9 8 8 8 4 4 3 
+14,36,25,PlayCard,UserId:1,OutCard:11 _11 ,Type:1
+14,36,25,PlayCard,UserId:1,TypeList:11 _11 
+14,36,25,PlayCard,UserId:1,TypeList_M:11 _11 
+14,36,25,PlayCard,UserId:1,OutCard:11 _11 ,Type:1
+14,36,25,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,26,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,36,26,FollowCard_Start,UserId:0,SrcCard:12 1 13 11 11 10 10 7 4 4 3 3 ,Last:11 _11 
+14,36,26,MaxResult,UserId:0,Card:13 _13 
+14,36,26,MaxResult,UserId:0,Card:1 _1 
+14,36,26,MaxResult,UserId:0,Card:4 4 _4 4 
+14,36,26,MaxResult,UserId:0,Card:10 10 _10 10 
+14,36,27,MaxResult,UserId:0,Card:11 11 _11 11 
+14,36,27,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,36,27,FollowCard_2,UserId:0,Card:13 _13 
+14,36,27,FollowCard_2,UserId:0,Card:1 _1 
+14,36,27,FollowCard_2,UserId:0,Card:12 _12 
+14,36,27,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,36,27,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,36,27,PlayCard,UserId:0,ShouPai:12 1 13 11 11 10 10 7 4 4 3 3 
+14,36,27,PlayCard,UserId:0,OutCard:13 _13 ,Type:1
+14,36,27,PlayCard,UserId:0,TypeList:13 _13 
+14,36,27,PlayCard,UserId:0,TypeList_M:13 _13 
+14,36,27,PlayCard,UserId:0,OutCard:13 _13 ,Type:1
+14,36,27,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,29,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,36,29,FollowCard_Start,UserId:2,SrcCard:12 15 14 1 1 1 7 ,Last:13 _13 
+14,36,29,MaxResult,UserId:2,Card:7 _7 
+14,36,29,MaxResult,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,29,MaxResult,UserId:2,Card:14 15 _14 15 
+14,36,29,FollowCard_2,UserId:2,Card:14 _14 
+14,36,29,FollowCard_2,UserId:2,Card:15 _15 
+14,36,29,FollowCard_2,UserId:2,Card:14 15 _14 15 
+14,36,29,FollowCard_2,UserId:2,Card:1 _1 
+14,36,29,FollowCard_2,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,29,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,36,30,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,36,30,PlayCard,UserId:2,ShouPai:12 15 14 1 1 1 7 
+14,36,30,PlayCard,UserId:2,OutCard:14 _14 ,Type:1
+14,36,30,PlayCard,UserId:2,TypeList:14 _14 
+14,36,30,PlayCard,UserId:2,TypeList_M:14 _14 
+14,36,30,PlayCard,UserId:2,OutCard:14 _14 ,Type:1
+14,36,30,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,45,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,36,45,FollowCard_Start,UserId:1,SrcCard:12 5 2 9 9 8 8 8 4 4 3 ,Last:14 _14 
+14,36,45,MaxResult,UserId:1,Card:2 _2 
+14,36,45,MaxResult,UserId:1,Card:9 9 _9 9 
+14,36,45,MaxResult,UserId:1,Card:4 4 4 3 _4 4 5 3 
+14,36,45,MaxResult,UserId:1,Card:8 8 8 8 _8 8 12 8 
+14,36,45,FollowCard_2,UserId:1,Card:8 8 8 8 _8 8 5 8 
+14,36,45,FollowCard_2,UserId:1,Card:4 4 4 4 _4 4 5 12 
+14,36,45,FollowCard_2,UserId:1,Card:9 9 9 9 _9 5 12 9 
+14,36,45,FollowCard_2,UserId:1,Card:8 8 8 8 8 _8 8 5 12 8 
+14,36,45,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,36,46,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,36,46,PlayCard,UserId:1,ShouPai:12 5 2 9 9 8 8 8 4 4 3 
+14,36,46,PlayCard,UserId:1,OutCard:5 8 8 8 _5 8 8 8 ,Type:0
+14,36,46,PlayCard,UserId:1,TypeList:8 8 8 5 _8 8 8 5 
+14,36,46,PlayCard,UserId:1,TypeList:8 8 8 8 _8 8 5 8 
+14,36,46,PlayCard,UserId:1,TypeList_M:8 8 8 5 _8 8 8 5 
+14,36,46,PlayCard,UserId:1,TypeList_M:8 8 8 8 _8 8 5 8 
+14,36,46,PlayCard_Error,ArrayType=0
+14,36,46,PlayCard,UserId:1,OutCard:8 8 8 8 _8 8 5 8 ,Type:13
+14,36,46,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,46,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,36,48,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,36,48,FollowCard_Start,UserId:0,SrcCard:12 1 11 11 10 10 7 4 4 3 3 ,Last:8 8 8 8 _8 8 5 8 
+14,36,48,MaxResult,UserId:0,Card:1 _1 
+14,36,48,MaxResult,UserId:0,Card:4 4 _4 4 
+14,36,48,MaxResult,UserId:0,Card:10 10 _10 10 
+14,36,48,MaxResult,UserId:0,Card:11 11 _11 11 
+14,36,48,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,36,48,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,36,48,Reply,UersID:0,Main=180,bAssistantID=68,//过牌请求	   
+14,36,48,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,36,50,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,36,50,FollowCard_Start,UserId:2,SrcCard:12 15 1 1 1 7 ,Last:8 8 8 8 _8 8 5 8 
+14,36,50,MaxResult,UserId:2,Card:7 _7 
+14,36,50,MaxResult,UserId:2,Card:15 _15 
+14,36,50,MaxResult,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,50,FollowCard_2,UserId:2,Card:1 1 1 1 _1 1 1 12 
+14,36,50,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,36,51,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,36,51,PlayCard,UserId:2,ShouPai:12 15 1 1 1 7 
+14,36,51,PlayCard,UserId:2,OutCard:12 1 1 1 _12 1 1 1 ,Type:0
+14,36,51,PlayCard,UserId:2,TypeList:1 1 1 1 _1 1 1 12 
+14,36,51,PlayCard,UserId:2,TypeList:1 1 1 12 _1 1 1 12 
+14,36,51,PlayCard,UserId:2,TypeList_M:1 1 1 12 _1 1 1 12 
+14,36,51,PlayCard,UserId:2,TypeList_M:1 1 1 1 _1 1 1 12 
+14,36,51,PlayCard_Error,ArrayType=0
+14,36,51,PlayCard,UserId:2,OutCard:1 1 1 1 _1 1 1 12 ,Type:13
+14,36,51,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,36,51,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,36,56,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,36,56,FollowCard_Start,UserId:1,SrcCard:12 2 9 9 4 4 3 ,Last:1 1 1 1 _1 1 1 12 
+14,36,56,MaxResult,UserId:1,Card:2 _2 
+14,36,56,MaxResult,UserId:1,Card:9 9 _9 9 
+14,36,56,MaxResult,UserId:1,Card:4 4 4 3 _4 4 12 3 
+14,36,56,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,36,56,Reply,UersID:1,Main=180,bAssistantID=68,//过牌请求	   
+14,36,56,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,36,57,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,36,57,FollowCard_Start,UserId:0,SrcCard:12 1 11 11 10 10 7 4 4 3 3 ,Last:1 1 1 1 _1 1 1 12 
+14,36,57,MaxResult,UserId:0,Card:1 _1 
+14,36,57,MaxResult,UserId:0,Card:4 4 _4 4 
+14,36,57,MaxResult,UserId:0,Card:10 10 _10 10 
+14,36,57,MaxResult,UserId:0,Card:11 11 _11 11 
+14,36,57,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,36,57,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,36,57,Reply,UersID:0,Main=180,bAssistantID=68,//过牌请求	   
+14,36,57,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,36,57,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,37,00,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,37,00,PlayCard,UserId:2,ShouPai:15 7 
+14,37,00,PlayCard,UserId:2,OutCard:7 _7 ,Type:0
+14,37,00,PlayCard,UserId:2,TypeList:7 _7 
+14,37,00,PlayCard,UserId:2,TypeList_M:7 _7 
+14,37,00,PlayCard_Error,ArrayType=0
+14,37,00,PlayCard,UserId:2,OutCard:7 _7 ,Type:1
+14,37,00,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,37,02,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,37,02,FollowCard_Start,UserId:1,SrcCard:12 2 9 9 4 4 3 ,Last:7 _7 
+14,37,02,MaxResult,UserId:1,Card:2 _2 
+14,37,02,MaxResult,UserId:1,Card:9 9 _9 9 
+14,37,02,MaxResult,UserId:1,Card:4 4 4 3 _4 4 12 3 
+14,37,02,FollowCard_2,UserId:1,Card:2 _2 
+14,37,02,FollowCard_2,UserId:1,Card:9 _9 
+14,37,02,FollowCard_2,UserId:1,Card:12 _12 
+14,37,02,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,37,02,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,37,02,PlayCard,UserId:1,ShouPai:12 2 9 9 4 4 3 
+14,37,02,PlayCard,UserId:1,OutCard:2 _2 ,Type:1
+14,37,02,PlayCard,UserId:1,TypeList:2 _2 
+14,37,02,PlayCard,UserId:1,TypeList_M:2 _2 
+14,37,02,PlayCard,UserId:1,OutCard:2 _2 ,Type:1
+14,37,02,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,37,04,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,37,04,FollowCard_Start,UserId:0,SrcCard:12 1 11 11 10 10 7 4 4 3 3 ,Last:2 _2 
+14,37,04,MaxResult,UserId:0,Card:1 _1 
+14,37,04,MaxResult,UserId:0,Card:4 4 _4 4 
+14,37,04,MaxResult,UserId:0,Card:10 10 _10 10 
+14,37,04,MaxResult,UserId:0,Card:11 11 _11 11 
+14,37,04,MaxResult,UserId:0,Card:3 3 3 7 _3 3 12 7 
+14,37,04,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,37,04,Reply,UersID:0,Main=180,bAssistantID=68,//过牌请求	   
+14,37,04,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,37,07,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,37,07,FollowCard_Start,UserId:2,SrcCard:15 ,Last:2 _2 
+14,37,07,MaxResult,UserId:2,Card:15 _15 
+14,37,07,FollowCard_2,UserId:2,Card:15 _15 
+14,37,07,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,37,08,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,37,08,PlayCard,UserId:2,ShouPai:15 
+14,37,08,PlayCard,UserId:2,OutCard:15 _15 ,Type:1
+14,37,08,PlayCard,UserId:2,TypeList:15 _15 
+14,37,08,PlayCard,UserId:2,TypeList_M:15 _15 
+14,37,08,PlayCard,UserId:2,OutCard:15 _15 ,Type:1
+14,37,08,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,37,09,TimeOut,TimerId:3,UersId:2
+14,37,09,GameFinish,UersID:0,BackScore:1,GameRate:64,FarmersRate:128,FMoney:-128,BMoney:128
+14,37,09,GameFinish,UersID:1,BackScore:1,GameRate:64,FarmersRate:128,FMoney:-128,BMoney:256
+14,37,09,Send,All,Main=180,bAssistantID=73,//小结算
+14,37,09,TimeOut,TimerId:4,UersId:2
+14,37,27,Send,All,Main=180,bAssistantID=51,//游戏开始	 
+14,37,27,Send,UserID:0,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,27,NotiLaiZi,UersID:0,LaiZi:2,ShouPai:2 2 2 1 1 13 13 12 11 10 8 7 7 6 6 3 3 
+14,37,27,Send,UserID:1,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,27,NotiLaiZi,UersID:1,LaiZi:2,ShouPai:14 1 1 12 11 11 9 9 9 9 8 6 5 5 4 3 3 
+14,37,27,Send,UserID:2,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,27,NotiLaiZi,UersID:2,LaiZi:2,ShouPai:2 15 13 13 12 10 10 10 8 7 7 6 5 5 4 4 4 
+14,37,27,Send,UserID:0,Main=180,bAssistantID=52,//发牌消息 
+14,37,27,SendPai,UersID:0,ShouPai:2 2 2 1 1 13 13 12 11 10 8 7 7 6 6 3 3 
+14,37,27,Send,UserID:1,Main=180,bAssistantID=52,//发牌消息 
+14,37,27,SendPai,UersID:1,ShouPai:14 1 1 12 11 11 9 9 9 9 8 6 5 5 4 3 3 
+14,37,27,Send,UserID:2,Main=180,bAssistantID=52,//发牌消息 
+14,37,27,SendPai,UersID:2,ShouPai:2 15 13 13 12 10 10 10 8 7 7 6 5 5 4 4 4 
+14,37,27,Send,UserID:0,Main=180,bAssistantID=60,//通知明牌			 
+14,37,27,Send,UserID:1,Main=180,bAssistantID=60,//通知明牌			 
+14,37,27,Send,UserID:2,Main=180,bAssistantID=60,//通知明牌			 
+14,37,32,TimeOut,TimerId:1,UersId:255
+14,37,32,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,37,40,Reply,UersID:2,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,40,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,40,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,37,43,Reply,UersID:1,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,43,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,43,Send,All,Main=180,bAssistantID=55,//通知抢地主  
+14,37,47,Reply,UersID:0,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,47,Send,All,Main=180,bAssistantID=56,//抢地主结果/请求抢地主	 
+14,37,47,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,37,48,TimeOut,TimerId:13,UersId:0
+14,37,48,Send,UserID:0,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,48,NotiLaiZi,UersID:0,LaiZi:12,ShouPai:2 2 2 12 1 1 13 13 11 10 8 7 7 6 6 3 3 
+14,37,48,Send,UserID:1,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,48,NotiLaiZi,UersID:1,LaiZi:12,ShouPai:12 14 1 1 11 11 9 9 9 9 8 6 5 5 4 3 3 
+14,37,48,Send,UserID:2,Main=180,bAssistantID=63,//癞子牌通知		 
+14,37,48,NotiLaiZi,UersID:2,LaiZi:12,ShouPai:2 12 15 13 13 10 10 10 8 7 7 6 5 5 4 4 4 
+14,37,48,SetBanker,Banker:0,Score:1,BackCard:12 8 11 
+14,37,48,Send,UserID:0,Main=180,bAssistantID=57,//定庄消息 
+14,37,48,SetBanker,UersID:0,ShouPai:2 2 2 12 12 1 1 13 13 11 11 10 8 8 7 7 6 6 3 3 
+14,37,48,Send,UserID:1,Main=180,bAssistantID=57,//定庄消息 
+14,37,48,SetBanker,UersID:1,ShouPai:12 14 1 1 11 11 9 9 9 9 8 6 5 5 4 3 3 
+14,37,48,Send,UserID:2,Main=180,bAssistantID=57,//定庄消息 
+14,37,48,SetBanker,UersID:2,ShouPai:2 12 15 13 13 10 10 10 8 7 7 6 5 5 4 4 4 
+14,37,48,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,37,48,Send,UserID:0,Main=180,bAssistantID=58,//通知加倍  
+14,37,48,Send,UserID:1,Main=180,bAssistantID=58,//通知加倍  
+14,37,48,Send,UserID:2,Main=180,bAssistantID=58,//通知加倍  
+14,37,53,Reply,UersID:0,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,37,53,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,37,53,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,37,58,TimeOut,TimerId:11,UersId:0
+14,37,58,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,37,58,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,37,58,Send,All,Main=180,bAssistantID=59,//加倍结果/请求加倍		 
+14,37,58,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,37,58,Send,All,Main=180,bAssistantID=60,//通知明牌			 
+14,38,08,TimeOut,TimerId:14,UersId:0
+14,38,09,TimeOut,TimerId:15,UersId:0
+14,38,09,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,38,15,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,38,15,PlayCard,UserId:0,ShouPai:2 2 2 12 12 1 1 13 13 11 11 10 8 8 7 7 6 6 3 3 
+14,38,15,PlayCard,UserId:0,OutCard:8 8 7 7 6 6 _8 8 7 7 6 6 ,Type:0
+14,38,15,PlayCard,UserId:0,TypeList:6 6 7 7 8 8 _6 6 7 7 8 8 
+14,38,15,PlayCard,UserId:0,TypeList_M:6 6 7 7 8 8 _6 6 7 7 8 8 
+14,38,15,PlayCard_Error,ArrayType=0
+14,38,15,PlayCard,UserId:0,OutCard:6 6 7 7 8 8 _6 6 7 7 8 8 ,Type:10
+14,38,15,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,38,18,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,38,18,FollowCard_Start,UserId:2,SrcCard:2 12 15 13 13 10 10 10 8 7 7 6 5 5 4 4 4 ,Last:6 6 7 7 8 8 _6 6 7 7 8 8 
+14,38,18,MaxResult,UserId:2,Card:7 _7 
+14,38,18,MaxResult,UserId:2,Card:15 _15 
+14,38,18,MaxResult,UserId:2,Card:4 5 6 7 8 _4 5 6 7 8 
+14,38,18,MaxResult,UserId:2,Card:13 13 _13 13 
+14,38,18,MaxResult,UserId:2,Card:4 4 4 5 _4 4 12 5 
+14,38,18,MaxResult,UserId:2,Card:10 10 10 10 _10 10 10 2 
+14,38,18,FollowCard_2,UserId:2,Card:4 4 4 4 _4 4 4 12 
+14,38,18,FollowCard_2,UserId:2,Card:10 10 10 10 _10 10 10 12 
+14,38,18,FollowCard_2,UserId:2,Card:5 5 5 5 _5 5 12 2 
+14,38,18,FollowCard_2,UserId:2,Card:7 7 7 7 _7 7 12 2 
+14,38,18,FollowCard_2,UserId:2,Card:13 13 13 13 _13 13 12 2 
+14,38,18,FollowCard_2,UserId:2,Card:4 4 4 4 4 _4 4 4 12 2 
+14,38,18,FollowCard_2,UserId:2,Card:10 10 10 10 10 _10 10 10 12 2 
+14,38,18,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,38,19,Reply,UersID:2,Main=180,bAssistantID=65,//出牌请求	 
+14,38,19,PlayCard,UserId:2,ShouPai:2 12 15 13 13 10 10 10 8 7 7 6 5 5 4 4 4 
+14,38,19,PlayCard,UserId:2,OutCard:12 4 4 4 _12 4 4 4 ,Type:0
+14,38,19,PlayCard,UserId:2,TypeList:4 4 4 12 _4 4 4 12 
+14,38,19,PlayCard,UserId:2,TypeList:4 4 4 4 _4 4 4 12 
+14,38,19,PlayCard,UserId:2,TypeList_M:4 4 4 12 _4 4 4 12 
+14,38,19,PlayCard,UserId:2,TypeList_M:4 4 4 4 _4 4 4 12 
+14,38,19,PlayCard_Error,ArrayType=0
+14,38,19,PlayCard,UserId:2,OutCard:4 4 4 4 _4 4 4 12 ,Type:13
+14,38,19,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,38,19,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,38,22,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,38,22,FollowCard_Start,UserId:1,SrcCard:12 14 1 1 11 11 9 9 9 9 8 6 5 5 4 3 3 ,Last:4 4 4 4 _4 4 4 12 
+14,38,22,MaxResult,UserId:1,Card:6 _6 
+14,38,22,MaxResult,UserId:1,Card:8 _8 
+14,38,22,MaxResult,UserId:1,Card:14 _14 
+14,38,22,MaxResult,UserId:1,Card:5 5 _5 5 
+14,38,22,MaxResult,UserId:1,Card:11 11 _11 11 
+14,38,22,MaxResult,UserId:1,Card:1 1 _1 1 
+14,38,22,MaxResult,UserId:1,Card:3 3 3 4 _3 12 3 4 
+14,38,22,MaxResult,UserId:1,Card:9 9 9 9 _9 9 9 9 
+14,38,22,FollowCard_2,UserId:1,Card:9 9 9 9 _9 9 9 9 
+14,38,22,FollowCard_2,UserId:1,Card:9 9 9 9 9 _9 9 9 12 9 
+14,38,22,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,38,23,Reply,UersID:1,Main=180,bAssistantID=65,//出牌请求	 
+14,38,23,PlayCard,UserId:1,ShouPai:12 14 1 1 11 11 9 9 9 9 8 6 5 5 4 3 3 
+14,38,23,PlayCard,UserId:1,OutCard:9 9 9 9 _9 9 9 9 ,Type:14
+14,38,23,PlayCard,UserId:1,TypeList:9 9 9 9 _9 9 9 9 
+14,38,23,PlayCard,UserId:1,TypeList_M:9 9 9 9 _9 9 9 9 
+14,38,23,PlayCard,UserId:1,OutCard:9 9 9 9 _9 9 9 9 ,Type:14
+14,38,23,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,38,23,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,38,26,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,38,26,FollowCard_Start,UserId:0,SrcCard:2 2 2 12 12 1 1 13 13 11 11 10 3 3 ,Last:9 9 9 9 _9 9 9 9 
+14,38,26,MaxResult,UserId:0,Card:1 1 _1 1 
+14,38,26,MaxResult,UserId:0,Card:13 13 13 10 _13 12 13 10 
+14,38,26,MaxResult,UserId:0,Card:3 3 3 3 _3 3 12 2 
+14,38,26,MaxResult,UserId:0,Card:11 11 11 11 _11 2 2 11 
+14,38,26,FollowCard_2,UserId:0,Card:3 3 3 3 3 _3 3 12 12 2 
+14,38,26,FollowCard_2,UserId:0,Card:11 11 11 11 11 _11 12 12 2 11 
+14,38,26,FollowCard_2,UserId:0,Card:13 13 13 13 13 _13 12 12 2 13 
+14,38,26,FollowCard_2,UserId:0,Card:1 1 1 1 1 _1 12 12 2 1 
+14,38,26,FollowCard_2,UserId:0,Card:2 2 2 2 _2 12 12 2 
+14,38,26,FollowCard_2,UserId:0,Card:10 10 10 10 10 _12 12 2 2 10 
+14,38,26,FollowCard_2,UserId:0,Card:3 3 3 3 3 3 _3 3 12 12 2 2 
+14,38,26,FollowCard_2,UserId:0,Card:11 11 11 11 11 11 _11 12 12 2 2 11 
+14,38,26,FollowCard_2,UserId:0,Card:13 13 13 13 13 13 _13 12 12 2 2 13 
+14,38,26,FollowCard_2,UserId:0,Card:1 1 1 1 1 1 _1 12 12 2 2 1 
+14,38,26,FollowCard_2,UserId:0,Card:2 2 2 2 2 _2 12 12 2 2 
+14,38,26,FollowCard_2,UserId:0,Card:10 10 10 10 10 10 _12 12 2 2 2 10 
+14,38,26,FollowCard_2,UserId:0,Card:3 3 3 3 3 3 3 _3 3 12 12 2 2 2 
+14,38,26,FollowCard_2,UserId:0,Card:11 11 11 11 11 11 11 _11 12 12 2 2 2 11 
+14,38,26,FollowCard_2,UserId:0,Card:13 13 13 13 13 13 13 _13 12 12 2 2 2 13 
+14,38,26,FollowCard_2,UserId:0,Card:1 1 1 1 1 1 1 _1 12 12 2 2 2 1 
+14,38,26,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,38,28,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,38,28,PlayCard,UserId:0,ShouPai:2 2 2 12 12 1 1 13 13 11 11 10 3 3 
+14,38,28,PlayCard,UserId:0,OutCard:2 12 12 3 3 _2 12 12 3 3 ,Type:0
+14,38,28,PlayCard,UserId:0,TypeList:2 2 2 3 3 _2 12 12 3 3 
+14,38,28,PlayCard,UserId:0,TypeList:3 3 3 12 12 _3 3 12 2 12 
+14,38,28,PlayCard,UserId:0,TypeList:3 3 3 3 3 _3 3 12 12 2 
+14,38,28,PlayCard,UserId:0,TypeList_M:3 3 3 12 12 _3 3 12 2 12 
+14,38,28,PlayCard,UserId:0,TypeList_M:2 2 2 3 3 _2 12 12 3 3 
+14,38,28,PlayCard,UserId:0,TypeList_M:3 3 3 3 3 _3 3 12 12 2 
+14,38,28,PlayCard_Error,ArrayType=0
+14,38,28,PlayCard,UserId:0,OutCard:3 3 3 3 3 _3 3 12 12 2 ,Type:17
+14,38,28,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,38,28,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,38,32,Reply,UersID:2,Main=180,bAssistantID=70,//提示请求			 
+14,38,32,FollowCard_Start,UserId:2,SrcCard:2 15 13 13 10 10 10 8 7 7 6 5 5 ,Last:3 3 3 3 3 _3 3 12 12 2 
+14,38,32,MaxResult,UserId:2,Card:6 _6 
+14,38,32,MaxResult,UserId:2,Card:8 _8 
+14,38,32,MaxResult,UserId:2,Card:15 _15 
+14,38,32,MaxResult,UserId:2,Card:5 5 _5 5 
+14,38,32,MaxResult,UserId:2,Card:7 7 _7 7 
+14,38,32,MaxResult,UserId:2,Card:13 13 _13 13 
+14,38,32,MaxResult,UserId:2,Card:10 10 10 10 _10 10 10 2 
+14,38,32,Send,UserID:2,Main=180,bAssistantID=71,//提示结果		 
+14,38,32,Reply,UersID:2,Main=180,bAssistantID=68,//过牌请求	   
+14,38,32,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,38,34,Reply,UersID:1,Main=180,bAssistantID=70,//提示请求			 
+14,38,34,FollowCard_Start,UserId:1,SrcCard:12 14 1 1 11 11 8 6 5 5 4 3 3 ,Last:3 3 3 3 3 _3 3 12 12 2 
+14,38,34,MaxResult,UserId:1,Card:6 _6 
+14,38,34,MaxResult,UserId:1,Card:8 _8 
+14,38,34,MaxResult,UserId:1,Card:14 _14 
+14,38,34,MaxResult,UserId:1,Card:5 5 _5 5 
+14,38,34,MaxResult,UserId:1,Card:11 11 _11 11 
+14,38,34,MaxResult,UserId:1,Card:1 1 _1 1 
+14,38,34,MaxResult,UserId:1,Card:3 3 3 4 _3 12 3 4 
+14,38,34,Send,UserID:1,Main=180,bAssistantID=71,//提示结果		 
+14,38,34,Reply,UersID:1,Main=180,bAssistantID=68,//过牌请求	   
+14,38,34,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,38,34,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,38,36,Reply,UersID:0,Main=180,bAssistantID=70,//提示请求			 
+14,38,36,Send,UserID:0,Main=180,bAssistantID=71,//提示结果		 
+14,38,39,Reply,UersID:0,Main=180,bAssistantID=65,//出牌请求	 
+14,38,39,PlayCard,UserId:0,ShouPai:2 2 1 1 13 13 11 11 10 
+14,38,39,PlayCard,UserId:0,OutCard:10 _10 ,Type:1
+14,38,39,PlayCard,UserId:0,TypeList:10 _10 
+14,38,39,PlayCard,UserId:0,TypeList_M:10 _10 
+14,38,39,PlayCard,UserId:0,OutCard:10 _10 ,Type:1
+14,38,39,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,38,59,TimeOut,TimerId:2,UersId:2
+14,38,59,Send,All,Main=180,bAssistantID=75,//托管
+14,38,59,PlayCard,UserId:2,ShouPai:2 15 13 13 10 10 10 8 7 7 6 5 5 
+14,38,59,PlayCard,UserId:2,OutCard:15 _15 ,Type:1
+14,38,59,PlayCard,UserId:2,TypeList:15 _15 
+14,38,59,PlayCard,UserId:2,TypeList_M:15 _15 
+14,38,59,PlayCard,UserId:2,OutCard:15 _15 ,Type:1
+14,38,59,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,19,TimeOut,TimerId:2,UersId:1
+14,39,19,Send,All,Main=180,bAssistantID=75,//托管
+14,39,19,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,39,40,TimeOut,TimerId:2,UersId:0
+14,39,40,Send,All,Main=180,bAssistantID=75,//托管
+14,39,40,PlayCard,UserId:0,ShouPai:2 2 1 1 13 13 11 11 
+14,39,40,PlayCard,UserId:0,OutCard:11 11 11 11 _11 2 2 11 ,Type:13
+14,39,40,PlayCard,UserId:0,TypeList:11 11 11 2 _11 2 11 2 
+14,39,40,PlayCard,UserId:0,TypeList:11 11 11 11 _11 2 2 11 
+14,39,40,PlayCard,UserId:0,TypeList_M:11 11 11 2 _11 2 11 2 
+14,39,40,PlayCard,UserId:0,TypeList_M:11 11 11 11 _11 2 2 11 
+14,39,40,PlayCard,UserId:0,OutCard:11 11 11 11 _11 2 2 11 ,Type:13
+14,39,40,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,40,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,39,42,TimeOut,TimerId:2,UersId:2
+14,39,42,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,39,44,TimeOut,TimerId:2,UersId:1
+14,39,44,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,39,44,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,39,46,TimeOut,TimerId:2,UersId:0
+14,39,46,PlayCard,UserId:0,ShouPai:1 1 13 13 
+14,39,46,PlayCard,UserId:0,OutCard:13 13 _13 13 ,Type:2
+14,39,46,PlayCard,UserId:0,TypeList:13 13 _13 13 
+14,39,46,PlayCard,UserId:0,TypeList_M:13 13 _13 13 
+14,39,46,PlayCard,UserId:0,OutCard:13 13 _13 13 ,Type:2
+14,39,46,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,48,TimeOut,TimerId:2,UersId:2
+14,39,48,PlayCard,UserId:2,ShouPai:2 13 13 10 10 10 8 7 7 6 5 5 
+14,39,48,PlayCard,UserId:2,OutCard:10 10 10 10 _10 10 10 2 ,Type:13
+14,39,48,PlayCard,UserId:2,TypeList:10 10 10 2 _10 10 10 2 
+14,39,48,PlayCard,UserId:2,TypeList:10 10 10 10 _10 10 10 2 
+14,39,48,PlayCard,UserId:2,TypeList_M:10 10 10 2 _10 10 10 2 
+14,39,48,PlayCard,UserId:2,TypeList_M:10 10 10 10 _10 10 10 2 
+14,39,48,PlayCard,UserId:2,OutCard:10 10 10 10 _10 10 10 2 ,Type:13
+14,39,48,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,48,Send,All,Main=180,bAssistantID=76,//更新倍数		 
+14,39,50,TimeOut,TimerId:2,UersId:1
+14,39,50,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,39,52,TimeOut,TimerId:2,UersId:0
+14,39,52,Send,All,Main=180,bAssistantID=69,//过牌结果		 
+14,39,52,Send,All,Main=180,bAssistantID=64,//开始出牌		 
+14,39,54,TimeOut,TimerId:2,UersId:2
+14,39,54,PlayCard,UserId:2,ShouPai:13 13 8 7 7 6 5 5 
+14,39,54,PlayCard,UserId:2,OutCard:5 5 _5 5 ,Type:2
+14,39,54,PlayCard,UserId:2,TypeList:5 5 _5 5 
+14,39,54,PlayCard,UserId:2,TypeList_M:5 5 _5 5 
+14,39,54,PlayCard,UserId:2,OutCard:5 5 _5 5 ,Type:2
+14,39,54,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,56,TimeOut,TimerId:2,UersId:1
+14,39,56,PlayCard,UserId:1,ShouPai:12 14 1 1 11 11 8 6 5 5 4 3 3 
+14,39,56,PlayCard,UserId:1,OutCard:11 11 _11 11 ,Type:2
+14,39,56,PlayCard,UserId:1,TypeList:11 11 _11 11 
+14,39,56,PlayCard,UserId:1,TypeList_M:11 11 _11 11 
+14,39,56,PlayCard,UserId:1,OutCard:11 11 _11 11 ,Type:2
+14,39,56,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,58,TimeOut,TimerId:2,UersId:0
+14,39,58,PlayCard,UserId:0,ShouPai:1 1 
+14,39,58,PlayCard,UserId:0,OutCard:1 1 _1 1 ,Type:2
+14,39,58,PlayCard,UserId:0,TypeList:1 1 _1 1 
+14,39,58,PlayCard,UserId:0,TypeList_M:1 1 _1 1 
+14,39,58,PlayCard,UserId:0,OutCard:1 1 _1 1 ,Type:2
+14,39,58,Send,All,Main=180,bAssistantID=66,//出牌结果	 
+14,39,59,TimeOut,TimerId:3,UersId:0
+14,39,59,GameFinish,UersID:1,BackScore:1,GameRate:32,FarmersRate:64,FMoney:-64,BMoney:64
+14,39,59,GameFinish,UersID:2,BackScore:1,GameRate:32,FarmersRate:64,FMoney:-64,BMoney:128
+14,39,59,Send,All,Main=180,bAssistantID=73,//小结算
+14,39,59,TimeOut,TimerId:4,UersId:0
+14,40,17,TimeOut,TimerId:6,UersId:0
+14,40,17,TimeOut,TimerId:7,UersId:0
+14,40,17,TimeOut,TimerId:8,UersId:0
+14,42,21,TimeOut,TimerId:6,UersId:0

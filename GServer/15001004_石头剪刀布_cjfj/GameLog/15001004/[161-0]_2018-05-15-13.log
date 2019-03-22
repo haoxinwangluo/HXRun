@@ -1,0 +1,238 @@
+ 2018-05-15 13:44:34 CServerGameDesk::InitDeskGameStation 78: ******
+ 2018-05-15 16:57:43 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 16:57:43 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 16:57:43 CServerGameDesk::OnActive 652: >>>>>>>>>>>>>>>>>>>> 激活 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 16:57:43 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 1  >>>>> 
+ 2018-05-15 16:57:43 CServerGameDesk::UserSitDesk 599: 玩家 0 坐下
+ 2018-05-15 16:57:43 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 16:57:45 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 16:57:45 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>0  <state>1
+ 2018-05-15 16:57:46 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 16:58:27 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 16:58:27 CServerGameDesk::UserNetCut 548: ******
+ 2018-05-15 16:58:27 CStateListenerControllerBase::OnUserNetCut 95: 玩家断线    <player>0
+ 2018-05-15 17:00:56 CServerGameDesk::UserReCome 570: ******
+ 2018-05-15 17:00:56 CStateListenerControllerBase::OnUserReCome 108: 玩家重连    <player>0
+ 2018-05-15 17:00:57 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:00:57 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>0  <state>1
+ 2018-05-15 17:00:57 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:01:02 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:01:02 CServerGameDesk::UserNetCut 548: ******
+ 2018-05-15 17:01:02 CStateListenerControllerBase::OnUserNetCut 95: 玩家断线    <player>0
+ 2018-05-15 17:04:02 CServerGameDesk::GameFinish 473: ===================  ForceFinish  ===================
+ 2018-05-15 17:04:02 CServerGameDesk::OnInactive 667: >>>>>>>>>>>>>>>>>>>> 休眠 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 17:04:02 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 0  >>>>> 
+ 2018-05-15 17:44:32 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:32 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:32 CServerGameDesk::OnActive 652: >>>>>>>>>>>>>>>>>>>> 激活 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 17:44:32 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 1  >>>>> 
+ 2018-05-15 17:44:32 CServerGameDesk::UserSitDesk 599: 玩家 0 坐下
+ 2018-05-15 17:44:32 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:34 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:44:34 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>0  <state>1
+ 2018-05-15 17:44:34 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:41 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:41 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:41 CServerGameDesk::UserSitDesk 599: 玩家 1 坐下
+ 2018-05-15 17:44:41 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:42 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:44:42 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>1  <state>1
+ 2018-05-15 17:44:42 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:44:43 CServerGameDesk::GameBegin 244: ===================  GameBegin  ===================
+ 2018-05-15 17:44:43 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 2  >>>>> 
+ 2018-05-15 17:44:43 CStateListenerControllerBase::AddListener 36:     1
+ 2018-05-15 17:44:43 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>102
+ 2018-05-15 17:44:43 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>102
+ 2018-05-15 17:44:44 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:44:44 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:44:45 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>120
+ 2018-05-15 17:44:45 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:44:45 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:44:45 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:44:45 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:44:45 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:44:45 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:44:45 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:44:46 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>120
+ 2018-05-15 17:44:46 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:44:46 SWaitConfirm::CheckChuQuanDone 270: checkdone true
+ 2018-05-15 17:44:46 CStateListenerControllerBase::OnListenEnd 121: ------------------  Listener 1 over  ------------------
+ 2018-05-15 17:44:46 CStateListenerControllerBase::RemoveListener 48:     1
+ 2018-05-15 17:44:46 CServerGameDesk::GameFinish 401: ===================  GF_CONTINUE_END  ===================
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>130
+ 2018-05-15 17:44:46 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>130
+ 2018-05-15 17:44:46 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 1  >>>>> 
+ 2018-05-15 17:45:03 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:45:03 CServerGameDesk::UserNetCut 548: ******
+ 2018-05-15 17:45:03 CStateListenerControllerBase::OnUserNetCut 95: 玩家断线    <player>0
+ 2018-05-15 17:45:06 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:45:06 CServerGameDesk::UserNetCut 548: ******
+ 2018-05-15 17:45:06 CStateListenerControllerBase::OnUserNetCut 95: 玩家断线    <player>1
+ 2018-05-15 17:45:23 CServerGameDesk::UserReCome 570: ******
+ 2018-05-15 17:45:23 CStateListenerControllerBase::OnUserReCome 108: 玩家重连    <player>0
+ 2018-05-15 17:45:24 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:45:24 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>0  <state>1
+ 2018-05-15 17:45:24 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:45:50 CServerGameDesk::UserReCome 570: ******
+ 2018-05-15 17:45:50 CStateListenerControllerBase::OnUserReCome 108: 玩家重连    <player>1
+ 2018-05-15 17:45:51 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:45:51 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>1  <state>1
+ 2018-05-15 17:45:51 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:45:53 CServerGameDesk::GameBegin 244: ===================  GameBegin  ===================
+ 2018-05-15 17:45:53 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 2  >>>>> 
+ 2018-05-15 17:45:53 CStateListenerControllerBase::AddListener 36:     1
+ 2018-05-15 17:45:53 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>102
+ 2018-05-15 17:45:53 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>102
+ 2018-05-15 17:46:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:04 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:46:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:46:05 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>120
+ 2018-05-15 17:46:05 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:46:05 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:46:05 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:46:05 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:46:05 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:46:06 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:06 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:06 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:06 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:07 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:07 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:07 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:07 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:07 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:07 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:07 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:07 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:07 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:07 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>120
+ 2018-05-15 17:46:08 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:46:08 SWaitConfirm::CheckChuQuanDone 270: checkdone true
+ 2018-05-15 17:46:08 CStateListenerControllerBase::OnListenEnd 121: ------------------  Listener 1 over  ------------------
+ 2018-05-15 17:46:08 CStateListenerControllerBase::RemoveListener 48:     1
+ 2018-05-15 17:46:08 CServerGameDesk::GameFinish 438: ===================  GF_DISMISS_END  ===================
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>130
+ 2018-05-15 17:46:08 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>130
+ 2018-05-15 17:46:15 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>131
+ 2018-05-15 17:46:15 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>131
+ 2018-05-15 17:46:15 CServerGameDesk::OnInactive 667: >>>>>>>>>>>>>>>>>>>> 休眠 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 17:46:15 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 0  >>>>> 
+ 2018-05-15 17:53:13 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:13 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:13 CServerGameDesk::OnActive 652: >>>>>>>>>>>>>>>>>>>> 激活 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 17:53:13 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 1  >>>>> 
+ 2018-05-15 17:53:13 CServerGameDesk::UserSitDesk 599: 玩家 0 坐下
+ 2018-05-15 17:53:13 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:14 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:53:14 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>0  <state>1
+ 2018-05-15 17:53:14 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:17 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:17 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:17 CServerGameDesk::UserSitDesk 599: 玩家 1 坐下
+ 2018-05-15 17:53:17 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:18 CServerGameDesk::HandleFrameMessage 200: ******
+ 2018-05-15 17:53:18 CServerGameDesk::SendStateToPlayer 702: 连接反馈 <player>1  <state>1
+ 2018-05-15 17:53:19 CServerGameDesk::IsPlayGame 518: ******
+ 2018-05-15 17:53:20 CServerGameDesk::GameBegin 244: ===================  GameBegin  ===================
+ 2018-05-15 17:53:20 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 2  >>>>> 
+ 2018-05-15 17:53:20 CStateListenerControllerBase::AddListener 36:     1
+ 2018-05-15 17:53:20 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>102
+ 2018-05-15 17:53:20 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>102
+ 2018-05-15 17:53:22 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:53:22 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:53:22 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>120
+ 2018-05-15 17:53:22 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:53:22 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:53:22 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:53:22 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:53:22 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:53:23 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:53:23 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:53:24 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>120
+ 2018-05-15 17:53:24 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:53:24 SWaitConfirm::CheckChuQuanDone 270: checkdone true
+ 2018-05-15 17:53:24 CStateListenerControllerBase::OnListenEnd 121: ------------------  Listener 1 over  ------------------
+ 2018-05-15 17:53:24 CStateListenerControllerBase::RemoveListener 48:     1
+ 2018-05-15 17:53:24 CServerGameDesk::GameFinish 401: ===================  GF_CONTINUE_END  ===================
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>130
+ 2018-05-15 17:53:24 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>130
+ 2018-05-15 17:53:24 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 1  >>>>> 
+ 2018-05-15 17:53:59 CServerGameDesk::GameBegin 244: ===================  GameBegin  ===================
+ 2018-05-15 17:53:59 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 2  >>>>> 
+ 2018-05-15 17:53:59 CStateListenerControllerBase::AddListener 36:     1
+ 2018-05-15 17:53:59 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>102
+ 2018-05-15 17:53:59 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>102
+ 2018-05-15 17:54:00 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:00 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:00 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:00 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:00 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:00 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:01 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>110
+ 2018-05-15 17:54:01 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>111
+ 2018-05-15 17:54:02 CStateListenerControllerBase::OnReceive 69: 接收    <player>0  <msgID>120
+ 2018-05-15 17:54:02 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:54:02 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:54:02 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:54:02 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:54:02 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:54:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:54:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:54:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:54:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:54:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:54:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:54:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:54:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:54:03 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>110
+ 2018-05-15 17:54:03 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>111
+ 2018-05-15 17:54:04 CStateListenerControllerBase::OnReceive 69: 接收    <player>1  <msgID>120
+ 2018-05-15 17:54:04 SWaitConfirm::ChuQuan 220: 出拳
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>121
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>121
+ 2018-05-15 17:54:04 SWaitConfirm::CheckChuQuanDone 270: checkdone true
+ 2018-05-15 17:54:04 CStateListenerControllerBase::OnListenEnd 121: ------------------  Listener 1 over  ------------------
+ 2018-05-15 17:54:04 CStateListenerControllerBase::RemoveListener 48:     1
+ 2018-05-15 17:54:04 CServerGameDesk::GameFinish 438: ===================  GF_DISMISS_END  ===================
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>130
+ 2018-05-15 17:54:04 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>130
+ 2018-05-15 17:54:10 CServerGameDesk::SendDataToPlayer 681: 发送    <player>0  <msgID>131
+ 2018-05-15 17:54:10 CServerGameDesk::SendDataToPlayer 681: 发送    <player>1  <msgID>131
+ 2018-05-15 17:54:10 CServerGameDesk::OnInactive 667: >>>>>>>>>>>>>>>>>>>> 休眠 <<<<<<<<<<<<<<<<<<<<
+ 2018-05-15 17:54:10 CServerGameDesk::SetGameStation 708:  <<<<<  当前状态 0  >>>>> 

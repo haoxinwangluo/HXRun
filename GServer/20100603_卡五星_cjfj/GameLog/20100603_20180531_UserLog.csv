@@ -1,0 +1,659 @@
+18,30,44,ERROR_Station,RoomID=852791,byPlayCount:3
+18,30,44,Send,UserID:0,bAssID=181,
+18,30,45,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,30,59,ERROR_Station,RoomID=706324,byPlayCount:3
+18,30,59,Send,UserID:0,bAssID=181,
+18,31,00,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,31,08,ERROR_Station,RoomID=852791,byPlayCount:3
+18,31,08,Send,UserID:0,bAssID=181,
+18,31,08,Send,UserID:1,bAssID=181,
+18,31,09,Reply,UserId=1,bAssID=1,    ///用户同意		 
+18,32,00,ERROR_Station,RoomID=852791,byPlayCount:3
+18,32,00,Send,UserID:0,bAssID=181,
+18,32,00,Send,UserID:1,bAssID=181,
+18,32,00,Send,UserID:2,bAssID=181,
+18,32,04,Reply,UserId=2,bAssID=1,    ///用户同意		 
+18,32,04,Send,UserID:0,bAssID=120,	//升级游戏开始	   
+18,32,04,Send,UserID:1,bAssID=120,	//升级游戏开始	   
+18,32,04,Send,UserID:2,bAssID=120,	//升级游戏开始	   
+18,32,04,Send,UserID:0,bAssID=121,	//确定至筛子点数	  
+18,32,04,Send,UserID:1,bAssID=121,	//确定至筛子点数	  
+18,32,04,Send,UserID:2,bAssID=121,	//确定至筛子点数	  
+18,32,07,Send,UserID:0,bAssID=122,	//发牌消息			 
+18,32,07,Send,UserID:1,bAssID=122,	//发牌消息			 
+18,32,07,Send,UserID:2,bAssID=122,	//发牌消息			 
+18,32,08,Send,UserID:0,bAssID=123,	//通知开始出牌	   
+18,32,08,Send,UserID:1,bAssID=123,	//通知开始出牌	   
+18,32,08,Send,UserID:2,bAssID=123,	//通知开始出牌	   
+18,32,11,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,32,11,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,11,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,11,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,11,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,11,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,11,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,13,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,32,13,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,13,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,13,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,13,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,13,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,13,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,15,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,15,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,15,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,15,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,15,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,15,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,15,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,20,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,32,20,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,20,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,20,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,21,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,21,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,21,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,24,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,32,24,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,24,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,24,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,24,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,24,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,24,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,27,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,27,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,27,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,27,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,27,Send,UserID:0,bAssID=128,	//碰杠明胡动作消息	 
+18,32,29,Reply,UserId=0,bAssID=150,	//玩家拦牌动作	   
+18,32,29,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,32,29,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,32,29,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,32,29,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,32,29,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,32,29,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,32,30,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,32,30,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,30,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,30,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,30,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,32,32,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,32,32,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,32,32,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,32,32,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,32,32,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,32,32,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,32,32,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,32,33,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,33,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,33,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,33,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,33,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,32,35,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,32,35,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,32,35,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,32,35,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,32,35,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,35,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,35,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,39,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,32,39,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,39,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,39,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,39,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,32,43,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,32,43,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,32,43,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,32,43,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,32,43,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,32,43,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,32,43,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,32,44,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,44,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,44,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,44,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,45,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,45,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,45,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,45,Send,UserID:0,bAssID=128,	//碰杠明胡动作消息	 
+18,32,46,Reply,UserId=0,bAssID=150,	//玩家拦牌动作	   
+18,32,46,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,32,46,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,32,46,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,32,47,Reply,UserId=0,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,32,47,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,32,47,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,32,47,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,32,47,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,47,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,47,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,48,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,48,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,48,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,49,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,32,49,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,49,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,49,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,50,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,50,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,50,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,51,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,51,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,51,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,51,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,51,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,32,53,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,32,53,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,32,53,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,32,53,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,32,53,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,53,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,53,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,54,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,32,54,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,54,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,54,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,54,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,54,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,54,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,56,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,32,56,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,56,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,56,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,56,Send,UserID:0,bAssID=127,	//抓牌			   
+18,32,56,Send,UserID:1,bAssID=127,	//抓牌			   
+18,32,56,Send,UserID:2,bAssID=127,	//抓牌			   
+18,32,57,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,32,57,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,32,57,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,32,57,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,33,01,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,33,01,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,33,01,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,33,01,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,33,01,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,33,01,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,33,01,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,33,01,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,33,02,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,33,02,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,33,02,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,33,02,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,33,05,Reply,UserId=1,bAssID=191,
+18,33,05,Send,UserID:0,bAssID=191,
+18,33,05,Send,UserID:1,bAssID=191,
+18,33,05,Send,UserID:2,bAssID=191,
+18,33,07,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,33,17,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,33,17,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,33,17,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,33,17,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,33,18,Send,UserID:0,bAssID=127,	//抓牌			   
+18,33,18,Send,UserID:1,bAssID=127,	//抓牌			   
+18,33,18,Send,UserID:2,bAssID=127,	//抓牌			   
+18,33,18,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,33,18,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,33,18,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,33,18,Send,UserID:0,bAssID=127,	//抓牌			   
+18,33,18,Send,UserID:1,bAssID=127,	//抓牌			   
+18,33,18,Send,UserID:2,bAssID=127,	//抓牌			   
+18,33,22,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,33,22,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,33,22,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,33,22,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,33,22,Send,UserID:0,bAssID=127,	//抓牌			   
+18,33,22,Send,UserID:1,bAssID=127,	//抓牌			   
+18,33,22,Send,UserID:2,bAssID=127,	//抓牌			   
+18,33,22,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,33,24,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,33,24,Send,UserID:0,bAssID=131,	//胡牌结果消息	   
+18,33,24,Send,UserID:1,bAssID=131,	//胡牌结果消息	   
+18,33,24,Send,UserID:2,bAssID=131,	//胡牌结果消息	   
+18,33,25,CountFen,HuPai:27,MaiMa:0
+18,33,25,Send,UserID:0,bAssID=132,	//游戏正常结束	   
+18,33,25,CountFen,UserId=0,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,33,25,Send,UserID:1,bAssID=132,	//游戏正常结束	   
+18,33,25,CountFen,UserId=1,iFanShu:0,i64HuPoint:0,i64Point:-4,i64Money:-4,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:-4
+18,33,25,Send,UserID:2,bAssID=132,	//游戏正常结束	   
+18,33,25,CountFen,UserId=2,iFanShu:0,i64HuPoint:0,i64Point:4,i64Money:4,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:4
+18,33,25,Send,UserID:0,bAssID=180,
+18,33,25,CalculateBoard,UserId=0,i64Money:0
+18,33,25,Send,UserID:1,bAssID=180,
+18,33,25,CalculateBoard,UserId=1,i64Money:-4
+18,33,25,Send,UserID:2,bAssID=180,
+18,33,25,CalculateBoard,UserId=2,i64Money:4
+18,34,08,ERROR_Station,RoomID=046552,byPlayCount:3
+18,34,08,Send,UserID:0,bAssID=181,
+18,34,09,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,34,45,ERROR_Station,RoomID=570564,byPlayCount:3
+18,34,45,Send,UserID:0,bAssID=181,
+18,34,46,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,34,49,Send,UserID:0,bAssID=180,
+18,34,49,CalculateBoard,UserId=0,i64Money:0
+18,34,56,ERROR_Station,RoomID=570564,byPlayCount:3
+18,34,56,Send,UserID:0,bAssID=181,
+18,34,56,Send,UserID:1,bAssID=181,
+18,34,57,Reply,UserId=1,bAssID=1,    ///用户同意		 
+18,35,02,ERROR_Station,RoomID=570564,byPlayCount:3
+18,35,02,Send,UserID:0,bAssID=181,
+18,35,02,Send,UserID:1,bAssID=181,
+18,35,02,Send,UserID:2,bAssID=181,
+18,35,06,Reply,UserId=2,bAssID=1,    ///用户同意		 
+18,35,06,Send,UserID:0,bAssID=120,	//升级游戏开始	   
+18,35,06,Send,UserID:1,bAssID=120,	//升级游戏开始	   
+18,35,06,Send,UserID:2,bAssID=120,	//升级游戏开始	   
+18,35,06,Send,UserID:0,bAssID=121,	//确定至筛子点数	  
+18,35,06,Send,UserID:1,bAssID=121,	//确定至筛子点数	  
+18,35,06,Send,UserID:2,bAssID=121,	//确定至筛子点数	  
+18,35,09,Send,UserID:0,bAssID=122,	//发牌消息			 
+18,35,09,Send,UserID:1,bAssID=122,	//发牌消息			 
+18,35,09,Send,UserID:2,bAssID=122,	//发牌消息			 
+18,35,10,Send,UserID:0,bAssID=123,	//通知开始出牌	   
+18,35,10,Send,UserID:1,bAssID=123,	//通知开始出牌	   
+18,35,10,Send,UserID:2,bAssID=123,	//通知开始出牌	   
+18,35,34,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,35,34,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,35,34,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,35,34,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,35,34,Send,UserID:0,bAssID=127,	//抓牌			   
+18,35,34,Send,UserID:1,bAssID=127,	//抓牌			   
+18,35,34,Send,UserID:2,bAssID=127,	//抓牌			   
+18,36,18,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,36,18,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,18,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,18,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,18,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,36,20,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,36,20,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,36,20,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,36,20,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,36,20,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,36,20,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,36,20,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,36,21,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,36,21,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,21,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,21,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,21,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,36,22,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,36,22,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,36,22,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,36,22,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,36,22,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,36,22,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,36,22,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,36,22,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,36,28,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,36,28,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,36,28,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,36,28,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,36,30,Reply,UserId=1,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,36,30,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,36,30,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,36,30,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,36,30,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,30,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,30,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,31,Send,UserID:0,bAssID=127,	//抓牌			   
+18,36,31,Send,UserID:1,bAssID=127,	//抓牌			   
+18,36,31,Send,UserID:2,bAssID=127,	//抓牌			   
+18,36,32,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,36,32,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,32,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,32,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,33,Send,UserID:0,bAssID=127,	//抓牌			   
+18,36,33,Send,UserID:1,bAssID=127,	//抓牌			   
+18,36,33,Send,UserID:2,bAssID=127,	//抓牌			   
+18,36,36,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,36,36,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,36,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,36,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,37,Send,UserID:0,bAssID=127,	//抓牌			   
+18,36,37,Send,UserID:1,bAssID=127,	//抓牌			   
+18,36,37,Send,UserID:2,bAssID=127,	//抓牌			   
+18,36,37,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,36,37,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,36,37,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,36,37,Send,UserID:0,bAssID=127,	//抓牌			   
+18,36,37,Send,UserID:1,bAssID=127,	//抓牌			   
+18,36,37,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,08,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,38,08,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,08,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,08,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,09,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,09,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,09,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,22,ERROR_Station,RoomID=170837,byPlayCount:3
+18,38,22,Send,UserID:0,bAssID=181,
+18,38,25,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,38,26,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,38,26,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,26,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,26,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,27,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,27,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,27,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,27,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,27,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,27,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,27,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,27,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,27,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,31,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,38,31,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,31,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,31,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,31,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,38,33,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,38,33,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,38,33,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,38,33,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,38,33,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,38,33,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,38,33,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,38,33,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,38,38,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,38,38,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,38,38,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,38,38,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,38,39,Reply,UserId=2,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,38,39,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,38,39,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,38,39,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,38,39,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,39,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,39,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,39,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,39,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,39,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,40,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,40,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,40,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,40,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,40,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,40,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,42,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,38,42,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,42,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,42,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,42,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,42,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,42,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,43,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,43,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,43,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,43,Send,UserID:0,bAssID=127,	//抓牌			   
+18,38,43,Send,UserID:1,bAssID=127,	//抓牌			   
+18,38,43,Send,UserID:2,bAssID=127,	//抓牌			   
+18,38,44,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,38,44,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,38,44,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,38,44,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,38,45,Send,UserID:0,bAssID=131,	//胡牌结果消息	   
+18,38,45,Send,UserID:1,bAssID=131,	//胡牌结果消息	   
+18,38,45,Send,UserID:2,bAssID=131,	//胡牌结果消息	   
+18,38,46,CountFen,HuPai:15,MaiMa:0
+18,38,46,Send,UserID:0,bAssID=132,	//游戏正常结束	   
+18,38,46,CountFen,UserId=0,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,38,46,Send,UserID:1,bAssID=132,	//游戏正常结束	   
+18,38,46,CountFen,UserId=1,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,38,46,Send,UserID:2,bAssID=132,	//游戏正常结束	   
+18,38,46,CountFen,UserId=2,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,38,46,Send,UserID:0,bAssID=180,
+18,38,46,CalculateBoard,UserId=0,i64Money:0
+18,38,46,Send,UserID:1,bAssID=180,
+18,38,46,CalculateBoard,UserId=1,i64Money:0
+18,38,46,Send,UserID:2,bAssID=180,
+18,38,46,CalculateBoard,UserId=2,i64Money:0
+18,38,50,Send,UserID:0,bAssID=180,
+18,38,50,CalculateBoard,UserId=0,i64Money:0
+18,39,33,ERROR_Station,RoomID=312647,byPlayCount:3
+18,39,33,Send,UserID:0,bAssID=181,
+18,39,34,Reply,UserId=0,bAssID=1,    ///用户同意		 
+18,39,43,ERROR_Station,RoomID=312647,byPlayCount:3
+18,39,43,Send,UserID:0,bAssID=181,
+18,39,43,Send,UserID:1,bAssID=181,
+18,39,43,Send,UserID:2,bAssID=181,
+18,39,43,ERROR_Station,RoomID=312647,byPlayCount:3
+18,39,43,Send,UserID:0,bAssID=181,
+18,39,43,Send,UserID:1,bAssID=181,
+18,39,43,Send,UserID:2,bAssID=181,
+18,39,45,Reply,UserId=2,bAssID=1,    ///用户同意		 
+18,39,47,Reply,UserId=1,bAssID=1,    ///用户同意		 
+18,39,47,Send,UserID:0,bAssID=120,	//升级游戏开始	   
+18,39,47,Send,UserID:1,bAssID=120,	//升级游戏开始	   
+18,39,47,Send,UserID:2,bAssID=120,	//升级游戏开始	   
+18,39,48,Send,UserID:0,bAssID=121,	//确定至筛子点数	  
+18,39,48,Send,UserID:1,bAssID=121,	//确定至筛子点数	  
+18,39,48,Send,UserID:2,bAssID=121,	//确定至筛子点数	  
+18,39,51,Send,UserID:0,bAssID=122,	//发牌消息			 
+18,39,51,Send,UserID:1,bAssID=122,	//发牌消息			 
+18,39,51,Send,UserID:2,bAssID=122,	//发牌消息			 
+18,39,52,Send,UserID:0,bAssID=123,	//通知开始出牌	   
+18,39,52,Send,UserID:1,bAssID=123,	//通知开始出牌	   
+18,39,52,Send,UserID:2,bAssID=123,	//通知开始出牌	   
+18,40,28,Reply,UserId=0,bAssID=125,	//玩家出牌			 
+18,40,28,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,28,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,28,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,29,Send,UserID:0,bAssID=127,	//抓牌			   
+18,40,29,Send,UserID:1,bAssID=127,	//抓牌			   
+18,40,29,Send,UserID:2,bAssID=127,	//抓牌			   
+18,40,30,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,40,30,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,30,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,30,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,31,Send,UserID:0,bAssID=127,	//抓牌			   
+18,40,31,Send,UserID:1,bAssID=127,	//抓牌			   
+18,40,31,Send,UserID:2,bAssID=127,	//抓牌			   
+18,40,37,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,40,37,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,37,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,37,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,37,Send,UserID:0,bAssID=128,	//碰杠明胡动作消息	 
+18,40,38,Reply,UserId=0,bAssID=150,	//玩家拦牌动作	   
+18,40,38,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,40,38,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,40,38,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,40,38,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,40,38,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,40,38,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,40,38,Send,UserID:0,bAssID=128,	//碰杠明胡动作消息	 
+18,40,40,Reply,UserId=0,bAssID=150,	//玩家拦牌动作	   
+18,40,40,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,40,40,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,40,40,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,40,42,Reply,UserId=0,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,40,42,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,40,42,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,40,42,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,40,42,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,42,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,42,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,43,Send,UserID:0,bAssID=127,	//抓牌			   
+18,40,43,Send,UserID:1,bAssID=127,	//抓牌			   
+18,40,43,Send,UserID:2,bAssID=127,	//抓牌			   
+18,40,44,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,40,44,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,44,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,44,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,44,Send,UserID:0,bAssID=127,	//抓牌			   
+18,40,44,Send,UserID:1,bAssID=127,	//抓牌			   
+18,40,44,Send,UserID:2,bAssID=127,	//抓牌			   
+18,40,46,Reply,UserId=1,bAssID=125,	//玩家出牌			 
+18,40,46,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:0,bAssID=127,	//抓牌			   
+18,40,46,Send,UserID:1,bAssID=127,	//抓牌			   
+18,40,46,Send,UserID:2,bAssID=127,	//抓牌			   
+18,40,46,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,40,46,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,41,12,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,41,12,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,41,12,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,41,12,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,41,12,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,41,12,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,41,12,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,41,16,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,41,16,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,16,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,16,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,17,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,17,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,17,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,17,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,41,18,Reply,UserId=1,bAssID=150,	//玩家拦牌动作	   
+18,41,18,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,41,18,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,41,18,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,41,19,Reply,UserId=1,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,41,19,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,41,19,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,41,19,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,41,19,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,19,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,19,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,20,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,20,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,20,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,20,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,20,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,20,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,21,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,21,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,21,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,34,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,41,34,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,34,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,34,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,34,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,34,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,34,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,34,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,34,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,34,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,35,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,35,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,35,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,35,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,35,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,35,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,36,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,36,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,36,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,40,Reply,UserId=2,bAssID=125,	//玩家出牌			 
+18,41,40,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,40,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,40,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,40,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,40,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,40,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,40,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,40,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,40,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,41,Send,UserID:0,bAssID=127,	//抓牌			   
+18,41,41,Send,UserID:1,bAssID=127,	//抓牌			   
+18,41,41,Send,UserID:2,bAssID=127,	//抓牌			   
+18,41,41,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,41,41,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,41,41,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,41,41,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,41,44,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,41,44,Send,UserID:0,bAssID=129,	//动作结果消息	   
+18,41,44,Send,UserID:1,bAssID=129,	//动作结果消息	   
+18,41,44,Send,UserID:2,bAssID=129,	//动作结果消息	   
+18,41,44,Send,UserID:0,bAssID=124,	//通知玩家出牌	   
+18,41,44,Send,UserID:1,bAssID=124,	//通知玩家出牌	   
+18,41,44,Send,UserID:2,bAssID=124,	//通知玩家出牌	   
+18,41,44,Send,UserID:2,bAssID=128,	//碰杠明胡动作消息	 
+18,42,21,Reply,UserId=2,bAssID=150,	//玩家拦牌动作	   
+18,42,21,Send,UserID:0,bAssID=130,	//明牌结果消息	   
+18,42,21,Send,UserID:1,bAssID=130,	//明牌结果消息	   
+18,42,21,Send,UserID:2,bAssID=130,	//明牌结果消息	   
+18,42,22,Reply,UserId=2,bAssID=167,	//选择刻子请求//选择刻子回复			   
+18,42,22,Send,UserID:0,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,42,22,Send,UserID:1,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,42,22,Send,UserID:2,bAssID=168,	//服务器通知能胡的牌//客户端回复			 
+18,42,22,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,22,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,22,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,23,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,23,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,23,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,23,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,23,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,23,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,24,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,24,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,24,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,24,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,24,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,24,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,25,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,25,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,25,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,25,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,25,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,25,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,26,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,26,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,26,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,26,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,26,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,26,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,27,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,27,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,27,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,27,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,27,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,27,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,28,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,28,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,28,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,28,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,28,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,28,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,29,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,29,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,29,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,29,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,29,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,29,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,30,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,30,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,30,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,30,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,30,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,30,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,31,Send,UserID:0,bAssID=127,	//抓牌			   
+18,42,31,Send,UserID:1,bAssID=127,	//抓牌			   
+18,42,31,Send,UserID:2,bAssID=127,	//抓牌			   
+18,42,31,Send,UserID:0,bAssID=126,	//玩家出牌结果 	   
+18,42,31,Send,UserID:1,bAssID=126,	//玩家出牌结果 	   
+18,42,31,Send,UserID:2,bAssID=126,	//玩家出牌结果 	   
+18,42,31,Send,UserID:1,bAssID=128,	//碰杠明胡动作消息	 
+18,42,32,Send,UserID:0,bAssID=131,	//胡牌结果消息	   
+18,42,32,Send,UserID:1,bAssID=131,	//胡牌结果消息	   
+18,42,32,Send,UserID:2,bAssID=131,	//胡牌结果消息	   
+18,42,33,CountFen,HuPai:24,MaiMa:0
+18,42,33,Send,UserID:0,bAssID=132,	//游戏正常结束	   
+18,42,33,CountFen,UserId=0,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,42,33,Send,UserID:1,bAssID=132,	//游戏正常结束	   
+18,42,33,CountFen,UserId=1,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,42,33,Send,UserID:2,bAssID=132,	//游戏正常结束	   
+18,42,33,CountFen,UserId=2,iFanShu:0,i64HuPoint:0,i64Point:0,i64Money:0,DuiLiang:0,MaiMa:0,PiaoFen:0,Gang:0
+18,42,33,Send,UserID:0,bAssID=181,
+18,42,33,Send,UserID:1,bAssID=181,
+18,42,33,Send,UserID:2,bAssID=181,
+18,42,52,Reply,UserId=2,bAssID=1,    ///用户同意		 
+18,43,41,Send,UserID:0,bAssID=180,
+18,43,41,CalculateBoard,UserId=0,i64Money:0
+18,43,41,Send,UserID:1,bAssID=180,
+18,43,41,CalculateBoard,UserId=1,i64Money:0
+18,43,41,Send,UserID:2,bAssID=180,
+18,43,41,CalculateBoard,UserId=2,i64Money:0

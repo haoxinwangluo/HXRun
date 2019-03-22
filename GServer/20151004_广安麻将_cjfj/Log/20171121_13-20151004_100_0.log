@@ -1,0 +1,56 @@
+ 2017-11-21 13:44:19 CServerGameDesk::GameBegin 416: Game Start (0/1)
+ 2017-11-21 13:44:19 CServerGameDesk::GameBegin 422: Player Phone12731(Phone12731) at position 0/0
+ 2017-11-21 13:44:19 CServerGameDesk::GameBegin 422: Player hjh6(hjh6) at position 1/1
+ 2017-11-21 13:44:19 CServerGameDesk::GameBegin 422: Player hjh7(hjh7) at position 2/2
+ 2017-11-21 13:44:19 CServerGameDesk::GameBegin 422: Player Phone13207(Phone13207) at position 3/3
+ 2017-11-21 13:44:19 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 0 to 1
+ 2017-11-21 13:44:19 CServerGameDesk::OnProcedureChanged 202: procedure change from 0 to 1
+ 2017-11-21 13:44:19 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-11-21 13:44:21 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 1 to 2
+ 2017-11-21 13:44:21 CServerGameDesk::OnProcedureChanged 202: procedure change from 1 to 2
+ 2017-11-21 13:44:21 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-11-21 13:44:30 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 2 to 101
+ 2017-11-21 13:44:30 MsgDelegateHuanZhang::SendQuestionToPlayer 149: question huan zhang
+ 2017-11-21 13:44:30 MsgDelegateHuanZhang::SendQuestionToPlayer 149: question huan zhang
+ 2017-11-21 13:44:30 MsgDelegateHuanZhang::SendQuestionToPlayer 149: question huan zhang
+ 2017-11-21 13:44:30 MsgDelegateHuanZhang::SendQuestionToPlayer 149: question huan zhang
+ 2017-11-21 13:44:30 CServerGameDesk::OnProcedureChanged 202: procedure change from 2 to 101
+ 2017-11-21 13:44:31 HuanZhangRspDelegate::OnSelect 76: player 3 change cards : 11,14,14
+ 2017-11-21 13:44:32 HuanZhangRspDelegate::OnSelect 76: player 1 change cards : 11,12,14
+ 2017-11-21 13:44:33 HuanZhangRspDelegate::OnSelect 76: player 2 change cards : 21,23,28
+ 2017-11-21 13:44:34 HuanZhangRspDelegate::OnSelect 76: player 0 change cards : 4,4,7
+ 2017-11-21 13:44:34 HuanZhangRspDelegate::OnSelect 109: swapPosition 0 -> 1, swapPosition 1 -> 0, swapPosition 2 -> 3, swapPosition 3  -> 2
+ 2017-11-21 13:44:34 MsgDelegateHuanZhangFinish::OnSend 41: player 0 get card  with 11,12,14
+ 2017-11-21 13:44:34 MsgDelegateHuanZhangFinish::OnSend 41: player 1 get card  with 4,4,7
+ 2017-11-21 13:44:34 MsgDelegateHuanZhangFinish::OnSend 41: player 2 get card  with 11,14,14
+ 2017-11-21 13:44:34 MsgDelegateHuanZhangFinish::OnSend 41: player 3 get card  with 21,23,28
+ 2017-11-21 13:44:39 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 101 to 100
+ 2017-11-21 13:44:39 MsgDelegateDingQue::OnSend 108: question ding que
+ 2017-11-21 13:44:39 MsgDelegateDingQue::OnSend 108: question ding que
+ 2017-11-21 13:44:39 MsgDelegateDingQue::OnSend 108: question ding que
+ 2017-11-21 13:44:39 MsgDelegateDingQue::OnSend 108: question ding que
+ 2017-11-21 13:44:39 CServerGameDesk::OnProcedureChanged 202: procedure change from 101 to 100
+ 2017-11-21 13:44:40 MsgDelegateDingQue::OnResponse 152: Player 0 select que men 0
+ 2017-11-21 13:44:41 MsgDelegateDingQue::OnResponse 152: Player 2 select que men 2
+ 2017-11-21 13:44:42 MsgDelegateDingQue::OnResponse 152: Player 1 select que men 1
+ 2017-11-21 13:44:44 MsgDelegateDingQue::OnResponse 152: Player 3 select que men 1
+ 2017-11-21 13:44:44 MsgDelegateFirstRound::SendFirstRound 42: first run
+ 2017-11-21 13:44:44 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 100 to 4
+ 2017-11-21 13:44:44 ProcedureAfterGetCardImpl::OnStart 132: Player 0 find action with hand 11,12,13,14,17,24,25,25,26,27,28,29,35,36 and interceptionList  latest draw card 13
+ 2017-11-21 13:44:44 ProcedureAfterGetCardImpl::OnStart 146: done
+ 2017-11-21 13:44:44 CServerGameDesk::OnProcedureChanged 202: procedure change from 100 to 4
+ 2017-11-21 13:44:44 CServerGameDesk::OnBeforeProcedureStart 177: before procedure start, from 4 to 9
+ 2017-11-21 13:44:44 MsgDelegateWaitDiscard::OnSend 211: waiting on player 0 to discard, with candidates :11,12,13,14,17,24,25,25,26,27,28,29,35,36 !
+ 2017-11-21 13:44:44 CServerGameDesk::OnProcedureChanged 202: procedure change from 4 to 9
+ 2017-11-21 13:47:47 CServerGameDesk::SendScoreBoard 845: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-11-21 13:47:47 CServerGameDesk::SendScoreBoard 845: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-11-21 13:47:47 CServerGameDesk::SendScoreBoard 845: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-11-21 13:47:47 CServerGameDesk::SendScoreBoard 845: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-11-21 13:47:47 CServerGameDesk::SendScoreBoard 850: Send Score Board
+ 2017-11-21 13:47:47 CServerGameDesk::GameClear 302: clean game
+
+
+
+
+
+ 2017-11-21 13:47:47 CServerGameDesk::GameReset 316: reset game

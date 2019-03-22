@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Config>
+	<!------------ 4人普通场 ------------------>
+	<Title20121204_42> <!-- _X X为房间ID -->
+		<!-- 游戏规则配置 -->
+		<GameBase>
+			<type id="0"   doc="游戏规则"   value="15353" />  <!--  -->
+			<type id="1"   doc="拦牌规则"   value="63" />  <!-- Em_RuleLanPai 枚举求和 -->
+			<type id="2"   doc="胡牌类型"   value="1003519" />  <!-- Em_HuPaiType 枚举求和 -->
+			<type id="3"   doc="麻将规则"   value="61567" />  <!-- Em_MJRule 枚举求和 value="61455" 4人  value="28686" 3人 -->
+			<type id="4"   doc="胡牌规则"   value="3" />  <!-- Em_HuCheckRule 枚举求和 -->
+		</GameBase>
+
+		<PaiFan> <!-- id参考:Em_HuPaiType doc:说明 value：番值 mask：不计的番型ID -->
+			<type id = "1"     doc="大  四  喜"   enable="1"   value="6" mask="38;48;60;61" /> 
+			<type id = "2"     doc="大  三  元"   enable="1"   value="6" mask="59" /> 
+			<type id = "3"     doc="绿  一  色"   enable="0"   value="88" mask="49" /> 
+			<type id = "4"     doc="九莲 宝 灯"   enable="1"   alue="6" mask="22" />
+			<type id = "5"     doc="四      杠"   enable="0"   value="88" mask="" />
+			<type id = "6"     doc="连  七  对"   enable="0"   value="88" mask="22;56;79" />
+			<type id = "7"     doc="十  三  幺"   enable="1"   value="6" mask="51;56;79" />
+			
+			<type id = "8"     doc="清  幺  九"   enable="1"   value="6" mask="32;48;56;65;76" />
+			<type id = "9"     doc="小  四  喜"   enable="1"   value="5" mask="38" />
+			<type id = "10"    doc="小  三  元"   enable="1"   value="5" mask="59" />
+			<type id = "11"    doc="字  一  色"   enable="1"   value="6" mask="48" />
+			<type id = "12"    doc="四  暗  刻"   enable="0"   value="64" mask="48;62" />
+			<type id = "13"    doc="一色双龙会"   enable="0"   value="64" mask="19;22;63" />
+			
+			<type id = "14"    doc="一色四同顺"   enable="0"   value="48" mask="24;64;69" />
+			<type id = "15"    doc="一色四节高"   enable="0"   value="48" mask="23;48" />
+			
+			<type id = "16"    doc="一色四步高"   enable="0"   value="32" mask="" />
+			<type id = "17"    doc="三      杠"   enable="0"   value="32" mask="" />
+			<type id = "18"    doc="混  幺  九"   enable="1"   value="5" mask="48" />
+			
+			<type id = "19"    doc="七      对"   enable="0"   value="24" mask="56;79" />
+			<type id = "20"    doc="七星 不 靠"   enable="0"   value="24" mask="51;56;79" />
+			<type id = "21"    doc="全  双  刻"   enable="0"   value="24" mask="48;68" />
+			<type id = "22"    doc="清  一  色"   enable="1"   value="4" mask="76" />
+			<type id = "23"    doc="一色三同顺"   enable="0"   value="24" mask="24" />
+			<type id = "24"    doc="一色三节高"   enable="0"   value="24" mask="23" />
+			<type id = "25"    doc="全     大"    enable="0"   value="24" mask="76" />
+			<type id = "26"    doc="全     中"    enable="0"   value="24" mask="68" />
+			<type id = "27"    doc="全     小"    enable="0"   value="24" mask="76" />
+			
+			<type id = "28"    doc="清      龙"    enable="0"   value="16" mask="" />
+			<type id = "29"    doc="三色双龙会"    enable="0"   value="16" mask="63;70;72;76" />
+			<type id = "30"    doc="一色三步高"    enable="0"   value="16" mask="" />
+			<type id = "31"    doc="全  带  五"    enable="0"   value="16" mask="68" />
+			<type id = "32"    doc="三  同  刻"    enable="0"   value="16" mask="" />
+			<type id = "33"    doc="三  暗  刻"    enable="0"   value="16" mask="" />
+			
+			<type id = "34"    doc="全  不  靠"    enable="0"   value="12" mask="51;56;79" />
+			<type id = "35"    doc="组  合  龙"    enable="0"   value="12" mask="" />
+			<type id = "36"    doc="大  于  五"    enable="0"   value="12" mask="76" />
+			<type id = "37"    doc="小  于  五"    enable="0"   value="12" mask="76" />
+			<type id = "38"    doc="三  风  刻"    enable="0"   value="12" mask="" />
+			
+			<type id = "39"    doc="花      龙"    enable="0"   value="8" mask="" />
+			<type id = "40"    doc="推  不  倒"    enable="0"   value="8" mask="75" />
+			<type id = "41"    doc="三色三同顺"    enable="0"   value="8" mask="" />
+			<type id = "42"    doc="三色三节高"    enable="0"   value="8" mask="" />
+			<type id = "43"    doc="无  番  和"    enable="0"   value="8" mask="" />
+			<type id = "44"    doc="妙手 回 春"    enable="0"   value="8" mask="80" />
+			<type id = "45"    doc="海底 捞 月"    enable="1"   value="3" mask="" />
+			<type id = "46"    doc="杠上 开 花"    enable="1"   value="3" mask="80" />
+			<type id = "47"    doc="抢  杠  和"    enable="1"   value="3" mask="58" />
+			
+			<type id = "48"    doc="碰  碰  和"    enable="1"   value="2" mask="" />
+			<type id = "49"    doc="混  一  色"    enable="1"   value="2" mask="" />
+			<type id = "50"    doc="三色三步高"    enable="0"   value="6" mask="" />
+			<type id = "51"    doc="五  门  齐"    enable="0"   value="6" mask="" />
+			<type id = "52"    doc="全  求  人"    enable="0"   value="6" mask="79" />
+			<type id = "53"    doc="双  暗  杠"    enable="0"   value="6" mask="" />
+			<type id = "54"    doc="双  箭  刻"    enable="0"   value="6" mask="" />
+			
+			<type id = "55"    doc="全  带  幺"    enable="0"   value="4" mask="" />
+			<type id = "56"    doc="不  求  人"    enable="0"   value="4" mask="" />
+			<type id = "57"    doc="双  明  杠"    enable="0"   value="4" mask="" />
+			<type id = "58"    doc="和  绝  张"    enable="0"   value="4" mask="" />
+			
+			<type id = "59"    doc="箭      刻"    enable="1"   value="1" mask="" />
+			<type id = "60"    doc="圈  风  刻"    enable="1"   value="1" mask="" />
+			<type id = "61"    doc="门  风  刻"    enable="1"   value="1" mask="" />
+			<type id = "62"    doc="门  前  清"    enable="0"   value="2" mask="" />
+			<type id = "63"    doc="平      和"    enable="1"   value="1" mask="" />
+			<type id = "64"    doc="四  归  一"    enable="0"   value="2" mask="" />
+			<type id = "65"    doc="双  同  刻"    enable="0"   value="2" mask="" />
+			<type id = "66"    doc="双  暗  刻"    enable="0"   value="2" mask="" />
+			<type id = "67"    doc="暗      杠"    enable="1"   value="2" mask="" />
+			<type id = "68"    doc="断      幺"    enable="0"   value="2" mask="" />
+			
+			<type id = "69"    doc="一  般  高"    enable="0"   value="1" mask="" />
+			<type id = "70"    doc="喜  相  逢"    enable="0"   value="1" mask="" />
+			<type id = "71"    doc="连      六"    enable="0"   value="1" mask="" />
+			<type id = "72"    doc="老  少  副"    enable="0"   value="1" mask="" />
+			<type id = "73"    doc="幺  九  刻"    enable="0"   value="1" mask="" />
+			<type id = "74"    doc="明      杠"    enable="1"   value="1" mask="" />
+			<type id = "75"    doc="缺  一  门"    enable="0"   value="1" mask="" />
+			<type id = "76"    doc="无      字"    enable="0"   value="1" mask="" />
+			<type id = "77"    doc="边      张"    enable="0"   value="1" mask="" />
+			<type id = "78"    doc="坎      张"    enable="0"   value="1" mask="" />
+			<type id = "79"    doc="单  钓  将"    enable="0"   value="1" mask="" />
+			<type id = "80"    doc="自      摸"    enable="1"   value="1" mask="" />
+			<type id = "81"    doc="花      牌"    enable="0"   value="1" mask="" />
+		</PaiFan>
+			
+		<OtherFen>
+			<!-- param1:幺和红中番 -->
+			<type id = "0"    doc="兑  奖"    enabled="1"        param0="10"   param1="0"   param2="0"   param3="0"   param4="0"   param5="0"   param6="0"   param7="0" /> 
+		</OtherFen>
+		
+		<!-- 开关定义 Em_OtherSwitch 只确立开和关 -->
+		<OtherSwitch>
+			<type id = "0"    doc="是否启用 从手牌中删除胡牌"    enabled="0" /> 
+			<type id = "1"    doc="是否启用 听牌自动出牌"        enabled="0" />
+			<type id = "2"    doc="是否启用 非听吃非上家牌"      enabled="1" /> <!--启用后,可以在吃牌后不听牌的情况下,吃非上家打出的牌, 正常在只能吃上家的牌 -->
+		</OtherSwitch>
+		
+		<!-- 配牌 -->
+		<!-- 万：1-9 条：11-19 同：21-29 中發白：41-43 东南西北：31-34 春夏秋冬梅兰竹菊：51-58 -->
+		<CfgCard>
+			<type enabled="1" /> <!--是否启用 0为不启用-->
+			<type userID="1109"   doc="玩家ID"   enabledItm="1" hand="11;11;12;12;13;13;14;14;15;15;27;28;21" drawClockwise="12;11" drawAntiClockwise=""/> 
+			<type userID="1110"   doc="玩家ID"   enabledItm="1" hand="21;21;23;23;22;22;24;24;25;25;16;17;18" drawClockwise="14;21" drawAntiClockwise=""/>
+			<type userID="1111"   doc="玩家ID"   enabledItm="1" hand="11;12;13;14;16;16;19;21;22;23;26;26;26;28" drawClockwise="14;16" drawAntiClockwise=""/> 
+			<type userID="1112"   doc="大四喜"   enabledItm="1" hand="31;31;31;32;32;32;33;33;33;34;34;34;43;42" drawClockwise="14;16" drawAntiClockwise=""/> 
+			
+			<type userID="1130"   doc="玩家ID"   enabledItm="1" hand="11;11;12;12;13;13;14;14;15;15;27;28;21" drawClockwise="12;11" drawAntiClockwise=""/> 
+			<type userID="1131"   doc="玩家ID"   enabledItm="1" hand="21;21;23;23;22;22;24;24;25;25;16;17;18" drawClockwise="14;21" drawAntiClockwise=""/>
+			<type userID="1132"   doc="玩家ID"   enabledItm="1" hand="11;12;13;14;16;16;19;21;22;23;26;26;26;28" drawClockwise="14;16" drawAntiClockwise=""/> 
+			<type userID="1133"   doc="大四喜"   enabledItm="1" hand="31;31;31;32;32;32;33;33;33;34;34;34;43;42" drawClockwise="14;16" drawAntiClockwise=""/> 
+			
+			<!--
+			<type userID="1122"   doc="大四喜"   enabledItm="1" hand="31;31;31;32;32;32;33;33;33;34;34;34;41;42" drawClockwise="14;16" drawAntiClockwise=""/> 
+			<type userID="1121"   doc="玩家ID"   enabledItm="1" hand="6;6;6;6;7;7;7;8;8;8;9;9;5" drawClockwise="5" drawAntiClockwise="14"/>
+			-->
+		</CfgCard>
+		<CfgSuperControl>
+			<type id = "0" doc="是否开启摸宝配置" enabled="0" /> <!-- 开启后会把宝牌 换成胡牌 -->
+		</CfgSuperControl>
+	</Title20121204_42>
+</Config>

@@ -1,0 +1,95 @@
+ 2018-06-05 12:09:56 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0 state: 0
+ 2018-06-05 12:10:41 CServerGameDesk::UserSitDesk 311: DeskNo: 1 UserID: 10026 sit 
+ 2018-06-05 12:10:44 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1 state: 0
+ 2018-06-05 12:10:44 CServerGameDesk::UserSitDesk 311: DeskNo: 2 UserID: 13921 sit 
+ 2018-06-05 12:10:45 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 state: 0
+ 2018-06-05 12:10:48 CServerGameDesk::UserSitDesk 311: DeskNo: 3 UserID: 11094 sit 
+ 2018-06-05 12:10:48 CServerGameDesk::HandleNotifyMessage 107: deskNO: 1,UserID :10026 agree
+ 2018-06-05 12:10:48 CServerGameDesk::HandleNotifyMessage 107: deskNO: 0,UserID :10025 agree
+ 2018-06-05 12:10:49 CServerGameDesk::HandleNotifyMessage 107: deskNO: 2,UserID :13921 agree
+ 2018-06-05 12:10:50 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3 state: 0
+ 2018-06-05 12:10:51 CServerGameDesk::HandleNotifyMessage 107: deskNO: 3,UserID :11094 agree
+ 2018-06-05 12:10:51 CServerGameDesk::GameBegin 181: ---------------GameBegin (0/2)---------------
+ 2018-06-05 12:10:51 ExtensionListenerController::Remove 27: Listen Remove 0
+ 2018-06-05 12:10:51 Listener::OnRemove 27: 
+ 2018-06-05 12:10:51 ExtensionListenerController::Remove 27: Listen Remove 1
+ 2018-06-05 12:10:51 ExtensionListenerController::Remove 27: Listen Remove 2
+ 2018-06-05 12:10:51 ExtensionListenerController::Add 17: Listen Add 3
+ 2018-06-05 12:10:51 Listener::OnAdd 20: 
+ 2018-06-05 12:10:51 ExtensionListenerController::Add 17: Listen Add 10
+ 2018-06-05 12:10:51 Listener::OnAdd 20: 
+ 2018-06-05 12:10:51 ExtensionListenerController::OnListenEnd 99: Listen End 3
+ 2018-06-05 12:10:51 ExtensionListenerController::Remove 27: Listen Remove 3
+ 2018-06-05 12:10:51 Listener::OnRemove 27: 
+ 2018-06-05 12:10:51 ExtensionListenerController::Add 17: Listen Add 4
+ 2018-06-05 12:10:51 Listener::OnAdd 20: 
+ 2018-06-05 12:10:51 CServerGameDesk::SetGameStation 168: GameStation  20
+ 2018-06-05 12:10:51 SendCardPlayerListener::sendCard 126: card 0:3d,15,1a,22,34,28,34,d,31,25,a,21,3a,2d,37,19,33,16,3,39,32,36,1a,38,18,1b,26,
+ 2018-06-05 12:10:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 201 size: 113
+ 2018-06-05 12:10:51 SendCardPlayerListener::sendCard 126: card 1:28,4f,1c,17,3b,3a,3c,5,27,2b,18,b,33,14,12,13,12,6,38,9,4e,19,35,22,5,17,3d,
+ 2018-06-05 12:10:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 201 size: 113
+ 2018-06-05 12:10:51 SendCardPlayerListener::sendCard 126: card 2:4f,9,35,2a,1d,2c,23,2c,31,39,13,4,6,16,24,36,27,3,4e,1,7,25,c,32,a,29,23,
+ 2018-06-05 12:10:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 201 size: 113
+ 2018-06-05 12:10:51 SendCardPlayerListener::sendCard 126: card 3:1,1c,2,29,3c,11,26,1b,d,21,2b,1d,11,2,3b,37,15,b,c,14,2a,8,8,7,2d,4,24,
+ 2018-06-05 12:10:51 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 201 size: 113
+ 2018-06-05 12:10:51 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:211 size:63
+ 2018-06-05 12:10:51 SendCardPlayerListener::notiFine 182: 玩家 10026,LNN0002王罚 joker's Count 1
+ 2018-06-05 12:10:51 ExtensionListenerController::OnListenEnd 99: Listen End 4
+ 2018-06-05 12:10:51 ExtensionListenerController::Remove 27: Listen Remove 4
+ 2018-06-05 12:10:51 Listener::OnRemove 27: 
+ 2018-06-05 12:10:51 ExtensionListenerController::Add 17: Listen Add 5
+ 2018-06-05 12:10:51 Listener::OnAdd 20: 
+ 2018-06-05 12:10:51 CServerGameDesk::SetGameStation 168: GameStation  21
+ 2018-06-05 12:10:51 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-06-05 12:10:51 CallListener::notiCall 142: notify user 13921call
+ 2018-06-05 12:10:56 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(13921)  MsgID(100)  size(41)
+ 2018-06-05 12:10:56 CallListener::recvCall 119: recv user 13921 call 0
+ 2018-06-05 12:10:56 DataManage::setChallenger 603: 玩家 13921,2叫牌
+ 2018-06-05 12:10:56 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:214 size:1
+ 2018-06-05 12:10:57 ExtensionListenerController::OnListenEnd 99: Listen End 5
+ 2018-06-05 12:10:57 ExtensionListenerController::Remove 27: Listen Remove 5
+ 2018-06-05 12:10:57 Listener::OnRemove 27: 
+ 2018-06-05 12:10:57 ExtensionListenerController::Add 17: Listen Add 7
+ 2018-06-05 12:10:57 Listener::OnAdd 20: 
+ 2018-06-05 12:10:57 CServerGameDesk::SetGameStation 168: GameStation  24
+ 2018-06-05 12:10:57 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:202 size:1
+ 2018-06-05 12:11:00 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(13921)  MsgID(100)  size(41)
+ 2018-06-05 12:11:00 PlayCardListener::recvPlayerCard 165: 玩家 13921 出牌 32,(1)
+ 2018-06-05 12:11:00 PlayCardListener::recvPlayerCard 170: 玩家 13921 手牌 4f,9,35,2a,1d,2c,23,2c,31,39,13,4,6,16,24,36,27,3,4e,1,7,25,c,32,a,29,23,(27)
+ 2018-06-05 12:11:00 DataManage::checkPlayCard 494: user [13921-2] checkPlayCard 32,[1]
+ 2018-06-05 12:11:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-06-05 12:11:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-06-05 12:11:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-06-05 12:11:00 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-06-05 12:11:00 PlayCardListener::notiNext 328: noti 1 next play
+ 2018-06-05 12:11:00 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-05 12:11:02 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(10026)  MsgID(100)  size(41)
+ 2018-06-05 12:11:02 PlayCardListener::recvPass 233: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-06-05 12:11:02 PlayCardListener::recvPass 271: 1不要，通知下家 0 出牌
+ 2018-06-05 12:11:02 PlayCardListener::notiNext 328: noti 0 next play
+ 2018-06-05 12:11:02 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-06-05 12:11:12 CServerGameDesk::GameFinish 212: GameFinish 13
+ 2018-06-05 12:11:12 ExtensionListenerController::Add 17: Listen Add 9
+ 2018-06-05 12:11:12 Listener::OnAdd 20: 
+ 2018-06-05 12:11:12 DismissRoomListener::NotiTotalResult 57: *************************大结算***********************
+ 2018-06-05 12:11:12 DismissRoomListener::NotiTotalResult 63: [LNN0001,10025]  输赢金币 0,大赢家 0
+ 2018-06-05 12:11:12 DismissRoomListener::NotiTotalResult 63: [LNN0002,10026]  输赢金币 0,大赢家 0
+ 2018-06-05 12:11:12 DismissRoomListener::NotiTotalResult 63: [LNN0004,13921]  输赢金币 0,大赢家 0
+ 2018-06-05 12:11:12 DismissRoomListener::NotiTotalResult 63: [LNN0003,11094]  输赢金币 0,大赢家 0
+ 2018-06-05 12:11:12 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:216 size:36
+ 2018-06-05 12:11:12 ExtensionListenerController::OnListenEnd 99: Listen End 9
+ 2018-06-05 12:11:12 ExtensionListenerController::Remove 27: Listen Remove 9
+ 2018-06-05 12:11:12 Listener::OnRemove 27: 
+ 2018-06-05 12:11:12 Listener::OnRemove 27: 
+ 2018-06-05 12:11:12 Listener::OnRemove 27: 
+ 2018-06-05 12:11:12 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-06-05 12:11:12 ExtensionListenerController::Add 17: Listen Add 0
+ 2018-06-05 12:11:12 Listener::OnAdd 20: 
+ 2018-06-05 12:11:12 CServerGameDesk::SetGameStation 168: GameStation  0
+ 2018-06-05 12:11:12 CServerGameDesk::GameReset 542: reset game
+ 2018-06-05 13:56:45 CServerGameDesk::UserSitDesk 311: DeskNo: 0 UserID: 11094 sit 

@@ -1,0 +1,709 @@
+ 2018-05-24 15:53:02 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0 state: 0
+ 2018-05-24 15:53:02 CServerGameDesk::UserSitDesk 311: DeskNo: 1 UserID: 16947 sit 
+ 2018-05-24 15:53:02 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:53:02 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1 state: 0
+ 2018-05-24 15:53:02 CServerGameDesk::UserSitDesk 311: DeskNo: 2 UserID: 16948 sit 
+ 2018-05-24 15:53:03 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:53:03 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 state: 0
+ 2018-05-24 15:53:03 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 15:53:04 CServerGameDesk::HandleNotifyMessage 107: deskNO: 0,UserID :16932 agree
+ 2018-05-24 15:53:05 CServerGameDesk::HandleNotifyMessage 107: deskNO: 1,UserID :16947 agree
+ 2018-05-24 15:53:06 CServerGameDesk::HandleNotifyMessage 107: deskNO: 2,UserID :16948 agree
+ 2018-05-24 15:53:06 CServerGameDesk::GameBegin 181: ---------------GameBegin (0/0)---------------
+ 2018-05-24 15:53:06 ExtensionListenerController::Remove 27: Listen Remove 0
+ 2018-05-24 15:53:06 Listener::OnRemove 27: 
+ 2018-05-24 15:53:06 ExtensionListenerController::Remove 27: Listen Remove 1
+ 2018-05-24 15:53:06 ExtensionListenerController::Remove 27: Listen Remove 2
+ 2018-05-24 15:53:06 ExtensionListenerController::Add 17: Listen Add 3
+ 2018-05-24 15:53:06 Listener::OnAdd 20: 
+ 2018-05-24 15:53:06 ExtensionListenerController::Add 17: Listen Add 10
+ 2018-05-24 15:53:06 Listener::OnAdd 20: 
+ 2018-05-24 15:53:06 ExtensionListenerController::OnListenEnd 81: Listen End 3
+ 2018-05-24 15:53:06 ExtensionListenerController::Remove 27: Listen Remove 3
+ 2018-05-24 15:53:06 Listener::OnRemove 27: 
+ 2018-05-24 15:53:06 ExtensionListenerController::Add 17: Listen Add 4
+ 2018-05-24 15:53:06 Listener::OnAdd 20: 
+ 2018-05-24 15:53:06 CServerGameDesk::SetGameStation 168: GameStation  20
+ 2018-05-24 15:53:06 SendCardPlayerListener::sendCard 118: card 0:18,27,14,b,2a,12,1d,2a,2,18,16,d,6,c,34,24,38,15,1c,31,28,1b,9,1,21,14,26,
+ 2018-05-24 15:53:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 201 size: 113
+ 2018-05-24 15:53:06 SendCardPlayerListener::sendCard 118: card 1:6,1a,1b,1d,39,4,36,a,8,23,33,13,4e,27,34,36,2d,7,13,d,2c,c,11,a,5,22,24,
+ 2018-05-24 15:53:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 201 size: 113
+ 2018-05-24 15:53:06 SendCardPlayerListener::sendCard 118: card 2:9,23,32,2,4f,25,7,3a,33,4,2b,3d,37,16,1,b,3b,37,3,21,3c,26,22,2d,17,19,35,
+ 2018-05-24 15:53:06 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 201 size: 113
+ 2018-05-24 15:53:06 ExtensionListenerController::OnListenEnd 81: Listen End 4
+ 2018-05-24 15:53:06 ExtensionListenerController::Remove 27: Listen Remove 4
+ 2018-05-24 15:53:06 Listener::OnRemove 27: 
+ 2018-05-24 15:53:06 ExtensionListenerController::Add 17: Listen Add 5
+ 2018-05-24 15:53:06 Listener::OnAdd 20: 
+ 2018-05-24 15:53:06 CServerGameDesk::SetGameStation 168: GameStation  21
+ 2018-05-24 15:53:06 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-05-24 15:53:06 CallListener::notiCall 121: notify user 16932call
+ 2018-05-24 15:53:17 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:53:17 CallListener::recvCall 98: recv user 16932 call 0
+ 2018-05-24 15:53:17 DataManage::setChallenger 603: 玩家 16932,0叫牌
+ 2018-05-24 15:53:17 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:214 size:1
+ 2018-05-24 15:53:17 ExtensionListenerController::OnListenEnd 81: Listen End 5
+ 2018-05-24 15:53:17 ExtensionListenerController::Remove 27: Listen Remove 5
+ 2018-05-24 15:53:17 Listener::OnRemove 27: 
+ 2018-05-24 15:53:17 ExtensionListenerController::Add 17: Listen Add 7
+ 2018-05-24 15:53:17 Listener::OnAdd 20: 
+ 2018-05-24 15:53:17 CServerGameDesk::SetGameStation 168: GameStation  24
+ 2018-05-24 15:53:17 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:202 size:1
+ 2018-05-24 15:53:21 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:53:21 PlayCardListener::recvPlayerCard 153: 玩家 16932 出牌 2,(1)
+ 2018-05-24 15:53:21 PlayCardListener::recvPlayerCard 158: 玩家 16932 手牌 18,27,14,b,2a,12,1d,2a,2,18,16,d,6,c,34,24,38,15,1c,31,28,1b,9,1,21,14,26,(27)
+ 2018-05-24 15:53:21 DataManage::checkPlayCard 494: user [16932-0] checkPlayCard 2,[1]
+ 2018-05-24 15:53:21 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:53:21 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:53:21 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 15:53:21 _ERROR_ PlayCardListener::checkPlayCardFinish 423: 有玩家消失了 3 ,强制结束游戏
+ 2018-05-24 15:53:21 PlayCardListener::recvPlayerCard 182: 检测到游戏结束
+ 2018-05-24 15:53:21 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 15:53:21 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:53:22 ExtensionListenerController::OnListenEnd 81: Listen End 7
+ 2018-05-24 15:53:22 ExtensionListenerController::Remove 27: Listen Remove 7
+ 2018-05-24 15:53:22 Listener::OnRemove 27: 
+ 2018-05-24 15:53:22 ExtensionListenerController::Add 17: Listen Add 8
+ 2018-05-24 15:53:22 Listener::OnAdd 20: 
+ 2018-05-24 15:53:22 _ERROR_ GameFinishListener::countScore 61: 
+ 2018-05-24 15:53:22 ExtensionListenerController::Remove 27: Listen Remove 10
+ 2018-05-24 15:53:22 Listener::OnRemove 27: 
+ 2018-05-24 15:53:22 GameFinishListener::update 27: 玩家0,16932结算0, 分数0 总分数0
+ 2018-05-24 15:53:22 GameFinishListener::update 27: 玩家1,16947结算0, 分数0 总分数0
+ 2018-05-24 15:53:22 GameFinishListener::update 27: 玩家2,16948结算0, 分数0 总分数0
+ 2018-05-24 15:53:22 ExtensionListenerController::OnListenEnd 81: Listen End 8
+ 2018-05-24 15:53:22 ExtensionListenerController::Remove 27: Listen Remove 8
+ 2018-05-24 15:53:22 Listener::OnRemove 27: 
+ 2018-05-24 15:53:22 CServerGameDesk::GameFinish 212: GameFinish 10
+ 2018-05-24 15:53:22 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-05-24 15:53:22 ExtensionListenerController::Add 17: Listen Add 2
+ 2018-05-24 15:53:22 Listener::OnAdd 20: 
+ 2018-05-24 15:53:22 CServerGameDesk::SetGameStation 168: GameStation  25
+ 2018-05-24 15:53:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 15:54:46 CServerGameDesk::UserLeftDesk 322: DeskNo: 0 UserID: 16932 leave 
+ 2018-05-24 15:55:28 CServerGameDesk::UserLeftDesk 322: DeskNo: 1 UserID: 16947 leave 
+ 2018-05-24 15:55:43 CServerGameDesk::UserLeftDesk 322: DeskNo: 2 UserID: 16948 leave 
+ 2018-05-24 15:55:51 CServerGameDesk::UserSitDesk 311: DeskNo: 0 UserID: 16932 sit 
+ 2018-05-24 15:55:51 CServerGameDesk::UserSitDesk 311: DeskNo: 1 UserID: 16947 sit 
+ 2018-05-24 15:55:52 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0 state: 25
+ 2018-05-24 15:55:52 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:55:52 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1 state: 25
+ 2018-05-24 15:55:52 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:55:55 CServerGameDesk::HandleNotifyMessage 107: deskNO: 0,UserID :16932 agree
+ 2018-05-24 15:55:56 CServerGameDesk::HandleNotifyMessage 107: deskNO: 1,UserID :16947 agree
+ 2018-05-24 15:55:56 CServerGameDesk::GameBegin 181: ---------------GameBegin (0/0)---------------
+ 2018-05-24 15:55:56 ExtensionListenerController::Remove 27: Listen Remove 0
+ 2018-05-24 15:55:56 ExtensionListenerController::Remove 27: Listen Remove 1
+ 2018-05-24 15:55:56 ExtensionListenerController::Remove 27: Listen Remove 2
+ 2018-05-24 15:55:56 Listener::OnRemove 27: 
+ 2018-05-24 15:55:56 ExtensionListenerController::Add 17: Listen Add 3
+ 2018-05-24 15:55:56 Listener::OnAdd 20: 
+ 2018-05-24 15:55:56 ExtensionListenerController::Add 17: Listen Add 10
+ 2018-05-24 15:55:56 Listener::OnAdd 20: 
+ 2018-05-24 15:55:56 ExtensionListenerController::OnListenEnd 81: Listen End 3
+ 2018-05-24 15:55:56 ExtensionListenerController::Remove 27: Listen Remove 3
+ 2018-05-24 15:55:56 Listener::OnRemove 27: 
+ 2018-05-24 15:55:56 ExtensionListenerController::Add 17: Listen Add 4
+ 2018-05-24 15:55:56 Listener::OnAdd 20: 
+ 2018-05-24 15:55:56 CServerGameDesk::SetGameStation 168: GameStation  20
+ 2018-05-24 15:55:56 SendCardPlayerListener::sendCard 118: card 0:c,2b,6,1c,17,26,3a,3b,15,34,25,d,37,36,5,11,3d,2a,27,37,12,a,19,2c,3,33,2,
+ 2018-05-24 15:55:56 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 201 size: 113
+ 2018-05-24 15:55:56 SendCardPlayerListener::sendCard 118: card 1:32,39,1d,27,8,31,33,b,35,2,3c,4,28,7,1a,18,9,21,3,35,2c,3a,1b,25,14,16,18,
+ 2018-05-24 15:55:56 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 201 size: 113
+ 2018-05-24 15:55:56 ExtensionListenerController::OnListenEnd 81: Listen End 4
+ 2018-05-24 15:55:56 ExtensionListenerController::Remove 27: Listen Remove 4
+ 2018-05-24 15:55:56 Listener::OnRemove 27: 
+ 2018-05-24 15:55:56 ExtensionListenerController::Add 17: Listen Add 5
+ 2018-05-24 15:55:56 Listener::OnAdd 20: 
+ 2018-05-24 15:55:56 CServerGameDesk::SetGameStation 168: GameStation  21
+ 2018-05-24 15:55:56 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-05-24 15:55:56 CallListener::notiCall 121: notify user 16947call
+ 2018-05-24 15:56:12 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:12 CallListener::recvCall 98: recv user 16947 call 1
+ 2018-05-24 15:56:12 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-05-24 15:56:12 CallListener::notiCall 121: notify user 16932call
+ 2018-05-24 15:56:27 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:56:27 CallListener::recvCall 98: recv user 16932 call 1
+ 2018-05-24 15:56:27 ExtensionListenerController::OnListenEnd 81: Listen End 5
+ 2018-05-24 15:56:27 ExtensionListenerController::Remove 27: Listen Remove 5
+ 2018-05-24 15:56:27 Listener::OnRemove 27: 
+ 2018-05-24 15:56:27 ExtensionListenerController::Add 17: Listen Add 6
+ 2018-05-24 15:56:27 Listener::OnAdd 20: 
+ 2018-05-24 15:56:27 CServerGameDesk::SetGameStation 168: GameStation  22
+ 2018-05-24 15:56:27 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:210 size:0
+ 2018-05-24 15:56:27 FindFriendListener::notiSetFindFriend 141: notify user 16947set friend card
+ 2018-05-24 15:56:34 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:56:34 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:206 size:2
+ 2018-05-24 15:56:41 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:41 FindFriendListener::recvSetFindFriendCard 77: recv user 16947 set find friend card 50
+ 2018-05-24 15:56:41 _ERROR_ FindFriendListener::recvSetFindFriendCard 103: can not find friend
+ 2018-05-24 15:56:42 FindFriendListener::recvSetFindFriendCard 77: recv user 16947 set find friend card 29
+ 2018-05-24 15:56:42 _ERROR_ FindFriendListener::recvSetFindFriendCard 103: can not find friend
+ 2018-05-24 15:56:42 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:42 FindFriendListener::recvSetFindFriendCard 77: recv user 16947 set find friend card 2
+ 2018-05-24 15:56:42 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 212 size: 124
+ 2018-05-24 15:56:42 FindFriendListener::recvSetFindFriendCard 117: find friend, NT hongniao2,friend hongniao1
+ 2018-05-24 15:56:42 ExtensionListenerController::OnListenEnd 81: Listen End 6
+ 2018-05-24 15:56:42 ExtensionListenerController::Remove 27: Listen Remove 6
+ 2018-05-24 15:56:42 Listener::OnRemove 27: 
+ 2018-05-24 15:56:42 ExtensionListenerController::Add 17: Listen Add 7
+ 2018-05-24 15:56:42 Listener::OnAdd 20: 
+ 2018-05-24 15:56:42 CServerGameDesk::SetGameStation 168: GameStation  24
+ 2018-05-24 15:56:42 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:202 size:1
+ 2018-05-24 15:56:43 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 2,(1)
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 32,39,1d,27,8,31,33,b,35,2,3c,4,28,7,1a,18,9,21,3,35,2c,3a,1b,25,14,16,18,(27)
+ 2018-05-24 15:56:43 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 2,[1]
+ 2018-05-24 15:56:43 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:56:43 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:56:43 _ERROR_ PlayCardListener::checkPlayCardFinish 423: 有玩家消失了 2 ,强制结束游戏
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 182: 检测到游戏结束
+ 2018-05-24 15:56:43 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 15:56:43 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:56:43 PlayCardListener::AutoPlayCard 482: 自动出牌 last 1  cur 0
+ 2018-05-24 15:56:43 PlayCardListener::AutoPlayCard 510: 玩家 0  自动出牌 跟牌 出牌 1
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 153: 玩家 16932 出牌 a,(1)
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 158: 玩家 16932 手牌 c,2b,6,1c,17,26,3a,3b,15,34,25,d,37,36,5,11,3d,2a,27,37,12,a,19,2c,3,33,2,(27)
+ 2018-05-24 15:56:43 DataManage::checkPlayCard 494: user [16932-0] checkPlayCard a,[1]
+ 2018-05-24 15:56:43 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:56:43 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:56:43 _ERROR_ PlayCardListener::checkPlayCardFinish 423: 有玩家消失了 2 ,强制结束游戏
+ 2018-05-24 15:56:43 PlayCardListener::recvPlayerCard 182: 检测到游戏结束
+ 2018-05-24 15:56:43 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 15:56:43 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:56:44 ExtensionListenerController::OnListenEnd 81: Listen End 7
+ 2018-05-24 15:56:44 ExtensionListenerController::Remove 27: Listen Remove 7
+ 2018-05-24 15:56:44 Listener::OnRemove 27: 
+ 2018-05-24 15:56:44 ExtensionListenerController::Add 17: Listen Add 8
+ 2018-05-24 15:56:44 Listener::OnAdd 20: 
+ 2018-05-24 15:56:44 _ERROR_ GameFinishListener::countScore 61: 
+ 2018-05-24 15:56:44 ExtensionListenerController::Remove 27: Listen Remove 10
+ 2018-05-24 15:56:44 Listener::OnRemove 27: 
+ 2018-05-24 15:56:44 GameFinishListener::update 27: 玩家0,16932结算0, 分数0 总分数0
+ 2018-05-24 15:56:44 GameFinishListener::update 27: 玩家1,16947结算0, 分数0 总分数0
+ 2018-05-24 15:56:44 ExtensionListenerController::OnListenEnd 81: Listen End 8
+ 2018-05-24 15:56:44 ExtensionListenerController::Remove 27: Listen Remove 8
+ 2018-05-24 15:56:44 Listener::OnRemove 27: 
+ 2018-05-24 15:56:44 CServerGameDesk::GameFinish 212: GameFinish 10
+ 2018-05-24 15:56:44 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-05-24 15:56:44 ExtensionListenerController::Add 17: Listen Add 2
+ 2018-05-24 15:56:44 Listener::OnAdd 20: 
+ 2018-05-24 15:56:44 CServerGameDesk::SetGameStation 168: GameStation  25
+ 2018-05-24 15:56:44 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:45 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:45 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:47 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:56:49 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:56:51 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:51 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:53 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:53 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:53 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:56:54 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:18 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:20 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:21 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:22 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:22 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:22 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:23 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:23 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:57:24 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:58:15 CServerGameDesk::UserLeftDesk 322: DeskNo: 0 UserID: 16932 leave 
+ 2018-05-24 15:58:15 CServerGameDesk::UserLeftDesk 322: DeskNo: 1 UserID: 16947 leave 
+ 2018-05-24 15:58:27 CServerGameDesk::GameFinish 212: GameFinish 1
+ 2018-05-24 15:58:27 Listener::OnRemove 27: 
+ 2018-05-24 15:58:27 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-05-24 15:58:27 ExtensionListenerController::Add 17: Listen Add 0
+ 2018-05-24 15:58:27 Listener::OnAdd 20: 
+ 2018-05-24 15:58:27 CServerGameDesk::SetGameStation 168: GameStation  0
+ 2018-05-24 15:58:27 CServerGameDesk::GameReset 542: reset game
+ 2018-05-24 15:58:54 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 0 state: 0
+ 2018-05-24 15:58:54 CServerGameDesk::UserSitDesk 311: DeskNo: 1 UserID: 16947 sit 
+ 2018-05-24 15:58:55 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:58:55 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 1 state: 0
+ 2018-05-24 15:58:55 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:58:55 CServerGameDesk::HandleNotifyMessage 107: deskNO: 0,UserID :16932 agree
+ 2018-05-24 15:58:56 CServerGameDesk::HandleNotifyMessage 107: deskNO: 1,UserID :16947 agree
+ 2018-05-24 15:59:04 CServerGameDesk::UserSitDesk 311: DeskNo: 2 UserID: 16948 sit 
+ 2018-05-24 15:59:04 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 state: 0
+ 2018-05-24 15:59:04 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 15:59:05 CServerGameDesk::HandleNotifyMessage 107: deskNO: 2,UserID :16948 agree
+ 2018-05-24 15:59:07 CServerGameDesk::UserSitDesk 311: DeskNo: 3 UserID: 19850 sit 
+ 2018-05-24 15:59:07 CServerGameDesk::sendState 482: sendstate >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3 state: 0
+ 2018-05-24 15:59:08 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 15:59:08 CServerGameDesk::HandleNotifyMessage 107: deskNO: 3,UserID :19850 agree
+ 2018-05-24 15:59:08 CServerGameDesk::GameBegin 181: ---------------GameBegin (0/0)---------------
+ 2018-05-24 15:59:08 ExtensionListenerController::Remove 27: Listen Remove 0
+ 2018-05-24 15:59:08 Listener::OnRemove 27: 
+ 2018-05-24 15:59:08 ExtensionListenerController::Remove 27: Listen Remove 1
+ 2018-05-24 15:59:08 ExtensionListenerController::Remove 27: Listen Remove 2
+ 2018-05-24 15:59:08 ExtensionListenerController::Add 17: Listen Add 3
+ 2018-05-24 15:59:08 Listener::OnAdd 20: 
+ 2018-05-24 15:59:08 ExtensionListenerController::Add 17: Listen Add 10
+ 2018-05-24 15:59:08 Listener::OnAdd 20: 
+ 2018-05-24 15:59:08 ExtensionListenerController::OnListenEnd 81: Listen End 3
+ 2018-05-24 15:59:08 ExtensionListenerController::Remove 27: Listen Remove 3
+ 2018-05-24 15:59:08 Listener::OnRemove 27: 
+ 2018-05-24 15:59:08 ExtensionListenerController::Add 17: Listen Add 4
+ 2018-05-24 15:59:08 Listener::OnAdd 20: 
+ 2018-05-24 15:59:08 CServerGameDesk::SetGameStation 168: GameStation  20
+ 2018-05-24 15:59:08 SendCardPlayerListener::sendCard 118: card 0:14,17,12,1,a,4,24,13,9,3d,c,2b,29,36,19,11,33,1,24,5,26,6,2a,5,13,12,d,
+ 2018-05-24 15:59:08 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 201 size: 113
+ 2018-05-24 15:59:08 SendCardPlayerListener::sendCard 118: card 1:11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,
+ 2018-05-24 15:59:08 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 201 size: 113
+ 2018-05-24 15:59:08 SendCardPlayerListener::sendCard 118: card 2:36,8,2c,c,15,7,3d,18,b,33,7,14,37,1a,2a,2d,21,a,31,1c,19,26,3a,2b,1c,d,3b,
+ 2018-05-24 15:59:08 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 201 size: 113
+ 2018-05-24 15:59:08 SendCardPlayerListener::sendCard 118: card 3:35,3,22,29,27,2c,35,4f,25,8,22,1a,4f,1b,18,34,17,3,23,3c,25,2d,32,1b,39,27,38,
+ 2018-05-24 15:59:08 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 201 size: 113
+ 2018-05-24 15:59:08 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:211 size:63
+ 2018-05-24 15:59:08 SendCardPlayerListener::notiFine 174: 玩家 16947,hongniao2王罚 joker's Count 2
+ 2018-05-24 15:59:09 ExtensionListenerController::OnListenEnd 81: Listen End 4
+ 2018-05-24 15:59:09 ExtensionListenerController::Remove 27: Listen Remove 4
+ 2018-05-24 15:59:09 Listener::OnRemove 27: 
+ 2018-05-24 15:59:09 ExtensionListenerController::Add 17: Listen Add 5
+ 2018-05-24 15:59:09 Listener::OnAdd 20: 
+ 2018-05-24 15:59:09 CServerGameDesk::SetGameStation 168: GameStation  21
+ 2018-05-24 15:59:09 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:209 size:1
+ 2018-05-24 15:59:09 CallListener::notiCall 121: notify user 19850call
+ 2018-05-24 15:59:11 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 15:59:11 CallListener::recvCall 98: recv user 19850 call 0
+ 2018-05-24 15:59:11 DataManage::setChallenger 603: 玩家 19850,3叫牌
+ 2018-05-24 15:59:11 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:214 size:1
+ 2018-05-24 15:59:12 ExtensionListenerController::OnListenEnd 81: Listen End 5
+ 2018-05-24 15:59:12 ExtensionListenerController::Remove 27: Listen Remove 5
+ 2018-05-24 15:59:12 Listener::OnRemove 27: 
+ 2018-05-24 15:59:12 ExtensionListenerController::Add 17: Listen Add 7
+ 2018-05-24 15:59:12 Listener::OnAdd 20: 
+ 2018-05-24 15:59:12 CServerGameDesk::SetGameStation 168: GameStation  24
+ 2018-05-24 15:59:12 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:202 size:1
+ 2018-05-24 15:59:27 PlayCardListener::AutoPlayCard 482: 自动出牌 last 255  cur 3
+ 2018-05-24 15:59:27 PlayCardListener::AutoPlayCard 494: 玩家 3  自动出牌 头游出牌 10
+ 2018-05-24 15:59:27 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 22,22,32,3,3,23,27,17,27,8,(10)
+ 2018-05-24 15:59:27 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 35,3,22,29,27,2c,35,4f,25,8,22,1a,4f,1b,18,34,17,3,23,3c,25,2d,32,1b,39,27,38,(27)
+ 2018-05-24 15:59:27 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 22,22,32,3,3,23,27,17,27,8,[10]
+ 2018-05-24 15:59:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:59:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:59:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 15:59:27 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 15:59:27 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 15:59:27 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:59:27 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 15:59:27 _ERROR_ PlayCardListener::recvPlayerCard 130: 玩家 19850不是当前可操作玩家 
+ 2018-05-24 15:59:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 15:59:39 PlayCardListener::recvPlayerCard 153: 玩家 16948 出牌 3a,2a,1a,a,(4)
+ 2018-05-24 15:59:39 PlayCardListener::recvPlayerCard 158: 玩家 16948 手牌 36,8,2c,c,15,7,3d,18,b,33,7,14,37,1a,2a,2d,21,a,31,1c,19,26,3a,2b,1c,d,3b,(27)
+ 2018-05-24 15:59:39 DataManage::checkPlayCard 494: user [16948-2] checkPlayCard 3a,2a,1a,a,[4]
+ 2018-05-24 15:59:39 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:59:39 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:59:39 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 15:59:39 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 15:59:39 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 15:59:39 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:59:41 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 15:59:41 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-05-24 15:59:41 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 15:59:41 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 15:59:41 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:59:43 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 15:59:43 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 2 ,next 3,nextActive 3
+ 2018-05-24 15:59:43 PlayCardListener::recvPass 259: 0不要，通知下家 3 出牌
+ 2018-05-24 15:59:43 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 15:59:43 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 15:59:54 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 15:59:54 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 4f,4f,35,35,25,25,(6)
+ 2018-05-24 15:59:54 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 35,29,2c,35,4f,25,1a,4f,1b,18,34,3c,25,2d,1b,39,38,(17)
+ 2018-05-24 15:59:54 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 4f,4f,35,35,25,25,[6]
+ 2018-05-24 15:59:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 15:59:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 15:59:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 15:59:54 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 15:59:54 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 15:59:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:00 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:00:00 PlayCardListener::recvPass 221: recv  pass Cur 2 player 2 ,lastout 3 ,next 1,nextActive 1
+ 2018-05-24 16:00:00 PlayCardListener::recvPass 259: 2不要，通知下家 1 出牌
+ 2018-05-24 16:00:00 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:00:00 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:04 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:04 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 3 ,next 0,nextActive 0
+ 2018-05-24 16:00:04 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 16:00:04 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:00:04 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:05 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:00:05 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 3 ,next 3,nextActive 3
+ 2018-05-24 16:00:05 PlayCardListener::recvPass 247: 3没人要，出牌
+ 2018-05-24 16:00:05 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-05-24 16:00:05 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:00:05 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:16 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:00:16 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 38,18,(2)
+ 2018-05-24 16:00:16 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 29,2c,1a,1b,18,34,3c,2d,1b,39,38,(11)
+ 2018-05-24 16:00:16 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 38,18,[2]
+ 2018-05-24 16:00:16 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:00:16 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:00:16 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:00:16 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:00:16 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:00:16 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:24 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:00:24 PlayCardListener::recvPlayerCard 153: 玩家 16948 出牌 31,21,(2)
+ 2018-05-24 16:00:24 PlayCardListener::recvPlayerCard 158: 玩家 16948 手牌 36,8,2c,c,15,7,3d,18,b,33,7,14,37,2d,21,31,1c,19,26,2b,1c,d,3b,(23)
+ 2018-05-24 16:00:24 DataManage::checkPlayCard 494: user [16948-2] checkPlayCard 31,21,[2]
+ 2018-05-24 16:00:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:00:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:00:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:00:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:00:24 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:00:24 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:27 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:27 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:27 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:27 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:27 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:27 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:29 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:29 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:29 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:29 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:29 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:29 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:30 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:30 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:30 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:30 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:30 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:30 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:30 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:30 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:30 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:30 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:30 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:30 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:30 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:31 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:31 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:31 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:31 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:31 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:31 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:31 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:31 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:31 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:31 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:31 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:31 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:31 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:35 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:35 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:35 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:35 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:35 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:35 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:36 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:36 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:36 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:36 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:36 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:36 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:36 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:36 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:36 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:36 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:36 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:36 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:36 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:37 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:37 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:37 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:37 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:37 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:37 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:37 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:37 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:37 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:37 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:37 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:37 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:37 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:38 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:38 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:38 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:38 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:38 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:39 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:39 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:39 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:39 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:39 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:39 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 4e,4e,(2)
+ 2018-05-24 16:00:39 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:00:39 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 4e,4e,[2]
+ 2018-05-24 16:00:39 _ERROR_ DataManage::_checkPlayCard 641: 
+ 2018-05-24 16:00:39 _ERROR_ PlayCardListener::recvPlayerCard 165: 玩家 16947 出牌不合法 
+ 2018-05-24 16:00:39 PlayCardListener::AutoPlayCard 482: 自动出牌 last 2  cur 1
+ 2018-05-24 16:00:39 PlayCardListener::AutoPlayCard 503: 玩家 1  自动出牌 跟牌 不要
+ 2018-05-24 16:00:39 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-05-24 16:00:39 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 16:00:39 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:00:39 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:39 _ERROR_ PlayCardListener::recvPlayerCard 130: 玩家 16947不是当前可操作玩家  
+ 2018-05-24 16:00:39 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:00:39 _ERROR_ PlayCardListener::recvPlayerCard 130: 玩家 16947不是当前可操作玩家  
+ 2018-05-24 16:00:50 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:00:50 PlayCardListener::recvPlayerCard 153: 玩家 16932 出牌 c,9,4,(3)
+ 2018-05-24 16:00:50 PlayCardListener::recvPlayerCard 158: 玩家 16932 手牌 14,17,12,1,a,4,24,13,9,3d,c,2b,29,36,19,11,33,1,24,5,26,6,2a,5,13,12,d,(27)
+ 2018-05-24 16:00:50 DataManage::checkPlayCard 494: user [16932-0] checkPlayCard c,9,4,[3]
+ 2018-05-24 16:00:50 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:00:50 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:00:50 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:00:50 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:00:50 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:00:50 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:55 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:00:55 PlayCardListener::recvPass 221: recv  pass Cur 3 player 3 ,lastout 0 ,next 2,nextActive 2
+ 2018-05-24 16:00:55 PlayCardListener::recvPass 259: 3不要，通知下家 2 出牌
+ 2018-05-24 16:00:55 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:00:55 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:00:59 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:00:59 PlayCardListener::recvPlayerCard 153: 玩家 16948 出牌 2c,1c,1c,c,(4)
+ 2018-05-24 16:00:59 PlayCardListener::recvPlayerCard 158: 玩家 16948 手牌 36,8,2c,c,15,7,3d,18,b,33,7,14,37,2d,1c,19,26,2b,1c,d,3b,(21)
+ 2018-05-24 16:00:59 DataManage::checkPlayCard 494: user [16948-2] checkPlayCard 2c,1c,1c,c,[4]
+ 2018-05-24 16:00:59 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:00:59 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:00:59 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:00:59 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:00:59 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:00:59 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:01 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:01:01 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 2 ,next 0,nextActive 0
+ 2018-05-24 16:01:01 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 16:01:01 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:01:01 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:03 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:01:03 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 2 ,next 3,nextActive 3
+ 2018-05-24 16:01:03 PlayCardListener::recvPass 259: 0不要，通知下家 3 出牌
+ 2018-05-24 16:01:03 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:01:03 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:06 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:01:06 PlayCardListener::recvPass 221: recv  pass Cur 3 player 3 ,lastout 2 ,next 2,nextActive 2
+ 2018-05-24 16:01:06 PlayCardListener::recvPass 247: 2没人要，出牌
+ 2018-05-24 16:01:06 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-05-24 16:01:06 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:01:06 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:17 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:01:17 PlayCardListener::recvPlayerCard 153: 玩家 16948 出牌 19,18,7,26,15,14,33,(7)
+ 2018-05-24 16:01:17 PlayCardListener::recvPlayerCard 158: 玩家 16948 手牌 36,8,15,7,3d,18,b,33,7,14,37,2d,19,26,2b,d,3b,(17)
+ 2018-05-24 16:01:17 DataManage::checkPlayCard 494: user [16948-2] checkPlayCard 19,18,7,26,15,14,33,[7]
+ 2018-05-24 16:01:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:01:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:01:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:01:17 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:01:17 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:01:17 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:24 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:01:24 PlayCardListener::recvPlayerCard 153: 玩家 16947 出牌 3a,9,28,37,6,15,4,(7)
+ 2018-05-24 16:01:24 PlayCardListener::recvPlayerCard 158: 玩家 16947 手牌 11,32,28,15,9,37,21,28,23,31,1d,3c,3a,4,b,16,39,4e,16,6,1d,38,3b,4e,34,2,2,(27)
+ 2018-05-24 16:01:24 DataManage::checkPlayCard 494: user [16947-1] checkPlayCard 3a,9,28,37,6,15,4,[7]
+ 2018-05-24 16:01:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:01:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:01:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:01:24 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:01:24 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:01:24 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:26 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:01:26 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 1 ,next 3,nextActive 3
+ 2018-05-24 16:01:26 PlayCardListener::recvPass 259: 0不要，通知下家 3 出牌
+ 2018-05-24 16:01:26 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:01:26 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:30 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:01:30 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 3c,39,34,(3)
+ 2018-05-24 16:01:30 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 29,2c,1a,1b,34,3c,2d,1b,39,(9)
+ 2018-05-24 16:01:30 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 3c,39,34,[3]
+ 2018-05-24 16:01:30 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:01:30 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:01:30 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:01:30 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:01:30 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:01:30 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:35 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:01:35 PlayCardListener::recvPass 221: recv  pass Cur 2 player 2 ,lastout 3 ,next 1,nextActive 1
+ 2018-05-24 16:01:35 PlayCardListener::recvPass 259: 2不要，通知下家 1 出牌
+ 2018-05-24 16:01:35 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:01:35 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:36 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:01:36 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 3 ,next 0,nextActive 0
+ 2018-05-24 16:01:36 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 16:01:36 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:01:36 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:37 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:01:37 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 3 ,next 3,nextActive 3
+ 2018-05-24 16:01:37 PlayCardListener::recvPass 247: 3没人要，出牌
+ 2018-05-24 16:01:37 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-05-24 16:01:37 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:01:37 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:47 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:01:47 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 2d,2c,1b,1a,29,(5)
+ 2018-05-24 16:01:47 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 29,2c,1a,1b,2d,1b,(6)
+ 2018-05-24 16:01:47 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 2d,2c,1b,1a,29,[5]
+ 2018-05-24 16:01:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:01:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:01:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:01:47 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:01:47 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:01:47 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:50 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(100)  size(41)
+ 2018-05-24 16:01:50 PlayCardListener::recvPass 221: recv  pass Cur 2 player 2 ,lastout 3 ,next 1,nextActive 1
+ 2018-05-24 16:01:50 PlayCardListener::recvPass 259: 2不要，通知下家 1 出牌
+ 2018-05-24 16:01:50 PlayCardListener::notiNext 316: noti 1 next play
+ 2018-05-24 16:01:50 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:53 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(100)  size(41)
+ 2018-05-24 16:01:53 PlayCardListener::recvPass 221: recv  pass Cur 1 player 1 ,lastout 3 ,next 0,nextActive 0
+ 2018-05-24 16:01:53 PlayCardListener::recvPass 259: 1不要，通知下家 0 出牌
+ 2018-05-24 16:01:53 PlayCardListener::notiNext 316: noti 0 next play
+ 2018-05-24 16:01:53 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:54 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(100)  size(41)
+ 2018-05-24 16:01:54 PlayCardListener::recvPass 221: recv  pass Cur 0 player 0 ,lastout 3 ,next 3,nextActive 3
+ 2018-05-24 16:01:54 PlayCardListener::recvPass 247: 3没人要，出牌
+ 2018-05-24 16:01:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:204 size:25
+ 2018-05-24 16:01:54 PlayCardListener::notiNext 316: noti 3 next play
+ 2018-05-24 16:01:54 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:57 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(100)  size(41)
+ 2018-05-24 16:01:57 PlayCardListener::recvPlayerCard 153: 玩家 19850 出牌 1b,(1)
+ 2018-05-24 16:01:57 PlayCardListener::recvPlayerCard 158: 玩家 19850 手牌 1b,(1)
+ 2018-05-24 16:01:57 DataManage::checkPlayCard 494: user [19850-3] checkPlayCard 1b,[1]
+ 2018-05-24 16:01:57 DataManage::_playCard 570: user [19850-3] 出完牌
+ 2018-05-24 16:01:57 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to0 message id: 217 size: 57
+ 2018-05-24 16:01:57 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to1 message id: 217 size: 57
+ 2018-05-24 16:01:57 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to2 message id: 217 size: 57
+ 2018-05-24 16:01:57 CServerGameDesk::send2 474: send >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> to3 message id: 217 size: 57
+ 2018-05-24 16:01:57 PlayCardListener::checkPlayCardFinish 446: 玩家 19850出完牌, 叫牌者 19850
+ 2018-05-24 16:01:57 PlayCardListener::recvPlayerCard 182: 检测到游戏结束
+ 2018-05-24 16:01:57 PlayCardListener::notiNext 316: noti 2 next play
+ 2018-05-24 16:01:57 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:203 size:102
+ 2018-05-24 16:01:58 ExtensionListenerController::OnListenEnd 81: Listen End 7
+ 2018-05-24 16:01:58 ExtensionListenerController::Remove 27: Listen Remove 7
+ 2018-05-24 16:01:58 Listener::OnRemove 27: 
+ 2018-05-24 16:01:58 ExtensionListenerController::Add 17: Listen Add 8
+ 2018-05-24 16:01:58 Listener::OnAdd 20: 
+ 2018-05-24 16:01:58 GameFinishListener::countScore 73: 玩家 3 ID 19850 排名 0  team 0
+ 2018-05-24 16:01:58 GameFinishListener::countScore 142: 玩家 0,ID16932 顺序分分数 -300，奖分 -200，罚分 200，输赢 -300, 累计 -300
+ 2018-05-24 16:01:58 GameFinishListener::countScore 142: 玩家 1,ID16947 顺序分分数 -300，奖分 -200，罚分 -600，输赢 -1100, 累计 -1100
+ 2018-05-24 16:01:58 GameFinishListener::countScore 142: 玩家 2,ID16948 顺序分分数 -300，奖分 -200，罚分 200，输赢 -300, 累计 -300
+ 2018-05-24 16:01:58 GameFinishListener::countScore 142: 玩家 3,ID19850 顺序分分数 900，奖分 600，罚分 200，输赢 1700, 累计 1700
+ 2018-05-24 16:01:58 CServerGameDesk::send2all 463: broad >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> message id:205 size:104
+ 2018-05-24 16:01:58 ExtensionListenerController::Remove 27: Listen Remove 10
+ 2018-05-24 16:01:58 Listener::OnRemove 27: 
+ 2018-05-24 16:01:58 GameFinishListener::update 27: 玩家0,16932结算-300, 分数-300 总分数-300
+ 2018-05-24 16:01:58 GameFinishListener::update 27: 玩家1,16947结算-1100, 分数-1100 总分数-1100
+ 2018-05-24 16:01:58 GameFinishListener::update 27: 玩家2,16948结算-300, 分数-300 总分数-300
+ 2018-05-24 16:01:58 GameFinishListener::update 27: 玩家3,19850结算1700, 分数1700 总分数1700
+ 2018-05-24 16:01:58 ExtensionListenerController::OnListenEnd 81: Listen End 8
+ 2018-05-24 16:01:58 ExtensionListenerController::Remove 27: Listen Remove 8
+ 2018-05-24 16:01:58 Listener::OnRemove 27: 
+ 2018-05-24 16:01:58 CServerGameDesk::GameFinish 212: GameFinish 10
+ 2018-05-24 16:01:58 CServerGameDesk::GameClear 521: clean game
+
+
+
+
+
+ 2018-05-24 16:01:58 ExtensionListenerController::Add 17: Listen Add 2
+ 2018-05-24 16:01:58 Listener::OnAdd 20: 
+ 2018-05-24 16:01:58 CServerGameDesk::SetGameStation 168: GameStation  25
+ 2018-05-24 16:02:07 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(19850)  MsgID(101)  size(0)
+ 2018-05-24 16:02:09 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16932)  MsgID(101)  size(0)
+ 2018-05-24 16:02:10 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16948)  MsgID(101)  size(0)
+ 2018-05-24 16:02:11 ExtensionListenerController::Listen 41: recv<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< User(16947)  MsgID(101)  size(0)
+ 2018-05-24 16:02:28 CServerGameDesk::UserLeftDesk 322: DeskNo: 2 UserID: 16948 leave 
+ 2018-05-24 16:02:28 CServerGameDesk::UserLeftDesk 322: DeskNo: 1 UserID: 16947 leave 
+ 2018-05-24 16:02:28 CServerGameDesk::UserLeftDesk 322: DeskNo: 0 UserID: 16932 leave 
+ 2018-05-24 16:02:28 CServerGameDesk::UserLeftDesk 322: DeskNo: 3 UserID: 19850 leave 
+ 2018-05-24 16:03:00 CServerGameDesk::UserSitDesk 311: DeskNo: 0 UserID: 16932 sit 

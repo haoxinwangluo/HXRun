@@ -1,0 +1,48 @@
+ 2017-12-13 15:41:40:532 CServerGameDesk::GameBegin 425: Game Start (0/1)
+ 2017-12-13 15:41:40:532 CServerGameDesk::GameBegin 431: Player cc1111(cc1111) at position 0/0
+ 2017-12-13 15:41:40:532 CServerGameDesk::GameBegin 431: Player cc1111111(cc1111111) at position 1/1
+ 2017-12-13 15:41:40:532 CServerGameDesk::GameBegin 431: Player cc111111(cc111111) at position 2/2
+ 2017-12-13 15:41:40:533 CServerGameDesk::GameBegin 431: Player cc11111(cc11111) at position 3/3
+ 2017-12-13 15:41:40:563 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 0 to 1
+ 2017-12-13 15:41:40:563 CServerGameDesk::OnProcedureChanged 203: procedure change from 0 to 1
+ 2017-12-13 15:41:40:564 MsgDelegateGameBegin::SendGameBegin 53: game begin
+ 2017-12-13 15:41:43:065 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 1 to 2
+ 2017-12-13 15:41:43:075 CServerGameDesk::OnProcedureChanged 203: procedure change from 1 to 2
+ 2017-12-13 15:41:43:076 MsgDelegateDistributeCard::OnSend 43: dispatch cards
+ 2017-12-13 15:41:43:126 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 2 to 101
+ 2017-12-13 15:41:43:126 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-13 15:41:43:126 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-13 15:41:43:126 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-13 15:41:43:127 MsgDelegateHuanZhang::SendQuestionToPlayer 111: question huan zhang
+ 2017-12-13 15:41:43:127 CServerGameDesk::OnProcedureChanged 203: procedure change from 2 to 101
+ 2017-12-13 15:41:53:737 CServerGameDesk::HandleNotifyMessage 574: recvive player 1 message with thingID : 37
+ 2017-12-13 15:41:53:737 HuanZhangRspDelegate::OnSelect 82: player 1 change cards : 13,14,18
+ 2017-12-13 15:41:55:925 CServerGameDesk::HandleNotifyMessage 574: recvive player 2 message with thingID : 37
+ 2017-12-13 15:41:55:925 HuanZhangRspDelegate::OnSelect 82: player 2 change cards : 13,17,18
+ 2017-12-13 15:41:57:809 CServerGameDesk::HandleNotifyMessage 574: recvive player 3 message with thingID : 37
+ 2017-12-13 15:41:57:809 HuanZhangRspDelegate::OnSelect 82: player 3 change cards : 16,18,19
+ 2017-12-13 15:42:01:836 CServerGameDesk::HandleNotifyMessage 574: recvive player 0 message with thingID : 37
+ 2017-12-13 15:42:01:836 HuanZhangRspDelegate::OnSelect 82: player 0 change cards : 12,12,16
+ 2017-12-13 15:42:01:836 HuanZhangRspDelegate::OnSelect 115: swapPosition 0 -> 2, swapPosition 1 -> 0, swapPosition 2 -> 3, swapPosition 3  -> 1
+ 2017-12-13 15:42:01:836 MsgDelegateHuanZhangFinish::OnSend 41: player 0 get card  with 13,14,18
+ 2017-12-13 15:42:01:837 MsgDelegateHuanZhangFinish::OnSend 41: player 1 get card  with 16,18,19
+ 2017-12-13 15:42:01:837 MsgDelegateHuanZhangFinish::OnSend 41: player 2 get card  with 12,12,16
+ 2017-12-13 15:42:01:837 MsgDelegateHuanZhangFinish::OnSend 41: player 3 get card  with 13,17,18
+ 2017-12-13 15:42:08:125 CServerGameDesk::OnBeforeProcedureStart 178: before procedure start, from 101 to 100
+ 2017-12-13 15:42:08:125 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-13 15:42:08:125 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-13 15:42:08:125 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-13 15:42:08:125 MsgDelegateDingQue::OnSend 105: question ding que
+ 2017-12-13 15:42:08:125 CServerGameDesk::OnProcedureChanged 203: procedure change from 101 to 100
+ 2017-12-13 15:44:16:126 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-13 15:44:16:126 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-13 15:44:16:126 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-13 15:44:16:127 CServerGameDesk::SendScoreBoard 887: zimo:0 jiepao:0 dianpao:0 angang:0 minggang:0 money:0
+ 2017-12-13 15:44:16:128 CServerGameDesk::SendScoreBoard 892: Send Score Board
+ 2017-12-13 15:44:16:128 CServerGameDesk::GameClear 303: clean game
+
+
+
+
+
+ 2017-12-13 15:44:16:134 CServerGameDesk::GameReset 317: reset game
